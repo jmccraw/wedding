@@ -1,7 +1,9 @@
 const path = require( 'path' );
 const HtmlWebpackPlugin = require( 'html-webpack-plugin' );
+const mergeJSON = require( 'handlebars-webpack-plugin/utils/mergeJSON' );
 const { CleanWebpackPlugin } = require( 'clean-webpack-plugin' );
 const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' );
+const projectData = mergeJSON( path.join( __dirname, '/src/components/**/*.json' ) );
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
 module.exports = {
@@ -59,8 +61,10 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: './src/index.html',
-      filename: './index.html'
+      template: './src/index.hbs',
+      filename: './index.html',
+      templateParameters: projectData,
+      minify: false
     }),
     new MiniCssExtractPlugin({
       filename: isDevelopment ? '[name].css' : '[name].[hash].css',
