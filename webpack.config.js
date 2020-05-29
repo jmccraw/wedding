@@ -26,11 +26,16 @@ module.exports = {
         test: /\.s(a|c)ss$/,
         loader: [
           isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
-          'css-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: !isDevelopment
+            }
+          },
           {
             loader: 'sass-loader',
             options: {
-              sourceMap: isDevelopment
+              sourceMap: !isDevelopment
             }
           }
         ]
@@ -58,6 +63,7 @@ module.exports = {
   resolve: {
     extensions: [ '.js', '.jsx', '.scss' ]
   },
+  devtool: 'source-map',
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
