@@ -8,7 +8,7 @@ const isDevelopment = process.env.NODE_ENV !== 'production';
 
 module.exports = {
   mode: isDevelopment ? 'development' : 'production',
-  entry: [ './src/index.js', './src/styles.scss' ],
+  entry: [ './src/index.ts', './src/styles.scss' ],
   output: {
     path: path.join( __dirname, '/dist' ),
     filename: isDevelopment ? '[name].js' : '[name].[hash].js'
@@ -16,11 +16,16 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|ts)x?$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
-        },
+        }
+      },
+      {
+        test: /\.js$/,
+        enforce: 'pre',
+        use: [ 'source-map-loader' ]
       },
       {
         test: /\.s(a|c)ss$/,
@@ -61,7 +66,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [ '.js', '.jsx', '.scss' ]
+    extensions: [ '.js', '.jsx', '.ts', '.tsx', '.scss' ]
   },
   devtool: 'source-map',
   plugins: [
