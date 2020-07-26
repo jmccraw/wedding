@@ -1,4 +1,4 @@
-const opener = 'Opener';
+const opener: string = 'Opener';
 const _opener = document.querySelector( '.opener' );
 
 /**
