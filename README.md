@@ -1,7 +1,8 @@
 # NFL FPI Simulator
 NFL Simulator run 40,000 times to predict the season winners and highlights.
 
-* [Live URL](#)
+* [Live URL TK](#)
+* [Asana Board](https://app.asana.com/0/1186333914646499/board)
 
 Project boilerplate for creating standalone articles and other templates.
 
