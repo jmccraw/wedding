@@ -1,4 +1,8 @@
-# project-boilerplate
+# NFL FPI Simulator
+NFL Simulator run 40,000 times to predict the season winners and highlights.
+
+* [Live URL](#)
+
 Project boilerplate for creating standalone articles and other templates.
 
 It uses ES5+ features, with Typescript support and Babel transpiling, along with Sass for CSS and Handlebars for HTML templating.
@@ -10,8 +14,8 @@ Folder are broken into `/components`, `/styles`, and `/utilities`. Components co
 Install the dependencies …
 
 ```bash
-git clone git@github.com:jmccraw/project-boilerplate.git
-cd project-boilerplate
+git clone git@code.espn.com:contentDesign/nfl_fpi.git
+cd nfl_fpi
 npm install
 ```
 
