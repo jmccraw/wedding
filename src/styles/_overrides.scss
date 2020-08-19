@@ -1,0 +1,14 @@
+::selection {
+  background-color: rgba(0, 102, 204, 0.35);
+}
+
+#toolbar,
+#main-header,
+.jumper {
+  display: none;
+}
+
+#main-article {
+  padding-bottom: 0 !important; // To override styles
+  top: 0 !important; // To override styles
+}
