@@ -5,12 +5,12 @@
   background-color: $white;
   margin: 0 auto;
   max-width: 680px;
+  padding: 40px 8px 40px;
   position: relative;
 
   .body-text.serif {
     color: $dark-gray;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 20px;
     max-width: 600px;
   }
 }
