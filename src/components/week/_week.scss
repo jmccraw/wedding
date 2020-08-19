@@ -1,0 +1,12 @@
+/**
+ * Week styles
+ */
+.fpi-week {
+  background-color: $white;
+  position: relative;
+}
+
+@import './header/header';
+@import './opener/opener';
+@import './introduction/introduction';
+@import './sticky-bits/sticky-bits';

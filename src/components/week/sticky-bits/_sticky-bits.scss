@@ -1,0 +1,29 @@
+/**
+ * Sticky Bits styles
+ */
+.fpi-week__sticky-bits {
+  background-color: $white;
+  position: relative;
+}
+
+.sticky-bits__container {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  // position: sticky;
+  // top: 0;
+}
+
+// Styles for the graphics portion, which might be a photo or chart or something
+.sticky-bits__graphic-container {
+  // left: 0;
+  // position: sticky;
+  // top: 0;
+  width: 100%;
+}
+
+// Styles for the text portion, which could be left or right
+.sticky-bits__text-container {
+  min-height: 100vh;
+}

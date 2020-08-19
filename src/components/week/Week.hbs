@@ -1,0 +1,16 @@
+{{#each week.weeks}}
+<article class="fpi-week is-{{@index}}">
+  {{#if this.weeks}}
+  {{> ./header/Header}}
+  {{/if}}
+  {{#if this.openerImage}}
+  {{> ./opener/Opener}}
+  {{/if}}
+  {{#if this.introduction}}
+  {{> ./introduction/Introduction}}
+  {{/if}}
+  {{#if this.stickyBits}}
+  {{> ./sticky-bits/StickyBits}}
+  {{/if}}
+</article>
+{{/each}}
