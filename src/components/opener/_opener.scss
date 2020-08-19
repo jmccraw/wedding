@@ -3,39 +3,18 @@
  */
 .fpi-opener {
   align-items: center;
-  background-color: #000;
+  background-color: $white;
+  border-bottom: 1px solid $medium-gray;
   display: flex;
   flex-flow: column nowrap;
   height: 100vh;
   height: var(--fpi-vh, calc(100vh - 30px));
-  justify-content: center;
+  justify-content: flex-end;
   margin-bottom: 0;
   overflow: hidden;
   padding-bottom: 0;
   position: relative;
   width: 100vw;
-
-  &::before {
-    background-color: $black;
-    bottom: 0;
-    content: '';
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: opacity 0.75s ease-in-out 1.5s;
-    z-index: 1;
-  }
-
-  &.is-active::before {
-    opacity: 0.8;
-  }
-
-  > p,
-  > br {
-    display: none;
-  }
 
   .fpi-opener__dek {
     display: block;
@@ -52,15 +31,30 @@
   }
 }
 
-.fpi-opener__image {
-  height: 100%;
+.fpi-opener__figure {
+  background: transparent url(https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header.jpg) no-repeat 50% 50% / contain;
+  height: 80vw;
   left: 0;
-  object-fit: cover;
+  position: absolute;
+  top: 48px;
+  width: 100vw;
+}
+
+.fpi-opener__image {
+  height: auto;
   opacity: 0;
   position: absolute;
   top: 0;
   transition: opacity 0.5s ease-in-out 0s;
-  width: 100%;
+  width: 50%;
+
+  &.is-0 {
+    left: 15px;
+  }
+
+  &.is-1 {
+    right: 15px;
+  }
 
   &:nth-child(2) {
     transition-delay: 0.5s;
@@ -104,16 +98,11 @@
 }
 
 .fpi-opener__hed.headline {
-  color: #fff;
-  font-size: 36px;
-  letter-spacing: 0.6px;
-  line-height: 32px;
-  margin-bottom: 3px;
-  max-width: 250px;
+  color: $black;
+  margin-bottom: 10px;
   opacity: 0;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 65px;
+  padding-left: 8px;
+  padding-right: 8px;
   text-align: center;
   transform: translateY(15px);
   transition: opacity 0.25s ease-in-out 1.75s,
@@ -148,9 +137,8 @@
 }
 
 .fpi-opener__dek {
-  color: #fff;
+  color: $dark-gray;
   margin: 0;
-  max-width: 288px;
   opacity: 0;
   padding: 0 16px;
   text-align: center;
@@ -170,7 +158,8 @@
 }
 
 .fpi-opener__dek .byline {
-  margin-top: 7px;
+  color: $medium-gray;
+  margin-top: 8px;
 }
 
 .fpi-opener__button {
@@ -180,7 +169,7 @@
   cursor: pointer;
   display: block;
   height: 32px;
-  margin: 12px auto 26px;
+  margin: 8px auto 16px;
   outline: none;
   opacity: 0;
   position: relative;
@@ -194,7 +183,7 @@
   svg {
     height: 20px;
     left: 50%;
-    padding: 0 0 0 2px;
+    padding: 0;
     position: absolute;
     top: 50%;
     transform: translate3d(-50%, -50%, 0);
