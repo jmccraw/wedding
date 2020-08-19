@@ -1,0 +1,250 @@
+{
+  "weeks": [
+    {
+      "weeks": "Weeks 1&ndash;4",
+      "openerImage": {
+        "mobile": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp_mobile.jpg",
+        "desktop": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp.jpg"
+      },
+      "introduction": [
+        "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
+      ],
+      "stickyBits": [
+        {
+          "header": "Week 1",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week1.jpg",
+          "text": "Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 2",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week2.jpg",
+          "text": "Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 3",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week3.jpg",
+          "text": "Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 4",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week4.jpg",
+          "text": "Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Division Leader",
+          "hasWin": false,
+          "hasLoss": false,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": true,
+          "hasFirstTie": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week4.jpg",
+          "text": "Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        }
+      ],
+      "analysis": [
+        {
+          "type": "subhead",
+          "text": "Team Trend that Emerged Q1, 150 Words"
+        },
+        {
+          "type": "text",
+          "text": ""
+        },
+        {
+          "type": "text",
+          "text": ""
+        },
+        {
+          "type": "image",
+          "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/fake_play.jpg"
+        },
+        {
+          "type": "text",
+          "text": ""
+        },
+        {
+          "type": "text",
+          "text": ""
+        }
+      ],
+      "performers": [
+        {
+          "type": "subhead",
+          "text": "Top Performers, Weeks 1&ndash;4"
+        },
+        {
+          "type": "performer",
+          "image": "",
+          "name": "Playername Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        },
+        {
+          "type": "performer",
+          "image": "",
+          "name": "Playername Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        },
+        {
+          "type": "performer",
+          "image": "",
+          "name": "Playername Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        }
+      ]
+    },
+    {
+      "weeks": "Weeks 5&ndash;8",
+      "openerImage": {
+        "mobile": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp_mobile.jpg",
+        "desktop": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp.jpg"
+      },
+      "introduction": [
+        "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
+      ],
+      "stickyBits": [
+        {
+          "header": "Week 1",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week1.jpg",
+          "text": "Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 2",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week2.jpg",
+          "text": "Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 3",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week3.jpg",
+          "text": "Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 4",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week4.jpg",
+          "text": "Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Division Leader",
+          "hasWin": false,
+          "hasLoss": false,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": true,
+          "hasFirstTie": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week4.jpg",
+          "text": "Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        }
+      ],
+      "analysis": [
+        {
+          "type": "subhead",
+          "text": "Team Trend that Emerged Q1, 150 Words"
+        },
+        {
+          "type": "text",
+          "text": ""
+        },
+        {
+          "type": "text",
+          "text": ""
+        },
+        {
+          "type": "image",
+          "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/fake_play.jpg"
+        },
+        {
+          "type": "text",
+          "text": ""
+        },
+        {
+          "type": "text",
+          "text": ""
+        }
+      ],
+      "performers": [
+        {
+          "type": "subhead",
+          "text": "Top Performers, Weeks 1&ndash;4"
+        },
+        {
+          "type": "performer",
+          "image": "",
+          "name": "Playername Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        },
+        {
+          "type": "performer",
+          "image": "",
+          "name": "Playername Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        },
+        {
+          "type": "performer",
+          "image": "",
+          "name": "Playername Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        }
+      ]
+    }
+  ]
+}
