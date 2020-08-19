@@ -1,0 +1,19 @@
+/**
+ * Week Opener image styles
+ */
+.fpi-week__opener-image {
+  height: auto;
+  width: 100%;
+
+  &.is-mobile {
+    display: block;
+
+
+  }
+
+  &.is-desktop {
+    display: none;
+
+
+  }
+}

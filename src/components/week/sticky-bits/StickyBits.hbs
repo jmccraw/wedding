@@ -1,0 +1,37 @@
+<article class="fpi-week__sticky-bits">
+  {{#each stickyBits}}
+  <article class="sticky-bits__container is-bit-{{@index}}">
+    <figure class="sticky-bits__graphic-container">
+      <img class="sticky-bits__graphic-image" src="{{this.image}}" />
+      <figcaption class="sticky-bits__graphic-caption">
+        {{#if this.header}}
+        <p class="sticky-bits__graphic-hed">{{{this.header}}}</p>
+        {{/if}}
+        {{#if this.hasWin}}
+        WIN
+        {{/if}}
+        {{#if this.hasLoss}}
+        LOSS
+        {{/if}}
+        {{#if this.hasTie}}
+        TIE
+        {{/if}}
+        {{#if this.hasBye}}
+        BYE
+        {{/if}}
+        {{#if this.hasLeader}}
+        LEADER
+        {{/if}}
+        {{#if this.hasFirstTie}}
+        First Leader Tie
+        {{/if}}
+      </figcaption>
+    </figure>
+    <div class="sticky-bits__text-container">
+      {{#if this.text}}
+      <p class="sticky-bits__text body-text">{{{this.text}}}</p>
+      {{/if}}
+    </div>
+  </article>
+  {{/each}}
+</article>
