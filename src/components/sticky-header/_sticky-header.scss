@@ -1,0 +1,77 @@
+/*
+ * Sticky header containing ESPN logo and social share icons
+ */
+.fpi-sticky-header {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 0;
+  padding: 0 25px 0 24px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 7;
+
+  @media screen and (min-width: 617px) {
+    height: 68px;
+  }
+}
+
+.fpi-sticky-logo {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.fpi-sticky-logo svg {
+  height: auto;
+  margin-top: 16px;
+  width: 100px;
+
+  @media screen and (min-width: 617px) {
+    margin-top: 4px;
+  }
+}
+
+.fpi-sticky-logo svg g {
+  transition: fill 0.25s ease-in-out;
+}
+
+.fpi-sticky-logo:hover svg g {
+  fill: $blue;
+}
+
+.fpi-sticky-social-container {
+  align-items: center;
+  display: none;
+  justify-content: center;
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.fpi-sticky-twitter-button,
+.fpi-sticky-facebook-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding-top: 5px;
+  touch-action: manipulation;
+
+  svg path {
+    transition: fill 0.25s ease-in-out;
+  }
+}
+
+.fpi-sticky-twitter-button:hover svg path,
+.fpi-sticky-facebook-button:hover svg path {
+  @media screen and (min-width: 768px) {
+    fill: $blue;
+  }
+}
