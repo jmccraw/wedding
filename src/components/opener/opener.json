@@ -1,4 +1,9 @@
 {
-  "openerTitle": "Your content here!",
-  "buttonCTA": "Change Color"
+  "hed": "NFL 2020 TK TK Season Sim",
+  "dek": "This is dummy text for the subhead here, this will be filled in later when the editor writes it. 20 words.",
+  "byline": "Writername McName",
+  "images": [
+    "https://theundefeated.com/wp-content/uploads/2020/08/Lifestyle-Image-1.jpeg",
+    "https://theundefeated.com/wp-content/uploads/2020/08/Lifestyle-Image-2.jpeg"
+  ]
 }
