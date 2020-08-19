@@ -3,6 +3,8 @@
  */
 import trackAnalyticsEvent from '../../utilities/TrackAnalytics.js';
 const _opener = document.querySelector( '.fpi-opener' );
+const _openerHed = _opener.querySelector( '.fpi-opener__hed' );
+const _openerDek = _opener.querySelector( '.fpi-opener__dek' );
 const _openerImages = document.querySelectorAll( '.fpi-opener__image' );
 const _openerJumpButton = _opener.querySelector( '.fpi-opener__button' );
 const openerImageLength = _openerImages.length;
@@ -42,7 +44,34 @@ function jumpToIntro() {
  * Begins the opening sequence animation set, including transitioning in loaded images and text
  */
 function playOpenerSequence() {
+  const timeline = window.gsap.timeline( { repeat: 0 } );
   _opener.classList.add( 'is-active' );
+
+  _openerImages.forEach( ( _openerImage ) => {
+    timeline.to( _openerImage, {
+      duration: 0.5,
+      opacity: 1,
+      x: 0
+    } );
+  } );
+
+  timeline.to( _openerHed, {
+    duration: 0.25,
+    opacity: 1,
+    y: 0
+  } );
+
+  timeline.to( _openerDek, {
+    duration: 0.25,
+    opacity: 1,
+    y: 0
+  } );
+
+  timeline.to( _openerJumpButton, {
+    duration: 0.25,
+    opacity: 1,
+    y: 0
+  } );
 }
 
 /**
@@ -61,11 +90,21 @@ function checkOpenerSequence() {
  * Goes through the opener landing screen animation sequence on load
  */
 function initiateOpenerSequence() {
-  _openerImages.forEach( ( _openerImage ) => {
+  window.gsap.set( [ _openerHed, _openerDek, _openerJumpButton ], {
+    opacity: 0,
+    y: 15
+  } );
+
+  _openerImages.forEach( ( _openerImage, index ) => {
     _openerImage.addEventListener( 'load', checkOpenerSequence, { passive: true } );
     if ( _openerImage.complete ) {
       checkOpenerSequence();
     }
+
+    window.gsap.set( _openerImage, {
+      opacity: 0,
+      x: index % 2 > 0 ? -15 : 15
+    } );
   } );
 
   // As a fallback, just load it after 7 seconds
