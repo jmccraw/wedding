@@ -1,0 +1,30 @@
+/**
+ * Text analysis of the weekly leaderboard graphics
+ */
+.fpi-analysis {
+  background-color: $white;
+  border-bottom: 1px solid $medium-gray;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0 18px;
+  position: relative;
+  width: calc(100% - 16px);
+
+  .body-text.serif {
+    color: $dark-gray;
+    margin-top: 0;
+  }
+}
+
+.fpi-analysis__hed {
+  font: 400 17px/1.18 $benton-bold;
+  text-transform: uppercase;
+}
+
+.fpi-analysis__image {
+  height: auto;
+  margin-bottom: 17px;
+  margin-left: -8px;
+  width: calc(100% + 16px);
+}
