@@ -5,4 +5,8 @@
   color: $dark-gray;
   padding-left: 8px;
   padding-right: 8px;
+
+  &:last-of-type {
+    margin-bottom: 2px;
+  }
 }
