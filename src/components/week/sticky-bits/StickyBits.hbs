@@ -1,37 +1,48 @@
 <article class="fpi-week__sticky-bits">
-  {{#each stickyBits}}
-  <article class="sticky-bits__container is-bit-{{@index}}">
-    <figure class="sticky-bits__graphic-container">
+  <div class="sticky-bits__figure-container">
+    {{#each stickyBits}}
+    <figure class="sticky-bits__graphic-container is-{{@index}}">
       <img class="sticky-bits__graphic-image" src="{{this.image}}" />
-      <figcaption class="sticky-bits__graphic-caption">
+      <figcaption class="sticky-bits__graphic-caption{{#if this.isChampionship}} is-championship{{/if}}">
         {{#if this.header}}
         <p class="sticky-bits__graphic-hed">{{{this.header}}}</p>
         {{/if}}
-        {{#if this.hasWin}}
-        WIN
-        {{/if}}
-        {{#if this.hasLoss}}
-        LOSS
-        {{/if}}
-        {{#if this.hasTie}}
-        TIE
-        {{/if}}
-        {{#if this.hasBye}}
-        BYE
-        {{/if}}
-        {{#if this.hasLeader}}
-        LEADER
-        {{/if}}
-        {{#if this.hasFirstTie}}
-        First Leader Tie
-        {{/if}}
+        <span class="sticky-bits__icon-container">
+          {{#if this.hasWin}}
+          <span><svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path d="m6 12a6 6 0 1 1 6-6 6 6 0 0 1 -6 6zm0-10a4 4 0 1 0 4 4 4 4 0 0 0 -4-4z" fill="#06c"/></svg> Win</span>
+          {{/if}}
+          {{#if this.hasLoss}}
+          <span><svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="6" fill="#808080" r="6"/></svg> Loss</span>
+          {{/if}}
+          {{#if this.hasTie}}
+          <span><svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="6" fill="#d8d8d8" r="6"/></svg> Tie</span>>
+          {{/if}}
+          {{#if this.hasBye}}
+          <span><svg viewBox="0 0 11 14" xmlns="http://www.w3.org/2000/svg"><path d="m0 2.39 4.2-2.39 6.8 11.61-4.2 2.39z" fill="#d8d8d8"/></svg> Bye</span>>
+          {{/if}}
+          {{#if this.hasLeader}}
+          <span><svg viewBox="0 0 15 17" xmlns="http://www.w3.org/2000/svg"><g fill="#06c"><path d="m7.5 0a7.49 7.49 0 0 0 -5.06 13l1-1.82a5.42 5.42 0 0 1 -1.44-3.68 5.5 5.5 0 0 1 11 0 5.42 5.42 0 0 1 -1.43 3.68l1 1.82a7.49 7.49 0 0 0 -5.07-13z"/><path d="m9.96 12.41-2.43-4.41-2.47 4.42-.98 1.75-1.58 2.83h10l-1.57-2.84z"/></g></svg> Leader</span>
+          {{/if}}
+          {{#if this.hasFirstTie}}
+          <span><svg viewBox="0 0 15 17" xmlns="http://www.w3.org/2000/svg"><g fill="#d8d8d8"><path d="m7.5 0a7.5 7.5 0 0 0 -5.07 13l.16-.27.87-1.58 3.2-5.72a1 1 0 0 1 .87-.51 1 1 0 0 1 .87.52l3.15 5.69.88 1.58.15.28a7.49 7.49 0 0 0 -5.08-12.99z"/><path d="m10.87 14.05-.8-1.46-2.54-4.59-2.57 4.61-.82 1.45-.06.11-1.58 2.83h10l-1.57-2.84z"/></g></svg> First Leader Tie</span>
+          {{/if}}
+          {{#if this.isChampionship}}
+          <span><svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path d="m6 12a6 6 0 1 1 6-6 6 6 0 0 1 -6 6zm0-10a4 4 0 1 0 4 4 4 4 0 0 0 -4-4z" fill="#06c"/></svg> Active</span>
+          <span><svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="6" fill="#808080" r="6"/></svg> Eliminated</span>
+          {{/if}}
+        </span>
       </figcaption>
     </figure>
-    <div class="sticky-bits__text-container">
+    {{/each}}
+    <figure class="sticky-bits__graphic-container is-extra"></figure>
+  </div>
+  <div class="sticky-bits__text-container">
+    {{#each stickyBits}}
+    <div class="sticky-bits__text-box" data-graphic="{{@index}}">
       {{#if this.text}}
       <p class="sticky-bits__text body-text">{{{this.text}}}</p>
       {{/if}}
     </div>
-  </article>
-  {{/each}}
+    {{/each}}
+  </div>
 </article>
