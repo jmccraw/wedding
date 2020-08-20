@@ -14,14 +14,7 @@ export function setLazyPictures( _els ) {
  */
 function loadImagesFallback() {
   _lazyPictures.forEach( ( _lazyPicture ) => {
-    const _source = _lazyPicture.querySelector( 'source' );
-    const _img = _lazyPicture.querySelector( 'img' );
-
-    if ( _source ) {
-      _source.setAttribute( 'srcset', _source.dataset.srcset );
-    }
-
-    _img.setAttribute( 'src', _img.dataset.src );
+    _lazyPicture.setAttribute( 'src', _lazyPicture.dataset.src );
     _lazyPicture.classList.remove( 'is-lazy' );
   } );
 
@@ -34,25 +27,15 @@ function loadImagesFallback() {
  */
 function checkForLazyLoadImages( observersArray ) {
   observersArray.forEach( ( observedItem ) => {
-    let _lazyPicture;
-    let _source;
     let _img;
 
     if ( observedItem.isIntersecting ) {
-      _lazyPicture = observedItem.target;
-      _source = _lazyPicture.querySelector( 'source' );
-      _img = _lazyPicture.querySelector( 'img' );
-
-      if ( _source ) {
-        _source.setAttribute( 'srcset', _source.dataset.srcset );
-      }
-
+      _img = observedItem.target;
       _img.setAttribute( 'src', _img.dataset.src );
       window.setTimeout( () => {
-        _lazyPicture.classList.remove( 'is-lazy' );
-        _lazyPicture.classList.add( 'is-loaded' );
+        _img.classList.remove( 'is-lazy' );
       }, 350 );
-      lazyImagesObserver.unobserve( _lazyPicture );
+      lazyImagesObserver.unobserve( _img );
     }
   } );
 }
