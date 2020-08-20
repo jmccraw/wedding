@@ -59,7 +59,7 @@ module.exports = {
         use: [
           {
             loader: 'handlebars-loader',
-            options: { helperDirs: path.resolve( __dirname, './src/utilities' ) }
+            options: { helperDirs: path.resolve( __dirname, './src/helpers' ) }
           }
         ]
       }
