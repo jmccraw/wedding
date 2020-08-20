@@ -1,0 +1,71 @@
+/**
+ * Performers section with big number styles
+ */
+.fpi-performers {
+  background-color: $white;
+  padding-bottom: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+}
+
+.fpi-performers__hed {
+  font: 400 17px/1.18 $benton-bold;
+  margin-bottom: 22px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.fpi-performers__container {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.fpi-performers__profile {
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.fpi-performers__profile-image {
+  border-radius: 50%;
+  height: 154px;
+  margin: 0 auto 8px;
+  width: 154px;
+}
+
+.fpi-performers__caption {
+  position: relative;
+  text-align: center;
+}
+
+.fpi-performers__caption-text {
+  color: $black;
+  font: 400 15px/1.4 $benton-medium;
+  letter-spacing: 0.28px;
+  padding: 0;
+
+  .is-last-name {
+    display: block;
+    margin-bottom: 22px;
+  }
+}
+
+.fpi-performers__big-number {
+  color: $blue;
+  display: block;
+  font: 700 80px/0.38 $tungsten;
+  letter-spacing: 2.66px;
+  margin-bottom: 18px;
+}
+
+.fpi-performers__description {
+  color: $medium-gray;
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
