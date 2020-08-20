@@ -12,5 +12,11 @@
   {{#if this.stickyBits}}
   {{> ./sticky-bits/StickyBits}}
   {{/if}}
+  {{#if this.analysis}}
+  {{> ./analysis/Analysis}}
+  {{/if}}
+  {{#if this.performers}}
+  {{> ./performers/Performers}}
+  {{/if}}
 </article>
 {{/each}}
