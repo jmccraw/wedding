@@ -4,7 +4,6 @@
  * as text scrolls to the side (desktop) or on top (mobile). After the text is finished,
  * the content unfixes and scrolls away.
  */
-import trackAnalyticsEvent from '../../../utilities/TrackAnalytics.js';
 const _stickyBitContainers = document.querySelectorAll( '.fpi-week__sticky-bits' );
 const stickyBits = [];
 
@@ -20,9 +19,12 @@ class StickyBit {
    */
   constructor( _el, index: number ) {
     this._el = _el;
-    this._stickyBits = _el.querySelectorAll( '.sticky-bits__container' );
+    this._graphicsContainer = _el.querySelectorAll( '.sticky-bits__figure-container' );
+    this._graphics = _el.querySelectorAll( '.sticky-bits__graphic-container' );
+    this._textContainer = _el.querySelectorAll( '.sticky-bits__text-container' );
     this.index = index;
     this.timeline = window.gsap.timeline();
+    this.graphicLength = this._graphics.length;
   }
 
   /**
@@ -31,26 +33,21 @@ class StickyBit {
   registerStickyBitsAnimation() {
     const self = this;
 
-    self._stickyBits.forEach( ( _stickyBit ) => {
-      self.timeline.from( _stickyBit, { yPercent: 100 } );
+    self._graphics.forEach( ( _graphic, index ) => {
+      if ( 0 !== index ) {
+        self.timeline.from( _graphic, { visibility: 'hidden' } );
+      }
     } );
 
     window.ScrollTrigger.create( {
       animation: self.timeline,
-      trigger: self._el,
+      trigger: self._textContainer,
       start: 'top top',
-      end: `+=${self._stickyBits.length * 100}vh`,
+      end: 'bottom bottom', // `+=${( self.graphicLength - 1 ) * 100}%`,
       scrub: true,
-      pin: true,
-      markers: true
+      pin: self._graphicsContainer,
+      markers: false
     } );
-  }
-
-  /**
-   * Attaches various event listeners to the StickyBit
-   */
-  attachEventListeners() {
-    window.console.log( this.index );
   }
 
   /**
@@ -58,7 +55,6 @@ class StickyBit {
    */
   init() {
     this.registerStickyBitsAnimation();
-    this.attachEventListeners();
   }
 }
 

@@ -2,28 +2,118 @@
  * Sticky Bits styles
  */
 .fpi-week__sticky-bits {
+  align-items: center;
   background-color: $white;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-bottom: 3px;
   position: relative;
 }
 
-.sticky-bits__container {
+// Styles for the graphics portion, which might be a photo or chart or something
+.sticky-bits__figure-container {
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.sticky-bits__graphic-container {
   align-items: center;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-between;
-  // position: sticky;
-  // top: 0;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  padding: 0 8px;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
-// Styles for the graphics portion, which might be a photo or chart or something
-.sticky-bits__graphic-container {
-  // left: 0;
-  // position: sticky;
-  // top: 0;
+.sticky-bits__graphic-image {
+  height: auto;
+  order: 2;
   width: 100%;
+}
+
+.sticky-bits__graphic-caption {
+  align-items: center;
+  background-color: $white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+  order: 1;
+  width: 100%;
+}
+
+.sticky-bits__graphic-hed,
+.sticky-bits__icon-container {
+  color: $black;
+  font: 400 15px/1.4 $benton-bold;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+}
+
+.sticky-bits__icon-container {
+  color: $medium-gray;
+  font-family: $benton-medium;
+
+  span {
+    padding-right: 12px;
+  }
+
+  span:last-child {
+    padding-right: 0;
+  }
+
+  svg {
+    height: 12px;
+    margin-right: 1px;
+    width: 12px;
+  }
+}
+
+.sticky-bits__graphic-caption.is-championship {
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+
+  .sticky-bits__graphic-hed {
+    margin-bottom: 4px;
+  }
 }
 
 // Styles for the text portion, which could be left or right
 .sticky-bits__text-container {
-  min-height: 100vh;
+  padding-bottom: 50vh;
+  position: relative;
+  z-index: 3;
+}
+
+.sticky-bits__text-box {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 150vh;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+
+  &:last-of-type {
+    box-sizing: content-box;
+    padding-bottom: 50vh;
+  }
+}
+
+.sticky-bits__text.body-text {
+  background-color: rgba(255, 255, 255, 0.92);
+  color: $dark-gray;
+  font-family: $benton-medium;
+  filter: drop-shadow(0 8px 6px rgba(0, 0, 0, 0.5));
+  max-width: 172px;
+  padding: 15px 15px 17px;
+  width: 100%;
 }
