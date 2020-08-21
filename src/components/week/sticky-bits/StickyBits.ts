@@ -4,8 +4,7 @@
  * as text scrolls to the side (desktop) or on top (mobile). After the text is finished,
  * the content unfixes and scrolls away.
  */
-const _stickyBitContainers = document.querySelectorAll( '.fpi-week__sticky-bits' );
-const stickyBits = [];
+const _stickyBitContainers: NodeListOf<Element> = document.querySelectorAll( '.fpi-week__sticky-bits' );
 
 /**
  * Create the StickyBit class and attach various functionality to each
@@ -14,7 +13,7 @@ class StickyBit {
   _el: Element;
   _graphicsContainer: NodeListOf<Element>;
   _graphics: NodeListOf<Element>;
-  _textContainer: NodeListOf<Element>;
+  _textContainer: Element;
   index: number;
   timeline: any;
   graphicLength: number;
@@ -28,7 +27,7 @@ class StickyBit {
     this._el = _el;
     this._graphicsContainer = _el.querySelectorAll( '.sticky-bits__figure-container' );
     this._graphics = _el.querySelectorAll( '.sticky-bits__graphic-container' );
-    this._textContainer = _el.querySelectorAll( '.sticky-bits__text-container' );
+    this._textContainer = _el.querySelector( '.sticky-bits__text-container' );
     this.index = index;
     this.timeline = window.gsap.timeline();
     this.graphicLength = this._graphics.length;
@@ -72,7 +71,6 @@ function constructStickyBits() {
   _stickyBitContainers.forEach( ( _stickyBit: Element, index: number ) => {
     const sticky: StickyBit = new StickyBit( _stickyBit, index );
     sticky.init();
-    stickyBits.push( sticky );
   } );
 }
 
