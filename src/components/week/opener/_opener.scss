@@ -2,18 +2,23 @@
  * Week Opener image styles
  */
 .fpi-week__opener-image {
+  filter: none;
   height: auto;
+  opacity: 1;
+  transition: filter 0.25s ease-in-out,
+    opacity 0.25s ease-in-out;
   width: 100%;
+
+  &.is-lazy {
+    filter: blur(3px);
+    opacity: 0.25;
+  }
 
   &.is-mobile {
     display: block;
-
-
   }
 
   &.is-desktop {
     display: none;
-
-
   }
 }
