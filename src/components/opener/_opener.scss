@@ -32,7 +32,7 @@
 }
 
 .fpi-opener__figure {
-  background: transparent url(https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header.jpg) no-repeat 50% 50% / contain;
+  background: transparent url(https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/bkgd.jpg) no-repeat 50% 50% / contain;
   height: 80vw;
   left: 0;
   position: absolute;
@@ -42,23 +42,9 @@
 
 .fpi-opener__image {
   height: auto;
-  // opacity: 0;
   position: absolute;
   top: 0;
-  // transition: opacity 0.5s ease-in-out 0s;
-  width: 50%;
-
-  &.is-0 {
-    right: 15px;
-  }
-
-  &.is-1 {
-    left: 15px;
-  }
-
-  // &:nth-child(2) {
-  //   transition-delay: 0.5s;
-  // }
+  width: 100%;
 
   &.is-desktop {
     display: block;
