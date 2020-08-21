@@ -24,4 +24,4 @@ declare global {
   }
 }
 
-App();
+document.addEventListener( 'DOMContentLoaded', App, { passive: true } );
