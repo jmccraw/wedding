@@ -11,13 +11,20 @@ const stickyBits = [];
  * Create the StickyBit class and attach various functionality to each
  */
 class StickyBit {
+  _el: Element;
+  _graphicsContainer: NodeListOf<Element>;
+  _graphics: NodeListOf<Element>;
+  _textContainer: NodeListOf<Element>;
+  index: number;
+  timeline: any;
+  graphicLength: number;
 
   /**
    * Construct the StickyBit
-   * @param {Object} _el The selector for this StickyBits
+   * @param {Element} _el The selector for this StickyBits
    * @param {Number} index The index of the StickyBit
    */
-  constructor( _el, index: number ) {
+  constructor( _el: Element, index: number ) {
     this._el = _el;
     this._graphicsContainer = _el.querySelectorAll( '.sticky-bits__figure-container' );
     this._graphics = _el.querySelectorAll( '.sticky-bits__graphic-container' );
@@ -33,7 +40,7 @@ class StickyBit {
   registerStickyBitsAnimation() {
     const self = this;
 
-    self._graphics.forEach( ( _graphic, index ) => {
+    self._graphics.forEach( ( _graphic: Element, index: number ) => {
       if ( 0 !== index ) {
         self.timeline.from( _graphic, { visibility: 'hidden' } );
       }
@@ -62,8 +69,8 @@ class StickyBit {
  * Generates all the StickyBit objects
  */
 function constructStickyBits() {
-  _stickyBitContainers.forEach( ( _stickyBit, index ) => {
-    const sticky = new StickyBit( _stickyBit, index );
+  _stickyBitContainers.forEach( ( _stickyBit: Element, index: number ) => {
+    const sticky: StickyBit = new StickyBit( _stickyBit, index );
     sticky.init();
     stickyBits.push( sticky );
   } );

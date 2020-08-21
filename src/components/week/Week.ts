@@ -1,4 +1,3 @@
-import trackAnalyticsEvent from '../../utilities/TrackAnalytics.js';
 import initStickyBits from './sticky-bits/StickyBits';
 import initPerformers from './performers/Performers';
 
