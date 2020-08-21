@@ -3,7 +3,21 @@
   "dek": "This is dummy text for the subhead here, this will be filled in later when the editor writes it. 20 words.",
   "byline": "Writername McName",
   "images": [
-    "https://theundefeated.com/wp-content/uploads/2020/08/Lifestyle-Image-1.jpeg",
-    "https://theundefeated.com/wp-content/uploads/2020/08/Lifestyle-Image-2.jpeg"
+    {
+      "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/brady_full.png",
+      "x-offset": -15
+    },
+    {
+      "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/mahomes_full.png",
+      "x-offset": -15
+    },
+    {
+      "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/zeke_full.png",
+      "x-offset": 15
+    },
+    {
+      "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/watt_full.png",
+      "x-offset": 15
+    }
   ]
 }
