@@ -4,7 +4,9 @@
       "weeks": "Weeks 1&ndash;4",
       "openerImage": {
         "mobile": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp_mobile.jpg",
-        "desktop": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp.jpg"
+        "mobile-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
+        "desktop": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp.jpg",
+        "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
       },
       "introduction": [
         "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
@@ -139,23 +141,73 @@
       "weeks": "Weeks 5&ndash;8",
       "openerImage": {
         "mobile": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp_mobile.jpg",
-        "desktop": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp.jpg"
+        "mobile-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
+        "desktop": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp.jpg",
+        "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
       },
       "introduction": [
         "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
       ],
       "stickyBits": [
         {
-          "header": "Championship Round",
+          "header": "Week 5",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": true,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week5.jpg",
+          "text": "Week 5: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 6",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": true,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week6.jpg",
+          "text": "Week 6: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 7",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": true,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week7.jpg",
+          "text": "Week 7: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 8",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": true,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week8.jpg",
+          "text": "Week 8: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Division Leader",
           "hasWin": false,
           "hasLoss": false,
           "hasTie": false,
           "hasBye": false,
-          "hasLeader": false,
+          "hasLeader": true,
           "hasFirstTie": false,
-          "isChampionship": true,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week4.jpg",
-          "text": "Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week8.jpg",
+          "text": "Week 8 Division Leader: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
         }
       ],
       "analysis": [
@@ -165,11 +217,11 @@
         },
         {
           "type": "text",
-          "text": ""
+          "text": "Team 1 intro. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit."
         },
         {
           "type": "text",
-          "text": ""
+          "text": "Team 2 intro. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur aboremp oritati ut laccus, sum fugit pos quae evelesti sus quatium qui volores solendicae."
         },
         {
           "type": "image",
@@ -181,21 +233,21 @@
         },
         {
           "type": "text",
-          "text": ""
+          "text": "Team 3 intro. Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit, veles et quiat ut mod estem volupta cuptiosam inctatium eaqui accus ullab. Is modignima essitatia dit as dolupide eatquiatem estiber ionempo remporibus ex escient, etur, volor mo con con ni occae."
         },
         {
           "type": "text",
-          "text": ""
+          "text": "Team 4 intro. Nam es dolupta re rem doluptatur? Ipis conse saped eos verferum hita comnis eos doloressi tem voluptas , veles et quiat ut mod estem volupta, veles et quiat ut mod estem volupta."
         }
       ],
       "performers": [
         {
           "type": "subhead",
-          "text": "Top Performers, Weeks 1&ndash;4"
+          "text": "Top Performers, Weeks 5&ndash;8"
         },
         {
           "type": "performer",
-          "image": "",
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
           "firstName": "Playername",
           "lastName": "Teekay",
           "team": "TEA",
@@ -204,7 +256,7 @@
         },
         {
           "type": "performer",
-          "image": "",
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
           "firstName": "Playername",
           "lastName": "Teekay",
           "team": "TEA",
@@ -213,13 +265,729 @@
         },
         {
           "type": "performer",
-          "image": "",
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
           "firstName": "Playername",
           "lastName": "Teekay",
           "team": "TEA",
           "number": 140,
           "description": "Passings YDS"
         }
+      ]
+    },
+    {
+      "weeks": "Weeks 9&ndash;12",
+      "openerImage": {
+        "mobile": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp_mobile.jpg",
+        "mobile-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
+        "desktop": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp.jpg",
+        "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
+      },
+      "introduction": [
+        "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
+      ],
+      "stickyBits": [
+        {
+          "header": "Week 9",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": true,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week9.jpg",
+          "text": "Week 9: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 10",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": true,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week10.jpg",
+          "text": "Week 10: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 11",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": true,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week11.jpg",
+          "text": "Week 11: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 12",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week12.jpg",
+          "text": "Week 12: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Division Leader",
+          "hasWin": false,
+          "hasLoss": false,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": true,
+          "hasFirstTie": true,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week12.jpg",
+          "text": "Week 12 Division Leader: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        }
+      ],
+      "analysis": [
+        {
+          "type": "subhead",
+          "text": "Team Trend that Emerged Q1, 150 Words"
+        },
+        {
+          "type": "text",
+          "text": "Team 1 intro. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit."
+        },
+        {
+          "type": "text",
+          "text": "Team 2 intro. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur aboremp oritati ut laccus, sum fugit pos quae evelesti sus quatium qui volores solendicae."
+        },
+        {
+          "type": "image",
+          "classes": "fpi-analysis__image",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png",
+          "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/fake_play.jpg",
+          "height": 400,
+          "width": 600
+        },
+        {
+          "type": "text",
+          "text": "Team 3 intro. Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit, veles et quiat ut mod estem volupta cuptiosam inctatium eaqui accus ullab. Is modignima essitatia dit as dolupide eatquiatem estiber ionempo remporibus ex escient, etur, volor mo con con ni occae."
+        },
+        {
+          "type": "text",
+          "text": "Team 4 intro. Nam es dolupta re rem doluptatur? Ipis conse saped eos verferum hita comnis eos doloressi tem voluptas , veles et quiat ut mod estem volupta, veles et quiat ut mod estem volupta."
+        }
+      ],
+      "performers": [
+        {
+          "type": "subhead",
+          "text": "Top Performers, Weeks 9&ndash;12"
+        },
+        {
+          "type": "performer",
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
+          "firstName": "Playername",
+          "lastName": "Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        },
+        {
+          "type": "performer",
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
+          "firstName": "Playername",
+          "lastName": "Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        },
+        {
+          "type": "performer",
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
+          "firstName": "Playername",
+          "lastName": "Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        }
+      ]
+    },
+    {
+      "weeks": "Weeks 13&ndash;17",
+      "openerImage": {
+        "mobile": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp_mobile.jpg",
+        "mobile-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
+        "desktop": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp.jpg",
+        "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
+      },
+      "introduction": [
+        "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
+      ],
+      "stickyBits": [
+        {
+          "header": "Week 13",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": true,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week13.jpg",
+          "text": "Week 13: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 14",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week14.jpg",
+          "text": "Week 14: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 15",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week15.jpg",
+          "text": "Week 15: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 16",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week16.jpg",
+          "text": "Week 16: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Week 17",
+          "hasWin": true,
+          "hasLoss": true,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week17.jpg",
+          "text": "Week 17: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Division Leader",
+          "hasWin": false,
+          "hasLoss": false,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": true,
+          "hasFirstTie": false,
+          "isChampionship": false,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week17.jpg",
+          "text": "Week 17 Division Leader: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        }
+      ],
+      "analysis": [
+        {
+          "type": "subhead",
+          "text": "Team Trend that Emerged Q1, 150 Words"
+        },
+        {
+          "type": "text",
+          "text": "Team 1 intro. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit."
+        },
+        {
+          "type": "text",
+          "text": "Team 2 intro. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur aboremp oritati ut laccus, sum fugit pos quae evelesti sus quatium qui volores solendicae."
+        },
+        {
+          "type": "image",
+          "classes": "fpi-analysis__image",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png",
+          "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/fake_play.jpg",
+          "height": 400,
+          "width": 600
+        },
+        {
+          "type": "text",
+          "text": "Team 3 intro. Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit, veles et quiat ut mod estem volupta cuptiosam inctatium eaqui accus ullab. Is modignima essitatia dit as dolupide eatquiatem estiber ionempo remporibus ex escient, etur, volor mo con con ni occae."
+        },
+        {
+          "type": "text",
+          "text": "Team 4 intro. Nam es dolupta re rem doluptatur? Ipis conse saped eos verferum hita comnis eos doloressi tem voluptas , veles et quiat ut mod estem volupta, veles et quiat ut mod estem volupta."
+        }
+      ],
+      "performers": [
+        {
+          "type": "subhead",
+          "text": "Top Performers, Weeks 13&ndash;17"
+        },
+        {
+          "type": "performer",
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
+          "firstName": "Playername",
+          "lastName": "Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        },
+        {
+          "type": "performer",
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
+          "firstName": "Playername",
+          "lastName": "Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        },
+        {
+          "type": "performer",
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
+          "firstName": "Playername",
+          "lastName": "Teekay",
+          "team": "TEA",
+          "number": 140,
+          "description": "Passings YDS"
+        }
+      ],
+      "tables": [
+        {
+          "type": "afc",
+          "text": "AFC Final Standings",
+          "table": [
+            {
+              "thead": [
+                "North",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "Buccaneers",
+                  "win": 20,
+                  "loss": 20,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Broncos",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": true
+                },
+                {
+                  "name": "Ravens",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Bengals",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "South",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "East",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "West",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "NFC",
+          "text": "NFC Final Standings",
+          "table": [
+            {
+              "thead": [
+                "North",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "Buccaneers",
+                  "win": 20,
+                  "loss": 20,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Broncos",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": true
+                },
+                {
+                  "name": "Ravens",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Bengals",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "South",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "East",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "West",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "TK",
+                  "win": 0,
+                  "loss": 0,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weeks": "The Playoffs",
+      "openerImage": {
+        "mobile": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp_mobile.jpg",
+        "mobile-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
+        "desktop": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/quarterly_comp.jpg",
+        "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
+      },
+      "introduction": [
+        "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
+      ],
+      "stickyBits": [
+        {
+          "header": "Playoffs Round",
+          "hasWin": false,
+          "hasLoss": false,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": true,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/playoffs_round.jpg",
+          "text": "Playoffs: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "WC Round",
+          "hasWin": false,
+          "hasLoss": false,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": true,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/wc_round.jpg",
+          "text": "WC: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Division Round",
+          "hasWin": false,
+          "hasLoss": false,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": true,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_round.jpg",
+          "text": "Division: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        },
+        {
+          "header": "Championship Round",
+          "hasWin": false,
+          "hasLoss": false,
+          "hasTie": false,
+          "hasBye": false,
+          "hasLeader": false,
+          "hasFirstTie": false,
+          "isChampionship": true,
+          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/champ_round.jpg",
+          "text": "Championship: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+        }
+      ],
+      "analysis": [
+        {
+          "type": "text",
+          "text": "Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur aboremp oritati ut laccus, sum fugit pos quae evelesti sus quatium qui volores solendicae. Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit, veles et quiat ut mod estem volupta cuptiosam inctatium eaqui accus ullab. Is modignima essitatia dit as dolupide eatquiatem estiber ionempo remporibus ex escient, etur, volor mo con con ni occae."
+        }
+      ]
+    },
+    {
+      "weeks": "Superbowl LV",
+      "openerImage": {
+        "mobile": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/sb_lv_footer.jpg",
+        "mobile-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png",
+        "desktop": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/sb_lv_footer.jpg",
+        "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
+      },
+      "introduction": [
+        "50–75 words here. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur. Enihitia eum dus rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur. Enihitia eum dus. Rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur. Enihitia eum dus rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur."
       ]
     }
   ]
