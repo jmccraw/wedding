@@ -3,6 +3,7 @@
  */
 import trackAnalyticsEvent from '../../utilities/TrackAnalytics.js';
 const _opener: Element = document.querySelector( '.fpi-opener' );
+const _openerFigure: Element = _opener.querySelector( '.fpi-opener__figure' );
 const _openerHed: Node = _opener.querySelector( '.fpi-opener__hed' );
 const _openerDek: Node = _opener.querySelector( '.fpi-opener__dek' );
 const _openerImages: NodeList = document.querySelectorAll( '.fpi-opener__image' );
@@ -15,14 +16,11 @@ let openerImageCompletions: number = 0;
  */
 function jumpToIntro() {
   const _target: any = document.querySelector( '.fpi-introduction' );
-  const _offsetTarget: number = _target.offsetTop;
-
-  // TODO FIXME Fix the above offset, which used to be .offsetTop
 
   window.gsap.to( window, {
-    duration: 0.25,
-    ease: 'linear',
-    scrollTo: { y: _offsetTarget, autoKill: false }
+    duration: 0.75,
+    ease: 'power2',
+    scrollTo: { y: _target, autoKill: false }
   } );
 
   trackAnalyticsEvent( 'jump-button:click' );
@@ -35,31 +33,35 @@ function playOpenerSequence() {
   const timeline = window.gsap.timeline( { repeat: 0 } );
   _opener.classList.add( 'is-active' );
 
+  timeline.from( _openerFigure, {
+    duration: 0.5,
+    opacity: 0,
+    delay: 0.25
+  } );
+
   _openerImages.forEach( ( _openerImage ) => {
     timeline.to( _openerImage, {
-      duration: 0.5,
+      duration: 0.35,
       opacity: 1,
       x: 0
     } );
   } );
 
   timeline.to( _openerHed, {
-    duration: 0.25,
-    opacity: 1,
-    y: 0
-  } );
-
-  timeline.to( _openerDek, {
-    duration: 0.25,
-    opacity: 1,
-    y: 0
-  } );
-
-  timeline.to( _openerJumpButton, {
-    duration: 0.25,
-    opacity: 1,
-    y: 0
-  } );
+      duration: 0.25,
+      opacity: 1,
+      y: 0
+    } )
+    .to( _openerDek, {
+      duration: 0.25,
+      opacity: 1,
+      y: 0
+    } )
+    .to( _openerJumpButton, {
+      duration: 0.25,
+      opacity: 1,
+      y: 0
+    } );
 }
 
 /**
@@ -111,5 +113,5 @@ function attachEventListeners() {
  */
 export default function init() {
   attachEventListeners();
-  document.addEventListener( 'DOMContentLoaded', initiateOpenerSequence, { passive: true } );
+  initiateOpenerSequence();
 }
