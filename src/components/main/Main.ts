@@ -11,7 +11,9 @@ import { trackOrientationChange } from '../../utilities/TrackOrientation.js';
 function attachEventListeners() {
   const visibilityChange = getVisibilityChange();
 
-  window.addEventListener( 'orientationchange', trackOrientationChange, { passive: true } );
+  window.addEventListener( 'orientationchange', ( event ) => {
+    trackOrientationChange( event, false );
+  }, { passive: true } );
   window.addEventListener( visibilityChange, trackVisibilityChange, { passive: true } );
 }
 

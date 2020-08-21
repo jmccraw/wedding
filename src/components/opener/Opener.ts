@@ -2,38 +2,26 @@
  * Opener TS
  */
 import trackAnalyticsEvent from '../../utilities/TrackAnalytics.js';
-const _opener = document.querySelector( '.fpi-opener' );
-const _openerHed = _opener.querySelector( '.fpi-opener__hed' );
-const _openerDek = _opener.querySelector( '.fpi-opener__dek' );
-const _openerImages = document.querySelectorAll( '.fpi-opener__image' );
-const _openerJumpButton = _opener.querySelector( '.fpi-opener__button' );
-const openerImageLength = _openerImages.length;
-
-let oldVH: number = -1;
+const _opener: Element = document.querySelector( '.fpi-opener' );
+const _openerHed: Node = _opener.querySelector( '.fpi-opener__hed' );
+const _openerDek: Node = _opener.querySelector( '.fpi-opener__dek' );
+const _openerImages: NodeList = document.querySelectorAll( '.fpi-opener__image' );
+const _openerJumpButton: Node = _opener.querySelector( '.fpi-opener__button' );
+const openerImageLength: number = _openerImages.length;
 let openerImageCompletions: number = 0;
-
-/**
- * Sets the mobile viewport height to be equivalent to 1% of the viewable screen space,
- * which includes browser chrome. Modified from CSS Tricks: http://bit.ly/2rMEhzN
- */
-function setCustomViewportHeight() {
-  const customVH: number = window.innerHeight;
-
-  if ( ( oldVH > customVH && oldVH - customVH > 120 )
-    || ( oldVH < customVH && customVH - oldVH > 120 ) ) {
-    oldVH = customVH;
-    document.documentElement.style.setProperty( '--fpi-vh', `${customVH}px` );
-  }
-}
 
 /**
  * Jumps to the introduction section of the piece
  */
 function jumpToIntro() {
-  const _offsetTarget: number = document.querySelector( '.fpi-introduction' ).offsetTop;
+  const _target: any = document.querySelector( '.fpi-introduction' );
+  const _offsetTarget: number = _target.offsetTop;
+
+  // TODO FIXME Fix the above offset, which used to be .offsetTop
 
   window.gsap.to( window, {
     duration: 0.25,
+    ease: 'linear',
     scrollTo: { y: _offsetTarget, autoKill: false }
   } );
 
@@ -95,7 +83,7 @@ function initiateOpenerSequence() {
     y: 15
   } );
 
-  _openerImages.forEach( ( _openerImage, index ) => {
+  _openerImages.forEach( ( _openerImage: any ) => {
     _openerImage.addEventListener( 'load', checkOpenerSequence, { passive: true } );
     if ( _openerImage.complete ) {
       checkOpenerSequence();
@@ -103,7 +91,7 @@ function initiateOpenerSequence() {
 
     window.gsap.set( _openerImage, {
       opacity: 0,
-      x: index % 2 > 0 ? -15 : 15
+      x: _openerImage.dataset.xOffset
     } );
   } );
 
@@ -112,25 +100,16 @@ function initiateOpenerSequence() {
 }
 
 /**
- * Resets the custom CSS variable
- */
-function resetVariables() {
-  setCustomViewportHeight();
-}
-
-/**
  * Attaches various event listeners to things
  */
 function attachEventListeners() {
   _openerJumpButton.addEventListener( 'click', jumpToIntro, { passive: true } );
-  window.addEventListener( 'resize', resetVariables, { passive: true } );
 }
 
 /**
  * Opener functions
  */
 export default function init() {
-  setCustomViewportHeight();
   attachEventListeners();
   document.addEventListener( 'DOMContentLoaded', initiateOpenerSequence, { passive: true } );
 }
