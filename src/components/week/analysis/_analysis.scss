@@ -23,8 +23,17 @@
 }
 
 .fpi-analysis__image {
+  filter: none;
   height: auto;
   margin-bottom: 17px;
   margin-left: -8px;
+  opacity: 1;
+  transition: filter 0.25s ease-in-out,
+    opacity 0.25s ease-in-out;
   width: calc(100% + 16px);
+
+  &.is-lazy {
+    filter: blur(3px);
+    opacity: 0.25;
+  }
 }
