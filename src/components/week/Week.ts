@@ -1,3 +1,7 @@
+/**
+ * Weeks TS
+ * Injests all of the subcomponent JS here
+ */
 import initStickyBits from './sticky-bits/StickyBits';
 import initPerformers from './performers/Performers';
 
