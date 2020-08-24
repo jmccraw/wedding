@@ -1,0 +1,55 @@
+/**
+ * Related Stories section styles
+ */
+.fpi-related-stories {
+  background-color: $blue;
+  color: $white;
+  margin: 0 auto;
+  padding: 28px 0 32px;
+  position: relative;
+  text-align: center;
+}
+
+.fpi-related-stories__hed {
+  color: $white;
+  font: 400 15px/1.33 $benton-bold;
+  letter-spacing: 0.18px;
+  margin: 0 auto -6px;
+}
+
+.fpi-related-stories__container {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 11px auto 0;
+  max-width: 500px;
+  padding: 0 8px;
+}
+
+.fpi-related-stories__link {
+  background-image: none;
+  color: $white;
+  display: inline-block;
+  font: 400 15px/1.33 $benton;
+  letter-spacing: 0.18px;
+  margin-bottom: 11px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: none;
+  transition: color 0.25s ease-in-out;
+}
+
+.fpi-related-stories__link span {
+  border-bottom: 1px dashed $white;
+  transition: border-bottom 0.25s ease-in-out;
+}
+
+.fpi-related-stories__link:hover span {
+  @media screen and (min-width: 768px) {
+    border-bottom: 1px solid $white;
+  }
+}
+
+.fpi-related-stories__link:active span {
+  border-bottom: 1px solid $white;
+}
