@@ -2,7 +2,7 @@
  * Performers section animations TS
  */
 import trackAnalyticsEvent from '../../../utilities/TrackAnalytics.js';
-const _performers = document.querySelectorAll( '.fpi-performers' );
+const _performers: NodeListOf<Element> = document.querySelectorAll( '.fpi-performers' );
 
 /**
  * Creates a Performer class that will control the animation sequence
