@@ -4,6 +4,7 @@
  */
 import initStickyBits from './sticky-bits/StickyBits';
 import initPerformers from './performers/Performers';
+import initTable from './table/Table';
 
 /**
  * Initialize the Week overarching container and all its possible components
@@ -11,4 +12,5 @@ import initPerformers from './performers/Performers';
 export default function init() {
   initStickyBits();
   initPerformers();
+  initTable();
 }
