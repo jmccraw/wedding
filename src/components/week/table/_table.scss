@@ -2,5 +2,55 @@
  * Table styles
  */
 .fpi-tables {
+  border-top: 1px solid $medium-gray;
+  margin: -4px auto 0;
+  padding: 44px 0;
   position: relative;
+  width: calc(100% - 16px);
+}
+
+.fpi-tables__hed {
+  color: $black;
+  font: 400 17px/1 $benton-bold;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.fpi-table__container {
+  border: 1px solid $medium-gray;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.fpi-table {
+  border-collapse: collapse;
+  margin-bottom: 24px;
+  padding: 20px;
+  position: relative;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.fpi-table__thead {
+  background-color: $medium-gray;
+  color: $white;
+
+  td {
+    width: calc(50% / 3);
+  }
+
+  td:first-of-type {
+    width: 50%;
+  }
+}
+
+.fpi-table__tbody {
+  tr {
+    border-bottom: 1px solid $medium-gray;
+  }
+
+  tr:last-child {
+    border-bottom: none;
+  }
 }
