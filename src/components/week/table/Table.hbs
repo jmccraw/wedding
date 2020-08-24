@@ -31,6 +31,14 @@
     </table>
     {{/each}}
     {{/if}}
+    <dl class="fpi-table__key">
+      <dt class="fpi-table__term is-projected-playoff">Blue Circle</dt>
+      <dd class="fpi-table__definition">Projected playoff spot</dd>
+      {{#compare 0 '===' @index}}
+      <dt class="fpi-table__term is-draft-pick">Black Square</dt>
+      <dd class="fpi-table__definition">No. 1 draft pick</dd>
+      {{/compare}}
+    </dl>
   </div>
   {{/each}}
 </article>
