@@ -11,6 +11,12 @@
   position: relative;
   width: calc(100% - 16px);
 
+  &.is-single {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 11px;
+  }
+
   .body-text.serif {
     color: $dark-gray;
     margin-top: 0;
