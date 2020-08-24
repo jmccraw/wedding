@@ -13,3 +13,7 @@
 @import './analysis/analysis';
 @import './performers/performers';
 @import './table/table';
+
+.fpi-week.is-5 .fpi-week__introduction {
+  margin-bottom: 0;
+}
