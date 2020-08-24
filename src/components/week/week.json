@@ -573,33 +573,33 @@
               ],
               "tbody": [
                 {
-                  "name": "Buccaneers",
-                  "win": 20,
-                  "loss": 20,
+                  "name": "Ravens",
+                  "win": 12,
+                  "loss": 4,
                   "tie": 0,
                   "isProjectedPlayoff": true,
                   "isDraftPick": false
                 },
                 {
-                  "name": "Broncos",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Steelers",
+                  "win": 12,
+                  "loss": 4,
                   "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": true
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
                 },
                 {
-                  "name": "Ravens",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Bengals",
+                  "win": 7,
+                  "loss": 9,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
                 },
                 {
-                  "name": "Bengals",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Browns",
+                  "win": 7,
+                  "loss": 9,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
@@ -615,36 +615,36 @@
               ],
               "tbody": [
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Texans",
+                  "win": 9,
+                  "loss": 7,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Colts",
+                  "win": 8,
+                  "loss": 8,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Titans",
+                  "win": 8,
+                  "loss": 8,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
                 },
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Jaguars",
+                  "win": 3,
+                  "loss": 13,
                   "tie": 0,
                   "isProjectedPlayoff": false,
-                  "isDraftPick": false
-                },
-                {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": false
-                },
-                {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": false
+                  "isDraftPick": true
                 }
               ]
             },
@@ -657,33 +657,33 @@
               ],
               "tbody": [
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Bills",
+                  "win": 11,
+                  "loss": 5,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Jets",
+                  "win": 5,
+                  "loss": 11,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
                 },
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Patriots",
+                  "win": 5,
+                  "loss": 11,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
                 },
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": false
-                },
-                {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Dolphins",
+                  "win": 4,
+                  "loss": 12,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
@@ -699,33 +699,33 @@
               ],
               "tbody": [
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Chiefs",
+                  "win": 11,
+                  "loss": 5,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Broncos",
+                  "win": 8,
+                  "loss": 8,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
                 },
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Chargers",
+                  "win": 8,
+                  "loss": 8,
                   "tie": 0,
-                  "isProjectedPlayoff": false,
+                  "isProjectedPlayoff": true,
                   "isDraftPick": false
                 },
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": false
-                },
-                {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Raiders",
+                  "win": 5,
+                  "loss": 11,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
@@ -747,33 +747,33 @@
               ],
               "tbody": [
                 {
-                  "name": "Buccaneers",
-                  "win": 20,
-                  "loss": 20,
+                  "name": "Vikings",
+                  "win": 10,
+                  "loss": 6,
                   "tie": 0,
                   "isProjectedPlayoff": true,
                   "isDraftPick": false
                 },
                 {
-                  "name": "Broncos",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
+                  "name": "Lions",
+                  "win": 7,
+                  "loss": 8,
+                  "tie": 1,
                   "isProjectedPlayoff": false,
-                  "isDraftPick": true
+                  "isDraftPick": false
                 },
                 {
-                  "name": "Ravens",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Bears",
+                  "win": 7,
+                  "loss": 9,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
                 },
                 {
-                  "name": "Bengals",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Packers",
+                  "win": 7,
+                  "loss": 9,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
@@ -789,34 +789,34 @@
               ],
               "tbody": [
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Buccaneers",
+                  "win": 10,
+                  "loss": 6,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Saints",
+                  "win": 10,
+                  "loss": 6,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Falcons",
+                  "win": 9,
+                  "loss": 7,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
                 },
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": false
-                },
-                {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": false
-                },
-                {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
+                  "name": "Panthers",
+                  "win": 3,
+                  "loss": 12,
+                  "tie": 1,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
                 }
@@ -831,33 +831,33 @@
               ],
               "tbody": [
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Eagles",
+                  "win": 10,
+                  "loss": 6,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Cowboys",
+                  "win": 9,
+                  "loss": 7,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Giants",
+                  "win": 7,
+                  "loss": 9,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
                 },
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": false
-                },
-                {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": false
-                },
-                {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Redskins",
+                  "win": 4,
+                  "loss": 12,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
@@ -873,33 +873,33 @@
               ],
               "tbody": [
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "49ers",
+                  "win": 11,
+                  "loss": 5,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Rams",
+                  "win": 11,
+                  "loss": 5,
+                  "tie": 0,
+                  "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Seahawks",
+                  "win": 9,
+                  "loss": 7,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
                 },
                 {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": false
-                },
-                {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
-                  "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": false
-                },
-                {
-                  "name": "TK",
-                  "win": 0,
-                  "loss": 0,
+                  "name": "Cardinals",
+                  "win": 8,
+                  "loss": 8,
                   "tie": 0,
                   "isProjectedPlayoff": false,
                   "isDraftPick": false
@@ -971,6 +971,7 @@
           "text": "Championship: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
         }
       ],
+      "isSingleAnalysis": true,
       "analysis": [
         {
           "type": "text",
@@ -986,6 +987,7 @@
         "desktop": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/sb_lv_footer.jpg",
         "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
       },
+      "isSuperbowl": true,
       "introduction": [
         "50–75 words here. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur. Enihitia eum dus rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur. Enihitia eum dus. Rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur. Enihitia eum dus rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur."
       ]
