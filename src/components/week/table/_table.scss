@@ -7,50 +7,130 @@
   padding: 44px 0;
   position: relative;
   width: calc(100% - 16px);
+
+  .is-projected-playoff::before,
+  .is-draft-pick::before {
+    background-color: $blue;
+    border-radius: 50%;
+    content: '';
+    height: 6px;
+    left: 0;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    width: 6px;
+  }
+
+  .is-draft-pick::before {
+    background-color: $black;
+    border-radius: 0;
+  }
 }
 
 .fpi-tables__hed {
   color: $black;
   font: 400 17px/1 $benton-bold;
   letter-spacing: 0.2px;
+  margin-bottom: 9px;
   text-transform: uppercase;
 }
 
 .fpi-table__container {
   border: 1px solid $medium-gray;
+  margin-bottom: 44px;
   padding: 20px;
   position: relative;
   width: 100%;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .fpi-table {
   border-collapse: collapse;
-  margin-bottom: 24px;
-  padding: 20px;
+  font: 400 13px/1 $benton-bold;
+  margin-bottom: 14px;
+  padding: 20px 20px 17px;
   position: relative;
   table-layout: fixed;
+  text-transform: uppercase;
   width: 100%;
+
+  td {
+    padding-top: 3px;
+    position: relative;
+  }
+
+  td:first-child {
+    padding-left: 12px;
+  }
 }
 
 .fpi-table__thead {
   background-color: $medium-gray;
   color: $white;
 
+  tr {
+    height: 28px;
+  }
+
   td {
+    text-align: center;
     width: calc(50% / 3);
   }
 
-  td:first-of-type {
+  td:first-child {
+    text-align: left;
     width: 50%;
   }
 }
 
 .fpi-table__tbody {
+  color: $medium-gray;
+  font-family: $benton-medium;
+
   tr {
-    border-bottom: 1px solid $medium-gray;
+    border-bottom: 1px solid $light-gray;
+    height: 27px;
   }
 
   tr:last-child {
     border-bottom: none;
   }
+
+  td {
+    text-align: center;
+  }
+
+  td:first-child {
+    text-align: left;
+  }
+}
+
+.fpi-table__key {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
+
+.fpi-table__term {
+  display: inline-block;
+  height: 10px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  position: relative;
+  text-indent: -9999em;
+  width: 5%;
+}
+
+.fpi-table__definition {
+  color: $medium-gray;
+  font: 400 13px/1.23 $benton-medium;
+  letter-spacing: 0.6px;
+  margin-bottom: 5px;
+  position: relative;
+  width: 95%;
 }
