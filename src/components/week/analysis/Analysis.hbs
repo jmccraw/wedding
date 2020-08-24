@@ -1,4 +1,4 @@
-<article class="fpi-analysis">
+<article class="fpi-analysis{{#if isSingleAnalysis}} is-single{{/if}}">
   {{#each analysis}}
   {{#compare 'subhead' '===' this.type}}
   <h3 class="fpi-analysis__hed">{{{this.text}}}</h3>
