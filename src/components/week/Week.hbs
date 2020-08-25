@@ -1,5 +1,5 @@
 {{#each week.weeks}}
-<article class="fpi-week is-{{@index}}">
+<article class="fpi-week is-{{@index}}{{#if isSuperbowl}} is-superbowl{{/if}}">
   {{#if this.weeks}}
   {{> ./header/Header}}
   {{/if}}

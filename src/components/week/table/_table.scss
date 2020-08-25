@@ -20,6 +20,10 @@
     top: 50%;
     transform: translate3d(0, -50%, 0);
     width: 6px;
+
+    @include screen-from(tablet) {
+      margin-top: 1px;
+    }
   }
 
   .is-draft-pick::before {
@@ -54,6 +58,14 @@
   &:last-child {
     margin-bottom: 0;
   }
+
+  @include screen-from(tablet) {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 37px;
+  }
 }
 
 .fpi-table {
@@ -73,6 +85,26 @@
 
   td:first-child {
     padding-left: 12px;
+  }
+
+  @include screen-from(tablet) {
+    width: calc(50% - 16px);
+
+    &:first-child {
+      order: 1;
+    }
+
+    &:nth-child(2) {
+      order: 3;
+    }
+
+    &:nth-child(3) {
+      order: 2;
+    }
+
+    &:nth-child(4) {
+      order: 4;
+    }
   }
 }
 
@@ -122,6 +154,10 @@
   display: flex;
   flex-flow: row wrap;
   position: relative;
+
+  @include screen-from(tablet) {
+    order: 5;
+  }
 }
 
 .fpi-table__term {
@@ -132,6 +168,15 @@
   position: relative;
   text-indent: -9999em;
   width: 5%;
+
+  @include screen-from(tablet) {
+    width: 12px;
+
+    &.is-projected-playoff::before,
+    &.is-draft-pick::before {
+      margin-top: 0;
+    }
+  }
 }
 
 .fpi-table__definition {
@@ -141,4 +186,9 @@
   margin-bottom: 5px;
   position: relative;
   width: 95%;
+
+  @include screen-from(tablet) {
+    margin-right: 17px;
+    width: auto;
+  }
 }

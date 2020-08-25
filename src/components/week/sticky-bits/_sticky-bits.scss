@@ -41,12 +41,29 @@
     padding-left: 24px;
     padding-right: 24px;
   }
+
+  @include screen-from(tablet) {
+    box-sizing: content-box;
+    padding-left: 40px;
+    padding-right: 30px;
+    width: 400px;
+  }
 }
 
 .sticky-bits__graphic-image {
   height: auto;
   order: 2;
   width: 100%;
+
+  @include screen-from(tablet) {
+    height: 580px;
+  }
+}
+
+.fpi-week__sticky-bits.is-championship .sticky-bits__graphic-image {
+  @include screen-from(tablet) {
+    height: 400px;
+  }
 }
 
 .sticky-bits__graphic-caption {
@@ -125,6 +142,11 @@
     box-sizing: content-box;
     padding-bottom: 50vh;
   }
+
+  @include screen-from(tablet) {
+    align-items: flex-end;
+    padding-right: 45px;
+  }
 }
 
 .sticky-bits__text.body-text {
@@ -135,4 +157,9 @@
   max-width: 172px;
   padding: 15px 15px 17px;
   width: 100%;
+
+  @include screen-from(tablet) {
+    background-color: $white;
+    filter: none;
+  }
 }

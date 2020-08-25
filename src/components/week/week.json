@@ -917,6 +917,7 @@
       "introduction": [
         "The expanded playoffs gives us some fun opening weekend matchups, including Rams-Saints, Cowboys-Eagles and Buccaneers-Falcons. Looking ahead, could the Ravens take the AFC crown from Kansas City? Will Tom Brady win No. 7? Can Buffalo or Minnesota finally win the big game?"
       ],
+      "isStickyBitsChampionship": true,
       "stickyBits": [
         {
           "header": "Playoffs Round",
@@ -977,6 +978,7 @@
     },
     {
       "weeks": "Superbowl LV",
+      "isSuperbowl": true,
       "openerImage": {
         "mobile": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/sb_lv_footer.jpg",
         "mobile-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png",
