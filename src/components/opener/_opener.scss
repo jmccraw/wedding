@@ -20,8 +20,12 @@
     display: block;
   }
 
+  @include screen-from(mobile-max) {
+    justify-content: center;
+  }
+
   @include screen-from(tablet) {
-    height: 100vh;
+    height: var(--fpi-vh, 100vh);
     width: 100%;
   }
 
@@ -38,6 +42,11 @@
   position: absolute;
   top: 48px;
   width: 100vw;
+
+  @include screen-from(mobile-max) {
+    position: relative;
+    top: auto;
+  }
 }
 
 .fpi-opener__image {
@@ -133,6 +142,11 @@
 
   @media screen and (max-width: 768px) and (max-height: 500px) {
     max-width: 290px;
+  }
+
+  @include screen-from(mobile-max) {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   @include screen-from(tablet) {

@@ -25,4 +25,8 @@
   @include screen-from(mobile-up) {
     width: calc(100% - 32px);
   }
+
+  @include screen-from(mobile-max) {
+    width: calc(100% - 48px);
+  }
 }

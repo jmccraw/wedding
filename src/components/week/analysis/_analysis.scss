@@ -21,6 +21,10 @@
     width: calc(100% - 32px);
   }
 
+  @include screen-from(mobile-max) {
+    width: calc(100% - 48px);
+  }
+
   .body-text.serif {
     color: $dark-gray;
     margin-top: 0;
@@ -50,5 +54,10 @@
   @include screen-from(mobile-up) {
     margin-left: -16px;
     width: calc(100% + 32px);
+  }
+
+  @include screen-from(mobile-max) {
+    margin-left: -24px;
+    width: calc(100% + 48px);
   }
 }
