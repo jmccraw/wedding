@@ -57,6 +57,7 @@
 .sticky-bits__graphic-hed,
 .sticky-bits__icon-container {
   color: $black;
+  flex-shrink: 0;
   font: 400 15px/1.4 $benton-bold;
   letter-spacing: 0.25px;
   text-transform: uppercase;
@@ -70,8 +71,16 @@
     padding-right: 12px;
   }
 
+  span.is-div-leader,
+  span.is-tied-first,
   span:last-child {
     padding-right: 0;
+  }
+
+  span.is-div-leader {
+    @include screen-from(mobile-up) {
+      padding-right: 12px;
+    }
   }
 
   svg {
