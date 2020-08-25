@@ -9,7 +9,7 @@
         "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
       },
       "introduction": [
-        "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
+        "Football is back, and it’s off to a wild start. Can anyone take down the defending champion Chiefs? How will Tom Brady and Rob Gronkowski fit in the Tampa Bay offense? Will the Ravens or perhaps even the Bills challenge out of the AFC?"
       ],
       "stickyBits": [
         {
@@ -22,7 +22,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week1.jpg",
-          "text": "Week 1: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "Patrick Mahomes picks up where he left off, with a 35&ndash;7 dismantling of the Texans &mdash; including three touchdown passes &mdash; on national television to open the season. The message is clear: The Chiefs aren’t going anywhere."
         },
         {
           "header": "Week 2",
@@ -34,7 +34,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week2.jpg",
-          "text": "Week 2: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "Jimmy Garoppolo throws four touchdown passes &mdash; including the first of rookie Brandon Aiyuk’s young career &mdash; as the 49ers run circles around the Jets defense and win 59&ndash;28. The Niners could be trouble this season."
         },
         {
           "header": "Week 3",
@@ -46,7 +46,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week3.jpg",
-          "text": "Week 3: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "After getting blown out by the Saints in Week 1 and narrowly beating the rebuilding Panthers in Week 2, the Tom Brady-led Buccaneers are now beaten by Drew Lock’s Broncos, 20&ndash;17. Is this Tampa Bay team really ready to make the leap into contention? Concern is creeping in."
         },
         {
           "header": "Week 4",
@@ -58,7 +58,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week4.jpg",
-          "text": "Week 4: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "The Eagles’ statement win over San Francisco has everyone talking, but the Vikings are also quietly 4&ndash;0 after a 30&ndash;10 toppling of the Texans. Minnesota has 118 points through four games even without Stefon Diggs running routes."
         },
         {
           "header": "Week 4",
@@ -70,21 +70,21 @@
           "hasFirstTie": true,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week4.jpg",
-          "text": "Week 4 Division Leader: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "The Bills, Steelers, Chiefs, Eagles and Vikings are all perfect to start the year, while Miami and Washington are still looking for their first wins. What’s going on in the AFC South, though? It’s a four-way tie for first place … between 1&ndash;3 teams."
         }
       ],
       "analysis": [
         {
           "type": "subhead",
-          "text": "Team Trend that Emerged Q1, 150 Words"
+          "text": "Week 1&ndash;4 Team Trends"
         },
         {
           "type": "text",
-          "text": "Team 1 intro. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit."
+          "text": "Big Week 1 debuts: Behind one of the best offensive lines in the NFL, Philip Rivers gets his first W as a Colt. And while Tom Brady couldn’t best the Saints, his replacement in New England -- Cam Newton -- survives an iffy Pats defensive showing to defeat the Dolphins. But perhaps the most unlikely debut winner is April’s top pick. Joe Burrow leads the Bengals to a 26-17 win over the Chargers. Not a bad start."
         },
         {
           "type": "text",
-          "text": "Team 2 intro. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur aboremp oritati ut laccus, sum fugit pos quae evelesti sus quatium qui volores solendicae."
+          "text": "Chiefs are here to stay: The unofficial Game of the Year comes down to the wire. Mahomes finds Travis Kelce for the fourth-quarter go-ahead TD on Monday Night Football in Week 3, as K.C. beats Baltimore 27-24. A week later, the Chiefs handle the Patriots, 38-28."
         },
         {
           "type": "image",
@@ -96,11 +96,11 @@
         },
         {
           "type": "text",
-          "text": "Team 3 intro. Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit, veles et quiat ut mod estem volupta cuptiosam inctatium eaqui accus ullab. Is modignima essitatia dit as dolupide eatquiatem estiber ionempo remporibus ex escient, etur, volor mo con con ni occae."
+          "text": "A new AFC East: Josh Allen is already clicking with Stefon Diggs. The Bills cruised past the Jets, Dolphins, Rams and Raiders while outscoring them 105-61. Is it Buffalo’s turn to take the division?"
         },
         {
           "type": "text",
-          "text": "Team 4 intro. Nam es dolupta re rem doluptatur? Ipis conse saped eos verferum hita comnis eos doloressi tem voluptas , veles et quiat ut mod estem volupta, veles et quiat ut mod estem volupta."
+          "text": "Steelers are back: Having Ben Roethlisberger back goes a long way. His arm &mdash; and a great Pittsburgh defense &mdash; has the Steelers at 4-0."
         }
       ],
       "performers": [
@@ -111,29 +111,29 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
+          "firstName": "Tom",
+          "lastName": "Brady",
+          "team": "TB",
+          "number": "1,223",
           "description": "Passings YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
-          "description": "Passings YDS"
+          "firstName": "Miles",
+          "lastName": "Sanders",
+          "team": "PHI",
+          "number": 317,
+          "description": "Rushing YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
-          "description": "Passings YDS"
+          "firstName": "Michael",
+          "lastName": "Thomas",
+          "team": "NO",
+          "number": 351,
+          "description": "Receiving YDS"
         }
       ]
     },
@@ -146,7 +146,7 @@
         "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
       },
       "introduction": [
-        "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
+        "As the division leaders in the AFC South scramble just to get to .500, the NFC North features a battle of the elites. Coming out of Week 4, the Vikings remain undefeated, but the Packers and Lions are both 3-1. A big Minnesota-Green Bay matchup looms in Week 8."
       ],
       "stickyBits": [
         {
@@ -159,7 +159,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week5.jpg",
-          "text": "Week 5: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "It’s already Tua Time in Miami, as the Dolphins turn to their top pick in Week 5. The rookie Tagovailoa throws for over 300 yards, but the 49ers offense rolls to a 51-17 win. Meanwhile, another rook is on deck, as Chargers coach Anthony Lynn decides to pivot from Tyrod Taylor to Justin Herbert following the team’s fourth loss in five games."
         },
         {
           "header": "Week 6",
@@ -171,7 +171,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week6.jpg",
-          "text": "Week 6: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "One week after taking down the then-undefeated Eagles, the Steelers now become the last undefeated. The Bills take down the 5-0 Chiefs, and the Falcons upset the 5-0 Vikings, leaving Pittsburgh -- who took care of business with a 27-10 win over a floundering Browns team -- as the only team left with a zero in the loss column."
         },
         {
           "header": "Week 7",
@@ -183,7 +183,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week7.jpg",
-          "text": "Week 7: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "The Buccaneers offense finally gets on the same page, blowing out the Raiders in a 41-7 win. Tom Brady spreads it around in the end zone, hitting Rob Gronkowski, Mike Evans and Chris Godwin with a touchdown apiece."
         },
         {
           "header": "Week 8",
@@ -195,7 +195,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week8.jpg",
-          "text": "Week 8: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "Following a rousing 44-41 victory over the Titans that included four touchdown passes from Joe Burrow, the Bengals sit at .500 halfway through the season. Are they arriving ahead of schedule? Can the rookie keep it up?"
         },
         {
           "header": "Week 8",
@@ -207,21 +207,17 @@
           "hasFirstTie": true,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week8.jpg",
-          "text": "Week 8 Division Leader: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "The Saints and 49ers were the favorites in the NFC entering the season, but neither lead their respective divisions. The 6-2 Falcons hum atop the NFC South, as Atlanta is fourth in both points scored and points allowed. And the Rams’ renewed offensive touch have them on top in the NFC West."
         }
       ],
       "analysis": [
         {
           "type": "subhead",
-          "text": "Team Trend that Emerged Q1, 150 Words"
+          "text": "Week 5&ndash;8 Team Trends"
         },
         {
           "type": "text",
-          "text": "Team 1 intro. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit."
-        },
-        {
-          "type": "text",
-          "text": "Team 2 intro. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur aboremp oritati ut laccus, sum fugit pos quae evelesti sus quatium qui volores solendicae."
+          "text": "Panic in Foxborough? The Cam Newton experiment isn’t working out as intended, as the Patriots fall to 2-5. The last time coach Bill Belichick started a season that poorly: 2000, his first season with the Pats. To add insult to injury, the fifth loss comes at the hands of Josh Allen and the 7-1 Bills, who have completely taken control of AFC East."
         },
         {
           "type": "image",
@@ -233,11 +229,11 @@
         },
         {
           "type": "text",
-          "text": "Team 3 intro. Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit, veles et quiat ut mod estem volupta cuptiosam inctatium eaqui accus ullab. Is modignima essitatia dit as dolupide eatquiatem estiber ionempo remporibus ex escient, etur, volor mo con con ni occae."
+          "text": "Eagles survive an NFC East hiccup: At 5-1, the Eagles might have already been looking past their Week 7 meeting with the one-win Giants. And it shows. Daniel Jones throws for 234 yards and Saquon Barkley finds the endzone in a 30-28 Giants win. But the Eagles bounce back in Week 8, decisively defeating the Cowboys 30-14 and taking a two-game lead in the NFC East."
         },
         {
           "type": "text",
-          "text": "Team 4 intro. Nam es dolupta re rem doluptatur? Ipis conse saped eos verferum hita comnis eos doloressi tem voluptas , veles et quiat ut mod estem volupta, veles et quiat ut mod estem volupta."
+          "text": "Packers beat Vikings for tie atop division: In another huge divisional Week 8 showdown, Aaron Rodgers leads a narrow Packers victory at Lambeau Field to draw even with Minnesota at 5-2 in the NFC North. The Lions lurk right behind at 4-3."
         }
       ],
       "performers": [
@@ -248,29 +244,29 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
+          "firstName": "Dak",
+          "lastName": "Prescott",
+          "team": "DAL",
+          "number": "1,234",
           "description": "Passings YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
-          "description": "Passings YDS"
+          "firstName": "Christian",
+          "lastName": "McCaffrey",
+          "team": "CAR",
+          "number": 298,
+          "description": "Rushing YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
-          "description": "Passings YDS"
+          "firstName": "Amari",
+          "lastName": "Cooper",
+          "team": "DAL",
+          "number": 295,
+          "description": "Receiving YDS"
         }
       ]
     },
@@ -283,7 +279,7 @@
         "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
       },
       "introduction": [
-        "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
+        "A chess match is developing out in the NFC West between the 6-2 Rams and 5-3 49ers, while the 6-2 Falcons are trying to hold off the 5-3 Saints and 4-4 Buccaneers in the NFC South. But what about the lack of a race in the AFC North, where the Ben Roethlisberger’s Steelers still have only one loss entering Week 9? What is going on with the 4-3 Ravens?"
       ],
       "stickyBits": [
         {
@@ -296,7 +292,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week9.jpg",
-          "text": "Week 9: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "With a 34-31 win over the Jaguars, the Texans have a .500 record and is in first place in the AFC South. Houston, you’re the best of the worst! At least for now."
         },
         {
           "header": "Week 10",
@@ -308,7 +304,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week10.jpg",
-          "text": "Week 10: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": ":In a 34-14 win over San Francisco, Saints QB Drew Brees connects on 21 of 30 pass attempts, including two touchdowns, while Alvin Kamara and Latavius Murray each add a score on the ground. New Orleans takes back the division lead from Atlanta."
         },
         {
           "header": "Week 11",
@@ -320,7 +316,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week11.jpg",
-          "text": "Week 11: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "A tie in Carolina? That’s right. The Panthers and Lions end in a 27-all draw. For Detroit, it means it remains a half-game back in the NFC North. For Carolina, it means the No. 1 draft pick in 2021 is a bit further away."
         },
         {
           "header": "Week 12",
@@ -332,7 +328,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week12.jpg",
-          "text": "Week 12: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "It has become clear that the Tampa Bay offense can overpower just about anyone on the right day. And this was the right day: Tom Brady throws for 291 yards and three scores against the Chiefs, besting Patrick Mahomes."
         },
         {
           "header": "Week 12",
@@ -344,21 +340,21 @@
           "hasFirstTie": true,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week12.jpg",
-          "text": "Week 12 Division Leader: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "There they are! After the 7-4 Ravens close the gap with 9-2 Pittsburgh with a 33-14 win over the Steelers in Week 12, the Steelers AFC North lead is reduced to two games. Lamar Jackson will need more performances like his Week 12 showing: two passing touchdowns and a third on the ground."
         }
       ],
       "analysis": [
         {
           "type": "subhead",
-          "text": "Team Trend that Emerged Q1, 150 Words"
+          "text": "Week 9&ndash;12 Team Trends"
         },
         {
           "type": "text",
-          "text": "Team 1 intro. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit."
+          "text": "More of the same in Cleveland: With a 2-6 record and the NFL’s fewest points scored coming out of the Week 9 bye, Kevin Stefanski makes a bold move and sits Baker Mayfield for Case Keenum. Even if Keenum offers a boost, it’s looking gloomy in Cleveland again."
         },
         {
           "type": "text",
-          "text": "Team 2 intro. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur aboremp oritati ut laccus, sum fugit pos quae evelesti sus quatium qui volores solendicae."
+          "text": "Who will take the NFC West? Coach Sean McVay’s Rams narrowly edged the Seahawks and Buccaneers in Weeks 10 and 11, but the Niners aren’t going anywhere. San Francisco’s 40-32 win over L.A. in Week 12 keeps it a one-game race out west."
         },
         {
           "type": "image",
@@ -370,11 +366,11 @@
         },
         {
           "type": "text",
-          "text": "Team 3 intro. Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit, veles et quiat ut mod estem volupta cuptiosam inctatium eaqui accus ullab. Is modignima essitatia dit as dolupide eatquiatem estiber ionempo remporibus ex escient, etur, volor mo con con ni occae."
+          "text": "QB moves for Trevor Lawrence: Both the Panthers and Jaguars, each with just two wins, turn to their backup quarterbacks. Matt Rhule benches Teddy Bridgewater in favor of former XFL star P.J. Walker, while Doug Marrone calls on Mike Glennon with Gardner Minshew struggling. But the QB each team really wants is the prize of the 2021 draft class, “Clemson’s Lawrence.”"
         },
         {
           "type": "text",
-          "text": "Team 4 intro. Nam es dolupta re rem doluptatur? Ipis conse saped eos verferum hita comnis eos doloressi tem voluptas , veles et quiat ut mod estem volupta, veles et quiat ut mod estem volupta."
+          "text": "Bills’ AFC East runaway: Buffalo (8-3) appears destined to win its first AFC East title since 1995, as the Patriots and Jets sit tied for second (4-7). In New England, Bill Belichick gives the offense to Jarrett Stidham to mix things up."
         }
       ],
       "performers": [
@@ -385,29 +381,29 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
+          "firstName": "Tom",
+          "lastName": "Brady",
+          "team": "TB",
+          "number": "1,162",
           "description": "Passings YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
-          "description": "Passings YDS"
+          "firstName": "Derrick",
+          "lastName": "Henry",
+          "team": "TEN",
+          "number": 307,
+          "description": "Rushing YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
-          "description": "Passings YDS"
+          "firstName": "Michael",
+          "lastName": "Thomas",
+          "team": "NO",
+          "number": 349,
+          "description": "Receiving YDS"
         }
       ]
     },
@@ -420,7 +416,7 @@
         "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
       },
       "introduction": [
-        "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
+        "It’s the final stretch, and playoff spots are up for grabs. Can Russell Wilson get his Seahawks back in the NFC West picture? Who will cross the line first in the ultratight NFC North? And which 5-6 AFC South team will be just good enough to play in January?"
       ],
       "stickyBits": [
         {
@@ -433,7 +429,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week13.jpg",
-          "text": "Week 13: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "Seven catches and a touchdown for Saints receiver Michael Thomas helps New Orleans to a 28-17 win over the Falcons and a share of the divisional lead. Both teams sit at 8-4, while the Buccaneers linger behind at 6-6."
         },
         {
           "header": "Week 14",
@@ -445,7 +441,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week14.jpg",
-          "text": "Week 14: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "We got two division clinches! The 8-5 Bills fell in Week 14 to Pittsburgh, but losses from the Pats and Jets give them the AFC East. And out in the AFC West, the 10-3 Chiefs repeat as champs. Kansas City steamrolled through its division, as no other team is even at .500."
         },
         {
           "header": "Week 15",
@@ -457,7 +453,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week15.jpg",
-          "text": "Week 15: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "Seattle is on a four-game win streak and is perhaps back in the NFC West mix. Russell Wilson totals 238 passing yards in this week’s matchup with Washington and throws his sixth and seventh TDs of the winning stretch."
         },
         {
           "header": "Week 16",
@@ -469,7 +465,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week16.jpg",
-          "text": "Week 16: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "Dallas is hot. The 9-6 Cowboys have won four in a row, including this week’s 17-10 victory over the Eagles. Ezekiel Elliott rumbles for 81 yards and a score, helping the Cowboys level up with Philly in the NFC East."
         },
         {
           "header": "Week 17",
@@ -481,7 +477,7 @@
           "hasFirstTie": false,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week17.jpg",
-          "text": "Week 17: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "The final week puts the 8-8 Chargers and Colts in the playoffs. Los Angeles need a win to get in, and Justin Herbert (three touchdowns) and Keenan Allen outduel the Chiefs. The Colts, meanwhile squeaked past the Jaguars in a 9-7 barnburner."
         },
         {
           "header": "Week 17",
@@ -493,21 +489,21 @@
           "hasFirstTie": true,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week17.jpg",
-          "text": "Week 17 Division Leader: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "The NFC South was deadlocked in a three-way tie entering Week 17, but the Saints win the division at 10-6 when they beat Carolina, 37-3. The Bucs, meanwhile, end the Falcons’ season with a huge 55-31 win in the final matchup. Tom Brady’s four-TD outing puts Tampa Bay in a wild-card spot."
         }
       ],
       "analysis": [
         {
           "type": "subhead",
-          "text": "Team Trend that Emerged Q1, 150 Words"
+          "text": "Week 13&ndash;17 Team Trends"
         },
         {
           "type": "text",
-          "text": "Team 1 intro. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit."
+          "text": "NFC North revolving door: The Lions leap atop the division in Week 14, beating Green Bay, 23-20, but it’s short-lived. The Vikings regain the lead on Dalvin Cook’s 72 rushing yards in a Week 15 win over Chicago and clinch with a 27-10 win over New Orleans a week later."
         },
         {
           "type": "text",
-          "text": "Team 2 intro. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur aboremp oritati ut laccus, sum fugit pos quae evelesti sus quatium qui volores solendicae."
+          "text": "Down to the wire: Coming out of Week 15, the Texans, Titans and Colts are tied at 7-7 in the AFC South, and wins by Houston and Tennessee in Week 16 set up a winner-take-all matchup in Week 17. Derrick Henry has 89 total yards and a score, but it’s not enough. Deshaun Watson throws for 244 yards and a pair of scores in a 27-20 win."
         },
         {
           "type": "image",
@@ -519,11 +515,11 @@
         },
         {
           "type": "text",
-          "text": "Team 3 intro. Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit, veles et quiat ut mod estem volupta cuptiosam inctatium eaqui accus ullab. Is modignima essitatia dit as dolupide eatquiatem estiber ionempo remporibus ex escient, etur, volor mo con con ni occae."
+          "text": "Byes up for grabs: Out of nowhere, Baltimore takes the AFC’s No. 1 seed from Pittsburgh and Kansas City in Week 17 behind Lamar Jackson’s three total scores in a win over Cincinnati. And despite the Rams being up a game entering the final week in the NFC, San Francisco’s tiebreaker and win over the Seahawks combines with the Rams’ 27-3 implosion against the Cardinals to allow the Niners to sit out wild-card weekend."
         },
         {
           "type": "text",
-          "text": "Team 4 intro. Nam es dolupta re rem doluptatur? Ipis conse saped eos verferum hita comnis eos doloressi tem voluptas , veles et quiat ut mod estem volupta, veles et quiat ut mod estem volupta."
+          "text": "Lawrence to Jacksonville? The Jaguars earned the No. 1 pick with a 3-13 record, edging out the 3-12-1 Panthers. Trevor Lawrence looks to be headed to Florida."
         }
       ],
       "performers": [
@@ -534,29 +530,29 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
+          "firstName": "Matt",
+          "lastName": "Ryan",
+          "team": "ATL",
+          "number": "1,564",
           "description": "Passings YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
-          "description": "Passings YDS"
+          "firstName": "Derrick",
+          "lastName": "Henry",
+          "team": "TEN",
+          "number": 418,
+          "description": "Rushing YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/headshot.jpg",
-          "firstName": "Playername",
-          "lastName": "Teekay",
-          "team": "TEA",
-          "number": 140,
-          "description": "Passings YDS"
+          "firstName": "Michael",
+          "lastName": "Thomas",
+          "team": "NO",
+          "number": 432,
+          "description": "Receiving YDS"
         }
       ],
       "tables": [
@@ -919,7 +915,7 @@
         "desktop-placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x400.png"
       },
       "introduction": [
-        "Introductory setup here, 50 words. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur"
+        "The expanded playoffs gives us some fun opening weekend matchups, including Rams-Saints, Cowboys-Eagles and Buccaneers-Falcons. Looking ahead, could the Ravens take the AFC crown from Kansas City? Will Tom Brady win No. 7? Can Buffalo or Minnesota finally win the big game?"
       ],
       "stickyBits": [
         {
@@ -932,7 +928,7 @@
           "hasFirstTie": false,
           "isChampionship": true,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/playoffs_round.jpg",
-          "text": "Playoffs: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "Expanded playoffs give us 14 teams contending. New England, Green Bay, Seattle and Tennessee are the only teams not returning from the 2019 playoffs. The field includes the top seven offenses -- led by Baltimore (459 points) and San Francisco (457) – and four of the top five defenses – topped by Baltimore and Philadelphia (256 points against, each)."
         },
         {
           "header": "WC Round",
@@ -944,7 +940,7 @@
           "hasFirstTie": false,
           "isChampionship": true,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/wc_round.jpg",
-          "text": "WC: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "The 9-7 Texans stun the 12-win Steelers, as Bill O’Brien answers his critics. New Orleans gets playoff revenge: a conclusive 23-10 win over the Rams featuring seven catches from Michael Thomas and no controversial pass interference call. And Dak Prescott’s 271 passing yards and Ezekiel Elliott’s 80 on the ground help Dallas over Philadelphia."
         },
         {
           "header": "Division Round",
@@ -956,7 +952,7 @@
           "hasFirstTie": false,
           "isChampionship": true,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_round.jpg",
-          "text": "Division: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "Tom Brady is headed to the NFC Championship with a 264-yard, 3-TD win over the Saints, the Niners are gone after the Cowboys dropped 39 on their defense, Patrick Mahomes dismisses the Bills with a 27-7 blowout and the Ravens defense takes care of business against Houston."
         },
         {
           "header": "Championship Round",
@@ -968,14 +964,14 @@
           "hasFirstTie": false,
           "isChampionship": true,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/champ_round.jpg",
-          "text": "Championship: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
+          "text": "Down goes Brady! A 330-passing-yard day from Brady wasn’t enough to top the efficiency of the Dallas passing attack. In the AFC, the Ravens had Andy Reid on the ropes, holding Patrick Mahomes’ offense to 10 points in three and a half quarters. But the reigning Super Bowl MVP drives late and hits Mecole Hardman for the game-winning touchdown."
         }
       ],
       "isSingleAnalysis": true,
       "analysis": [
         {
           "type": "text",
-          "text": "Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus  rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur aboremp oritati ut laccus, sum fugit pos quae evelesti sus quatium qui volores solendicae. Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit, veles et quiat ut mod estem volupta cuptiosam inctatium eaqui accus ullab. Is modignima essitatia dit as dolupide eatquiatem estiber ionempo remporibus ex escient, etur, volor mo con con ni occae."
+          "text": "We got a Lamar Jackson-Patrick Mahomes playoff showdown, and it didn’t disappoint. But Jackson will need to wait another year to reach the Super Bowl, as Andy Reid is piecing together quite a run in Kansas City early in Mahomes’ career. And while we won’t see Tom Brady and Rob Gronkowski win it all in a non-Pats uniform, you have to tip your cap to the impressive run out of a wild-card spot from Dallas. Cowboys coach Mike McCarthy gets reputation rehabilitation after a sour ending in Green Bay, and Dak Prescott’s bet on himself is going to pay out … huge."
         }
       ]
     },
@@ -989,7 +985,7 @@
       },
       "isSuperbowl": true,
       "introduction": [
-        "50–75 words here. Nam es doluptatur, emodiorit Nam es doluptatur, ad est, vent, nienduc iendusdae dit verum que eat laborib erspernat ea volorerferem arcipsandem quiasit. Enihitia eum dus rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur. Enihitia eum dus rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur. Enihitia eum dus. Rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur. Enihitia eum dus rporiss itemodiorit assim experum enimaxim estiis etur rerunt enihitia eum dus sinietur."
+        "It’s a repeat! The Chiefs blow out the Cowboys in a lopsided Super Bowl, 42-17, and it’s time to talk full-on dynasty in Kansas City. Mahomes drops four touchdowns and, to no one’s surprise, wins Super Bowl MVP again. The Cowboys’ offense sputters out in the end, and Ezekiel Elliott is held under 50 rushing yards after Dallas falls behind quickly. Andy Reid, once thought of as a coach that couldn’t win the big one, has secured his place as one of the greats in NFL history."
       ]
     }
   ]
