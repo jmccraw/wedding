@@ -18,4 +18,8 @@
   letter-spacing: 0.62px;
   line-height: 1;
   margin-left: 12px;
+
+  @include screen-from(mobile-up) {
+    margin-left: 16px;
+  }
 }

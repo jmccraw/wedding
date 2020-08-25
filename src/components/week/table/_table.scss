@@ -26,6 +26,10 @@
     background-color: $black;
     border-radius: 0;
   }
+
+  @include screen-from(mobile-up) {
+    width: calc(100% - 32px);
+  }
 }
 
 .fpi-tables__hed {

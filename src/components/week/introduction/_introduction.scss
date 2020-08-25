@@ -9,4 +9,9 @@
   &:last-of-type {
     margin-bottom: 2px;
   }
+
+  @include screen-from(mobile-up) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
