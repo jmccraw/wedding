@@ -1,6 +1,10 @@
+// Vars, Resets, Mixins, Overrides
 @import './styles/vars';
+@import './styles/mixins';
 @import './styles/reset';
 @import './styles/overrides';
+
+// Component Styles
 @import './components/main/main';
 @import './components/opener/opener';
 @import './components/sticky-header/sticky-header';
