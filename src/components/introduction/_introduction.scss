@@ -8,6 +8,12 @@
   padding: 40px 8px 40px;
   position: relative;
 
+  @include screen-from(mobile-up) {
+    padding-bottom: 19px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .body-text.serif {
     color: $dark-gray;
     margin: 0 auto 20px;
