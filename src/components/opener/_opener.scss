@@ -115,6 +115,11 @@
     padding-right: 16px;
   }
 
+  @media screen and (max-width: 624px) {
+    font-size: 52px;
+    line-height: 0.81;
+  }
+
   @media screen and (min-width: 625px) {
     margin-bottom: 9px;
     max-width: 450px;
