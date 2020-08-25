@@ -17,6 +17,10 @@
     padding-bottom: 11px;
   }
 
+  @include screen-from(mobile-up) {
+    width: calc(100% - 32px);
+  }
+
   .body-text.serif {
     color: $dark-gray;
     margin-top: 0;
@@ -41,5 +45,10 @@
   &.is-lazy {
     filter: blur(3px);
     opacity: 0.25;
+  }
+
+  @include screen-from(mobile-up) {
+    margin-left: -16px;
+    width: calc(100% + 32px);
   }
 }

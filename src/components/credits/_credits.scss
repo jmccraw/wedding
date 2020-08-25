@@ -21,4 +21,8 @@
     border-top: 1px solid $medium-gray;
     padding-top: 41px;
   }
+
+  @include screen-from(mobile-up) {
+    width: calc(100% - 32px);
+  }
 }
