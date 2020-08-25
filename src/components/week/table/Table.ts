@@ -42,14 +42,15 @@ class Table {
     self._tables.forEach( ( _table: Element ) => {
       self.timeline.from( _table, 0.25, {
         opacity: 0,
-        y: 15
+        y: 15,
+        delay: 0.1
       } );
     } );
 
     window.ScrollTrigger.create( {
       animation: self.timeline,
       trigger: self._el,
-      start: 'top center',
+      start: 'top bottom',
       end: 'bottom bottom',
       once: true,
       scrub: false,
