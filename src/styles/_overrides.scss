@@ -13,19 +13,20 @@
   top: 0 !important; // To override styles
 }
 
-a {
+.fpi-introduction a,
+.fpi-week a {
   border-bottom: 1px dashed $blue;
   color: $blue;
   text-decoration: none;
   transition: border-bottom 0.25s ease-in-out;
 
-  a:hover {
+  &:hover {
     @include screen-from(tablet) {
       border-bottom: 1px solid $blue;
     }
   }
 
-  a:active {
+  &:active {
     border-bottom: 1px solid $blue;
   }
 }
