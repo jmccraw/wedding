@@ -67,7 +67,7 @@
           "hasTie": false,
           "hasBye": false,
           "hasLeader": true,
-          "hasFirstTie": false,
+          "hasFirstTie": true,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week4.jpg",
           "text": "Week 4 Division Leader: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
@@ -204,7 +204,7 @@
           "hasTie": false,
           "hasBye": false,
           "hasLeader": true,
-          "hasFirstTie": false,
+          "hasFirstTie": true,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week8.jpg",
           "text": "Week 8 Division Leader: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
@@ -490,7 +490,7 @@
           "hasTie": false,
           "hasBye": false,
           "hasLeader": true,
-          "hasFirstTie": false,
+          "hasFirstTie": true,
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week17.jpg",
           "text": "Week 17 Division Leader: Some tk  words here, about 25-50 in total The scrolly element would go through 4 graphics showing win/losses, and a final graphic showing division leaders."
