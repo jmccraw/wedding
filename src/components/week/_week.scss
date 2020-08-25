@@ -3,7 +3,15 @@
  */
 .fpi-week {
   background-color: $white;
+  margin: 0 auto;
+  max-width: 680px;
   position: relative;
+}
+
+.fpi-week.is-superbowl {
+  @include screen-from(tablet) {
+    max-width: none;
+  }
 }
 
 @import './header/header';

@@ -50,7 +50,7 @@
   justify-content: center;
   position: relative;
 
-  @media screen and (min-width: 768px) {
+  @include screen-from(desktop) {
     display: flex;
   }
 }
@@ -71,7 +71,7 @@
 
 .fpi-sticky-twitter-button:hover svg path,
 .fpi-sticky-facebook-button:hover svg path {
-  @media screen and (min-width: 768px) {
+  @includes screen-from(tablet) {
     fill: $blue;
   }
 }

@@ -29,4 +29,9 @@
   @include screen-from(mobile-max) {
     width: calc(100% - 48px);
   }
+
+  @include screen-from(tablet) {
+    max-width: 600px;
+    width: 100%;
+  }
 }
