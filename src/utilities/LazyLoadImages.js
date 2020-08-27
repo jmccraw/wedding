@@ -11,6 +11,7 @@ export function setLazyPictures( _els ) {
 
 /**
  * Loads all of the images as a fallback for older browsers
+ * TODO FIXME Would be better to base this off a scroll
  */
 function loadImagesFallback() {
   _lazyPictures.forEach( ( _lazyPicture ) => {
@@ -40,6 +41,47 @@ function checkForLazyLoadImages( observersArray ) {
   } );
 }
 
+/**
+ * Load the lazy image
+ */
+function loadImage( _image, st ) {
+}
+
+/**
+ * Checks for lazy images loading in
+ */
+function checkForLazyImages() {
+
+  // Modified from https://codepen.io/GreenSock/pen/OJMaEOP
+  window.ScrollTrigger.config( { limitCallbacks: true } );
+
+  window.gsap.utils.toArray( _lazyPictures ).forEach( ( _image ) => {
+    let newSrc = _image.dataset.src;
+    let _newImage = document.createElement("img");
+
+    let loadImage = () => {
+      _newImage.onload = () => {
+
+        // Avoid recursion
+        _newImage.onload = null;
+        _image.setAttribute( 'src', newSrc );
+        _image.classList.remove( 'is-lazy' );
+        st && st.kill();
+      }
+      _newImage.setAttribute( 'src', newSrc );
+    };
+
+    let st = ScrollTrigger.create( {
+      trigger: _image,
+      start: '-50% bottom',
+      onEnter: loadImage,
+
+      // Make sure it works in either direction
+      onEnterBack: loadImage
+    } );
+  } );
+}
+
 export function watchForLazyImages() {
 
   // Shim for forEach on NodeLists
@@ -52,6 +94,11 @@ export function watchForLazyImages() {
     }, 3500 );
   }
 
+checkForLazyImages();
+
+
+/*
+
   // Checks if the browser supports the IntersectionObserver and uses that, else,
   // just loads all the images and hides the Tallies
   // Modified from: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
@@ -63,4 +110,6 @@ export function watchForLazyImages() {
   } else {
     loadImagesFallback();
   }
+
+  */
 }
