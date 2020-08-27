@@ -53,7 +53,7 @@ function loadImage( _image, st ) {
 function checkForLazyImages() {
 
   // Modified from https://codepen.io/GreenSock/pen/OJMaEOP
-  window.ScrollTrigger.config( { limitCallbacks: true } );
+  // const lazyImageScrollTrigger = new window.ScrollTrigger.config( { limitCallbacks: true } );
 
   window.gsap.utils.toArray( _lazyPictures ).forEach( ( _image ) => {
     let newSrc = _image.dataset.src;
@@ -67,11 +67,17 @@ function checkForLazyImages() {
         _image.setAttribute( 'src', newSrc );
         _image.classList.remove( 'is-lazy' );
         st && st.kill();
+
+        // If this is the first time coming into the FPI Week container, then refresh the ScrollTrigger points
+        if ( _image.classList.contains( 'fpi-week__opener-image' ) && ! _image.parentElement.classList.contains( 'is-refreshed' ) ) {
+          _image.parentElement.classList.add( 'is-refreshed' );
+          window.ScrollTrigger.refresh();
+        }
       }
       _newImage.setAttribute( 'src', newSrc );
     };
 
-    let st = ScrollTrigger.create( {
+    let st = window.ScrollTrigger.create( {
       trigger: _image,
       start: '-50% bottom',
       onEnter: loadImage,
