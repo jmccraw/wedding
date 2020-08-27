@@ -49,7 +49,7 @@ class Performer {
     window.ScrollTrigger.create( {
       animation: self.timeline,
       trigger: self._el,
-      start: 'top center',
+      start: 'top +75%',
       end: 'bottom bottom',
       once: true,
       scrub: false,
