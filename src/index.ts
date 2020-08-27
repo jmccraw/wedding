@@ -15,6 +15,9 @@ const App = () => {
   initWeek();
   initRelatedStories();
   initImageHelper();
+
+  // Refresh the ScrollTrigger so it adjusts start/end positions properly
+  window.ScrollTrigger.refresh();
 };
 
 declare global {
