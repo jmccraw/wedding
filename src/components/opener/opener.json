@@ -5,19 +5,19 @@
   "images": [
     {
       "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/brady_full.png",
-      "x-offset": -15
+      "xOffset": -15
     },
     {
       "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/mahomes_full.png",
-      "x-offset": -15
+      "xOffset": -15
     },
     {
       "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/zeke_full.png",
-      "x-offset": 15
+      "xOffset": 15
     },
     {
       "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/watt_full.png",
-      "x-offset": 15
+      "xOffset": 15
     }
   ]
 }
