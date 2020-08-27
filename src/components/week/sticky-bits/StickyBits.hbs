@@ -2,7 +2,7 @@
   <div class="sticky-bits__figure-container">
     {{#each stickyBits}}
     <figure class="sticky-bits__graphic-container is-{{@index}}">
-      <img class="sticky-bits__graphic-image" src="{{this.image}}" />
+      <img class="sticky-bits__graphic-image is-lazy" src="{{this.placeholder}}" data-src="{{this.image}}" />
       <figcaption class="sticky-bits__graphic-caption{{#if this.isChampionship}} is-championship{{/if}}">
         {{#if this.header}}
         <p class="sticky-bits__graphic-hed">{{{this.header}}}</p>
