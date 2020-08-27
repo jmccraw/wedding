@@ -52,7 +52,7 @@ class StickyBit {
       end: 'bottom bottom', // `+=${( self.graphicLength - 1 ) * 100}%`,
       scrub: true,
       pin: self._graphicsContainer,
-      markers: true,
+      markers: false,
       anticipatePin: 1
     } );
   }

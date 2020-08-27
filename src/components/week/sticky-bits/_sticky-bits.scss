@@ -51,9 +51,18 @@
 }
 
 .sticky-bits__graphic-image {
+  filter: none;
   height: auto;
+  opacity: 1;
   order: 2;
+  transition: filter 0.25s ease-in-out,
+    opacity 0.25s ease-in-out;
   width: 100%;
+
+  &.is-lazy {
+    filter: blur(3px);
+    opacity: 0.25;
+  }
 
   @include screen-from(tablet) {
     height: 580px;
