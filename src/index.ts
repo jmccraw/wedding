@@ -17,7 +17,9 @@ const App = () => {
   initImageHelper();
 
   // Refresh the ScrollTrigger so it adjusts start/end positions properly
-  window.ScrollTrigger.refresh();
+  window.setTimeout( () => {
+    window.ScrollTrigger.refresh();
+  }, 1000 );
 };
 
 declare global {
