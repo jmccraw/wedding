@@ -51,17 +51,17 @@ function playOpenerSequence() {
       duration: 0.25,
       opacity: 1,
       y: 0
-    } )
+    }, '-=0.75' )
     .to( _openerDek, {
       duration: 0.25,
       opacity: 1,
       y: 0
-    } )
+    }, '-=0.5' )
     .to( _openerJumpButton, {
       duration: 0.25,
       opacity: 1,
       y: 0
-    } );
+    }, '-=0.25' );
 }
 
 /**
