@@ -29,6 +29,7 @@
 .fpi-sticky-logo svg {
   height: auto;
   margin-top: 16px;
+  transition: opacity 0.25s ease-in-out;
   width: 70px;
 
   @media screen and (min-width: 617px) {
@@ -36,12 +37,8 @@
   }
 }
 
-.fpi-sticky-logo svg g {
-  transition: fill 0.25s ease-in-out;
-}
-
-.fpi-sticky-logo:hover svg g {
-  fill: $blue;
+.fpi-sticky-logo:hover svg {
+  opacity: 0.75;
 }
 
 .fpi-sticky-social-container {
@@ -64,14 +61,12 @@
   padding-top: 5px;
   touch-action: manipulation;
 
-  svg path {
-    transition: fill 0.25s ease-in-out;
+  svg {
+    transition: opacity 0.25s ease-in-out;
   }
 }
 
-.fpi-sticky-twitter-button:hover svg path,
-.fpi-sticky-facebook-button:hover svg path {
-  @includes screen-from(tablet) {
-    fill: $blue;
-  }
+.fpi-sticky-twitter-button:hover svg,
+.fpi-sticky-facebook-button:hover svg {
+  opacity: 0.75;
 }
