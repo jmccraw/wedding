@@ -1,5 +1,6 @@
 <header class="fpi-opener">
   <figure class="fpi-opener__figure">
+    <img class="fpi-opener__background-image" src="{{opener.background}}" />
     {{#each opener.images}}
     <img class="fpi-opener__image is-{{@index}}" src="{{this.src}}" data-x-offset="{{this.xOffset}}" />
     {{/each}}
