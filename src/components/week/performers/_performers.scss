@@ -3,7 +3,7 @@
  */
 .fpi-performers {
   background-color: $white;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   padding-left: 8px;
   padding-right: 8px;
   position: relative;
@@ -19,7 +19,7 @@
   }
 
   @include screen-from(tablet) {
-    padding-bottom: 15px;
+    padding-bottom: 37px;
     padding-top: 12px;
   }
 }
@@ -86,7 +86,7 @@
   color: $blue;
   display: block;
   font: 700 80px/0.38 $tungsten;
-  letter-spacing: 2.66px;
+  letter-spacing: 1px;
   margin-bottom: 22px;
 }
 
