@@ -219,7 +219,7 @@
           "isChampionship": false,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week8.jpg",
           "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
-          "text": "The Saints and 49ers were the favorites in the NFC entering the season, but neither lead their respective divisions. The 6-2 Falcons hum atop the NFC South, as Atlanta is fourth in both points scored and points allowed. And the Rams&rsquo; renewed offensive touch has them on top in the NFC West."
+          "text": "The Saints and 49ers were the favorites in the NFC, but neither lead their respective divisions. The 6-2 Falcons hum atop the NFC South, as Atlanta is fourth in both points scored and points allowed. And the Rams&rsquo; renewed offensive touch has them on top in the NFC West."
         }
       ],
       "analysis": [
@@ -1000,7 +1000,7 @@
           "isChampionship": true,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/playoffs_round.jpg",
           "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
-          "text": "Expanded playoffs give us 14 teams contending. New England, Green Bay, Seattle and Tennessee are the only teams not returning from the 2019 playoffs. The field includes the top seven offenses &mdash; led by Baltimore (459 points) and San Francisco (457) &mdash; and four of the top five defenses &mdash; topped by Baltimore and Philadelphia (256 points against, each)."
+          "text": "Expanded playoffs give us 14 teams contending. The field includes the top seven offenses &mdash; led by Baltimore (459 points) and San Francisco (457) &mdash; and four of the top five defenses &mdash; topped by Baltimore and Philadelphia (256 points against, each)."
         },
         {
           "header": "WC Round",
@@ -1013,7 +1013,7 @@
           "isChampionship": true,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/wc_round.jpg",
           "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
-          "text": "The 9-7 Texans stun the 12-win Steelers, as Bill O&rsquo;Brien answers his critics. New Orleans gets playoff revenge: a decisive 23-10 win over the Rams featuring seven catches from Michael Thomas and no controversial pass interference call. And Dak Prescott&rsquo;s 271 passing yards and Ezekiel Elliott&rsquo;s 80 on the ground help Dallas over Philadelphia."
+          "text": "The 9-7 Texans stun the 12-win Steelers, as Bill O&rsquo;Brien answers his critics. New Orleans gets playoff revenge: a decisive 23-10 win over the Rams featuring seven catches from Michael Thomas. And Dak Prescott&rsquo;s 271 passing yards help Dallas over Philadelphia."
         },
         {
           "header": "Divisional Round",
@@ -1026,7 +1026,7 @@
           "isChampionship": true,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_round.jpg",
           "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
-          "text": "Tom Brady is headed to the NFC Championship Game after a 264-yard, 3-TD win over the Saints, the Niners are gone after the Cowboys dropped 39 on their defense, Patrick Mahomes dismisses the Bills with a 27-7 blowout and the Ravens&rsquo; defense takes care of business against Houston."
+          "text": "Tom Brady is headed to the NFC Championship Game after a 264-yard, 3-TD win over the Saints, the Niners are gone after the Cowboys dropped 39 on their defense and Patrick Mahomes dismisses the Bills with a 27-7 blowout."
         },
         {
           "header": "Championship Round",
@@ -1039,7 +1039,7 @@
           "isChampionship": true,
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/champ_round.jpg",
           "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
-          "text": "Down goes Brady! A 330-passing-yard day from Brady wasn&rsquo;t enough to top the efficiency of the Dallas passing attack. In the AFC, the Ravens had Andy Reid on the ropes, holding Patrick Mahomes&rsquo; offense to 10 points in three and a half quarters. But the reigning Super Bowl MVP drives late and hits Mecole Hardman for the game-winning touchdown."
+          "text": "Down goes Brady! A 330-passing-yard day from Brady wasn&rsquo;t enough to top the efficiency of the Dallas passing attack. In the AFC, the Ravens held Patrick Mahomes&rsquo; offense to 10 points in three and a half quarters. But a late drive leads to a Mecole Hardman game-winning touchdown."
         }
       ],
       "isSingleAnalysis": true,
