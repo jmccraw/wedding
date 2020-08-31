@@ -82,15 +82,15 @@
       "analysis": [
         {
           "type": "subhead",
-          "text": "Week 1&ndash;4 Team Trends"
+          "text": "What we saw in Weeks 1&ndash;4"
         },
         {
           "type": "text",
-          "text": "Big Week 1 debuts: Behind one of the best offensive lines in the NFL, Philip Rivers gets his first W as a Colt. And while Tom Brady couldn&rsquo;t best the Saints, his replacement in New England &mdash; Cam Newton &mdash; survives an iffy Pats defensive showing to defeat the Dolphins. But perhaps the most unlikely debut winner is April&rsquo;s top pick. Joe Burrow leads the Bengals to a 26-17 win over the Chargers. Not a bad start."
+          "text": "<strong>Big Week 1 debuts:</strong> Behind one of the best offensive lines in the NFL, Philip Rivers gets his first W as a Colt. And while Tom Brady couldn&rsquo;t best the Saints, his replacement in New England &mdash; Cam Newton &mdash; survives an iffy Pats defensive showing to defeat the Dolphins. But perhaps the most unlikely debut winner is April&rsquo;s top pick. Joe Burrow leads the Bengals to a 26-17 win over the Chargers. Not a bad start."
         },
         {
           "type": "text",
-          "text": "Chiefs are here to stay: The unofficial Game of the Year comes down to the wire. Mahomes finds Travis Kelce for the fourth-quarter go-ahead TD on Monday Night Football in Week 3, as K.C. beats Baltimore 27-24. A week later, the Chiefs handle the Patriots 38-28."
+          "text": "<strong>Chiefs are here to stay:</strong> The unofficial Game of the Year comes down to the wire. Mahomes finds Travis Kelce for the fourth-quarter go-ahead TD on Monday Night Football in Week 3, as K.C. beats Baltimore 27-24. A week later, the Chiefs handle the Patriots 38-28."
         },
         {
           "type": "image",
@@ -102,11 +102,11 @@
         },
         {
           "type": "text",
-          "text": "A new AFC East: Josh Allen is already clicking with Stefon Diggs. The Bills cruised past the Jets, Dolphins, Rams and Raiders while outscoring them 105-61. Is it Buffalo&rsquo;s turn to take the division?"
+          "text": "<strong>A new AFC East:</strong> Josh Allen is already clicking with Stefon Diggs. The Bills cruised past the Jets, Dolphins, Rams and Raiders while outscoring them 105-61. Is it Buffalo&rsquo;s turn to take the division?"
         },
         {
           "type": "text",
-          "text": "Steelers are back: Having Ben Roethlisberger back goes a long way. His arm &mdash; and a great Pittsburgh defense &mdash; has the Steelers at 4-0."
+          "text": "<strong>Steelers are back:</strong> Having Ben Roethlisberger back goes a long way. His arm &mdash; and a great Pittsburgh defense &mdash; has the Steelers at 4-0."
         }
       ],
       "performers": [
@@ -225,11 +225,11 @@
       "analysis": [
         {
           "type": "subhead",
-          "text": "Week 5&ndash;8 Team Trends"
+          "text": "What we saw in Weeks 5&ndash;8"
         },
         {
           "type": "text",
-          "text": "Panic in Foxborough? The Cam Newton experiment isn&rsquo;t working out as intended, as the Patriots fall to 2-5. The last time coach Bill Belichick started a season that poorly: 2000, his first season with the Pats. To add insult to injury, the fifth loss comes at the hands of Josh Allen and the 7-1 Bills, who have completely taken control of the AFC East."
+          "text": "<strong>Panic in Foxborough?</strong> The Cam Newton experiment isn&rsquo;t working out as intended, as the Patriots fall to 2-5. The last time coach Bill Belichick started a season that poorly: 2000, his first season with the Pats. To add insult to injury, the fifth loss comes at the hands of Josh Allen and the 7-1 Bills, who have completely taken control of the AFC East."
         },
         {
           "type": "image",
@@ -241,11 +241,11 @@
         },
         {
           "type": "text",
-          "text": "Eagles survive an NFC East hiccup: At 5-1, the Eagles might have already been looking past their Week 7 meeting with the one-win Giants. And it shows. Daniel Jones throws for 234 yards and Saquon Barkley finds the end zone in a 30-28 Giants win. But the Eagles bounce back in Week 8, decisively defeating the Cowboys 30-14 and taking a two-game lead in the NFC East."
+          "text": "<strong>Eagles survive an NFC East hiccup:</strong> At 5-1, the Eagles might have already been looking past their Week 7 meeting with the one-win Giants. And it shows. Daniel Jones throws for 234 yards and Saquon Barkley finds the end zone in a 30-28 Giants win. But the Eagles bounce back in Week 8, decisively defeating the Cowboys 30-14 and taking a two-game lead in the NFC East."
         },
         {
           "type": "text",
-          "text": "Packers beat Vikings for tie atop division: In another huge divisional Week 8 showdown, Aaron Rodgers leads a narrow Packers victory at Lambeau Field to draw even with Minnesota at 5-2 in the NFC North. The Lions lurk right behind at 4-3."
+          "text": "<strong>Packers beat Vikings for tie atop division:</strong> In another huge divisional Week 8 showdown, Aaron Rodgers leads a narrow Packers victory at Lambeau Field to draw even with Minnesota at 5-2 in the NFC North. The Lions lurk right behind at 4-3."
         }
       ],
       "performers": [
@@ -325,7 +325,7 @@
           "header": "Week 11",
           "hasWin": true,
           "hasLoss": true,
-          "hasTie": false,
+          "hasTie": true,
           "hasBye": true,
           "hasLeader": false,
           "hasFirstTie": false,
@@ -364,15 +364,15 @@
       "analysis": [
         {
           "type": "subhead",
-          "text": "Week 9&ndash;12 Team Trends"
+          "text": "What we saw in Weeks 9&ndash;12"
         },
         {
           "type": "text",
-          "text": "More of the same in Cleveland: With a 2-6 record and the NFL&rsquo;s fewest points scored coming out of the Week 9 bye, Kevin Stefanski makes a bold move and sits Baker Mayfield for Case Keenum. Even if Keenum offers a boost, it&rsquo;s looking gloomy in Cleveland again."
+          "text": "<strong>Who will take the NFC West?</strong> Coach Sean McVay&rsquo;s Rams narrowly edged the Seahawks and Buccaneers in Weeks 10 and 11, but the Niners aren&rsquo;t going anywhere. San Francisco&rsquo;s 40-32 win over L.A. in Week 12 keeps it a one-game race out west."
         },
         {
           "type": "text",
-          "text": "Who will take the NFC West? Coach Sean McVay&rsquo;s Rams narrowly edged the Seahawks and Buccaneers in Weeks 10 and 11, but the Niners aren&rsquo;t going anywhere. San Francisco&rsquo;s 40-32 win over L.A. in Week 12 keeps it a one-game race out west."
+          "text": "<strong>More of the same in Cleveland:</strong> With a 2-6 record and the NFL&rsquo;s fewest points scored coming out of the Week 9 bye, Kevin Stefanski makes a bold move and sits Baker Mayfield for Case Keenum. Even if Keenum offers a boost, it&rsquo;s looking gloomy in Cleveland again."
         },
         {
           "type": "image",
@@ -384,11 +384,11 @@
         },
         {
           "type": "text",
-          "text": "QB moves for Trevor Lawrence: Both the Panthers and Jaguars, each with just two wins, turn to their backup quarterbacks. Matt Rhule benches Teddy Bridgewater in favor of former XFL star P.J. Walker, while Doug Marrone calls on Mike Glennon with Gardner Minshew struggling. But the QB each team really wants is the prize of the 2021 draft class, Clemson&rsquo;s Lawrence."
+          "text": "<strong>QB moves for Trevor Lawrence:</strong> Both the Panthers and Jaguars, each with just two wins, turn to their backup quarterbacks. Matt Rhule benches Teddy Bridgewater in favor of former XFL star P.J. Walker, while Doug Marrone calls on Mike Glennon with Gardner Minshew struggling. But the QB each team really wants is the prize of the 2021 draft class, Clemson&rsquo;s Lawrence."
         },
         {
           "type": "text",
-          "text": "Bills&rsquo; AFC East runaway: Buffalo (8-3) appears destined to win its first AFC East title since 1995, as the Patriots and Jets sit tied for second (4-7). In New England, Bill Belichick gives the offense to Jarrett Stidham to mix things up."
+          "text": "<strong>Bills&rsquo; AFC East runaway:</strong> Buffalo (8-3) appears destined to win its first AFC East title since 1995, as the Patriots and Jets sit tied for second (4-7). In New England, Bill Belichick gives the offense to Jarrett Stidham to mix things up."
         }
       ],
       "performers": [
@@ -520,15 +520,15 @@
       "analysis": [
         {
           "type": "subhead",
-          "text": "Week 13&ndash;17 Team Trends"
+          "text": "What we saw in Weeks 13&ndash;17"
         },
         {
           "type": "text",
-          "text": "NFC North revolving door: The Lions leap atop the division in Week 14, beating Green Bay 23-20, but it&rsquo;s short-lived. The Vikings regain the lead on Dalvin Cook&rsquo;s 72 rushing yards in a Week 15 win over Chicago and clinch with a 27-10 win over New Orleans a week later."
+          "text": "<strong>NFC North revolving door:</strong> The Lions leap atop the division in Week 14, beating Green Bay 23-20, but it&rsquo;s short-lived. The Vikings regain the lead on Dalvin Cook&rsquo;s 72 rushing yards in a Week 15 win over Chicago and clinch with a 27-10 win over New Orleans a week later."
         },
         {
           "type": "text",
-          "text": "Down to the wire: Coming out of Week 15, the Texans, Titans and Colts are tied at 7-7 in the AFC South, and wins by Houston and Tennessee in Week 16 set up a winner-take-all matchup in Week 17. Derrick Henry has 89 total yards and a score, but it&rsquo;s not enough. Deshaun Watson throws for 244 yards and a pair of scores in a 27-20 win."
+          "text": "<strong>Down to the wire:</strong> Coming out of Week 15, the Texans, Titans and Colts are tied at 7-7 in the AFC South, and wins by Houston and Tennessee in Week 16 set up a winner-take-all matchup in Week 17. Derrick Henry has 89 total yards and a score, but it&rsquo;s not enough. Deshaun Watson throws for 244 yards and a pair of scores in a 27-20 win."
         },
         {
           "type": "image",
@@ -540,11 +540,11 @@
         },
         {
           "type": "text",
-          "text": "Byes up for grabs: Out of nowhere, Baltimore takes the AFC&rsquo;s No. 1 seed from Pittsburgh and Kansas City in Week 17 behind Lamar Jackson&rsquo;s three total scores in a win over Cincinnati. And despite the Rams being up a game entering the final week in the NFC, San Francisco&rsquo;s tiebreaker and win over the Seahawks combines with the Rams&rsquo; 27-3 implosion against the Cardinals to allow the Niners to sit out wild-card weekend."
+          "text": "<strong>Byes up for grabs:</strong> Out of nowhere, Baltimore takes the AFC&rsquo;s No. 1 seed from Pittsburgh and Kansas City in Week 17 behind Lamar Jackson&rsquo;s three total scores in a win over Cincinnati. And despite the Rams being up a game entering the final week in the NFC, San Francisco&rsquo;s tiebreaker and win over the Seahawks combines with the Rams&rsquo; 27-3 implosion against the Cardinals to allow the Niners to sit out wild-card weekend."
         },
         {
           "type": "text",
-          "text": "Lawrence to Jacksonville? The Jaguars earned the No. 1 pick with a 3-13 record, edging out the 3-12-1 Panthers. Trevor Lawrence looks to be headed to Florida."
+          "text": "<strong>Lawrence to Jacksonville?</strong> The Jaguars earned the No. 1 pick with a 3-13 record, edging out the 3-12-1 Panthers. Trevor Lawrence looks to be headed to Florida."
         }
       ],
       "performers": [
@@ -728,19 +728,19 @@
                   "isDraftPick": false
                 },
                 {
-                  "name": "Broncos",
-                  "win": 8,
-                  "loss": 8,
-                  "tie": 0,
-                  "isProjectedPlayoff": false,
-                  "isDraftPick": false
-                },
-                {
                   "name": "Chargers",
                   "win": 8,
                   "loss": 8,
                   "tie": 0,
                   "isProjectedPlayoff": true,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Broncos",
+                  "win": 8,
+                  "loss": 8,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
                   "isDraftPick": false
                 },
                 {
@@ -810,7 +810,7 @@
               ],
               "tbody": [
                 {
-                  "name": "Buccaneers",
+                  "name": "Saints",
                   "win": 10,
                   "loss": 6,
                   "tie": 0,
@@ -818,7 +818,7 @@
                   "isDraftPick": false
                 },
                 {
-                  "name": "Saints",
+                  "name": "Buccaneers",
                   "win": 10,
                   "loss": 6,
                   "tie": 0,
