@@ -38,7 +38,9 @@
 }
 
 .fpi-sticky-logo:hover svg {
-  opacity: 0.75;
+  @include screen-from(desktop) {
+    opacity: 0.75;
+  }
 }
 
 .fpi-sticky-social-container {
