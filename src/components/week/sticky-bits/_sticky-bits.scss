@@ -148,7 +148,12 @@
   width: 100%;
 
   &:last-of-type {
+    box-sizing: content-box;
     padding-bottom: 50vh;
+
+    @include screen-from(tablet) {
+      width: calc(100% - 45px);
+    }
   }
 
   @include screen-from(tablet) {
@@ -169,5 +174,16 @@
   @include screen-from(tablet) {
     background-color: $white;
     filter: none;
+  }
+}
+
+// Override for specific use case
+.fpi-week.is-2 .sticky-bits__graphic-container.is-2 span {
+  @media screen and (max-width: 374px) {
+    padding-right: 3px;
+
+    &:last-child {
+      padding-right: 0;
+    }
   }
 }
