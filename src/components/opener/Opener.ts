@@ -18,8 +18,9 @@ function jumpToIntro() {
   const _target: any = document.querySelector( '.fpi-introduction' );
 
   window.gsap.to( window, {
-    duration: 0.75,
-    ease: 'power2',
+    duration: 0.25,
+    ease: 'power4.out',
+    overwrite: true,
     scrollTo: { y: _target, autoKill: false }
   } );
 
