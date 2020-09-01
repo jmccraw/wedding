@@ -69,6 +69,12 @@
     max-height: calc(55.4vh - 35px);
   }
 
+  @include screen-from(landscape) {
+    margin-bottom: -20px;
+    max-height: calc(42vh - 35px);
+    opacity: 0.75;
+  }
+
   @include screen-from(tablet) {
     max-height: calc(58.6vh - 35px);
   }
@@ -125,12 +131,11 @@
 
 .fpi-opener__image {
   height: 100%;
-  left: 50%;
+  left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
-  transform: translate3d(-50%, 0, 0);
-  width: auto;
+  width: 100%;
 
   &.is-desktop {
     display: block;
@@ -206,7 +211,9 @@
   }
 
   @include screen-from(landscape) {
-    max-width: none;
+    font-size: 52px;
+    line-height: 0.81;
+    max-width: 500px;
   }
 
   @media screen and (min-width: 799px) {
@@ -246,7 +253,9 @@
   }
 
   @include screen-from(landscape) {
-    max-width: 85%;
+    max-width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   @media screen and (min-width: 799px) {
