@@ -21,7 +21,7 @@ function attachEventListeners() {
  * Initialize Main
  */
 export default function init() {
-  setIsMobile( 636 );
+  setIsMobile( 767 );
   attachEventListeners();
   window.setTimeout( () => {
     trackOrientationChange( null, true );
