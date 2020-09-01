@@ -17,8 +17,8 @@ export function setViewportHeightVariableName( newName ) {
 function setCustomViewportHeight() {
   const customVH = window.innerHeight;
 
-  if ( ( oldVH > customVH && oldVH - customVH > 120 )
-    || ( oldVH < customVH && customVH - oldVH > 120 ) ) {
+  if ( ( oldVH > customVH && oldVH - customVH > 90 )
+    || ( oldVH < customVH && customVH - oldVH > 90 ) ) {
     oldVH = customVH;
     document.documentElement.style.setProperty( variableName, `${customVH}px` );
   }
