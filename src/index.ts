@@ -6,6 +6,14 @@ import initWeek from './components/week/Week';
 import initRelatedStories from './components/related-stories/RelatedStories';
 import initImageHelper from './components/image-helper/ImageHelper';
 
+declare global {
+  interface Window {
+    gsap: any;
+    ScrollToPlugin: any;
+    ScrollTrigger: any;
+  }
+}
+
 const App = () => {
   setViewportHeightVariableName( '--fpi-vh' );
   initViewportHeight();
@@ -21,12 +29,5 @@ const App = () => {
   //   window.ScrollTrigger.refresh();
   // }, 1000 );
 };
-
-declare global {
-  interface Window {
-    gsap: any;
-    ScrollTrigger: any;
-  }
-}
 
 document.addEventListener( 'DOMContentLoaded', App, { passive: true } );
