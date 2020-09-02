@@ -34,6 +34,10 @@
   @include screen-from(mobile-max) {
     width: calc(100% - 48px);
   }
+
+  @include screen-from(tablet) {
+    width: calc(100% - 80px);
+  }
 }
 
 .fpi-tables__hed {
@@ -53,6 +57,10 @@
 
   &:last-child {
     margin-bottom: 0;
+  }
+
+  &.is-midseason {
+    padding-bottom: 4px;
   }
 
   @include screen-from(tablet) {
