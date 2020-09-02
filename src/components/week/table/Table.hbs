@@ -4,7 +4,7 @@
   <h3 class="fpi-tables__hed">{{{this.text}}}</h3>
   {{/if}}
   {{#if this.table}}
-  <div class="fpi-table__container">
+  <div class="fpi-table__container{{#if this.isMidseason}} is-midseason{{/if}}">
     {{#each this.table}}
     <table class="fpi-table">
       {{#if this.thead}}
@@ -31,14 +31,16 @@
     </table>
     {{/each}}
     {{/if}}
+    {{#compare this.isMidseason '===' false}}
     <dl class="fpi-table__key">
       <dt class="fpi-table__term is-projected-playoff">Blue Circle</dt>
-      <dd class="fpi-table__definition">Projected playoff spot</dd>
+      <dd class="fpi-table__definition">Made the playoffs</dd>
       {{#compare 0 '===' @index}}
       <dt class="fpi-table__term is-draft-pick">Black Square</dt>
-      <dd class="fpi-table__definition">No. 1 draft pick</dd>
+      <dd class="fpi-table__definition">#1 draft pick</dd>
       {{/compare}}
     </dl>
+    {{/compare}}
   </div>
   {{/each}}
 </article>
