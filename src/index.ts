@@ -23,11 +23,6 @@ const App = () => {
   initWeek();
   initRelatedStories();
   initImageHelper();
-
-  // Refresh the ScrollTrigger so it adjusts start/end positions properly
-  // window.setTimeout( () => {
-  //   window.ScrollTrigger.refresh();
-  // }, 1000 );
 };
 
 document.addEventListener( 'DOMContentLoaded', App, { passive: true } );
