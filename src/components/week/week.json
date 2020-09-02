@@ -12,71 +12,414 @@
       "introduction": [
         "Football is back, and it&rsquo;s off to a wild start. Can anyone take down the defending champion Chiefs? How will Tom Brady and Rob Gronkowski fit in the Tampa Bay offense? Will the Ravens or perhaps even the Bills challenge out of the AFC?"
       ],
-      "stickyBits": [
+      "weeklyWinners": [
         {
-          "header": "Week 1",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week1.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 1 Winners",
+          "table": [
+            {
+              "winner": "Chiefs",
+              "loser": "Texans",
+              "location": "vs.",
+              "score": "35&ndash;7"
+            },
+            {
+              "winner": "Falcons",
+              "loser": "Seahawks",
+              "location": "vs.",
+              "score": "26&ndash;6"
+            },
+            {
+              "winner": "Ravens",
+              "loser": "Browns",
+              "location": "vs.",
+              "score": "24&ndash;10"
+            },
+            {
+              "winner": "Bills",
+              "loser": "Jets",
+              "location": "vs.",
+              "score": "28&ndash;7"
+            },
+            {
+              "winner": "Raiders",
+              "loser": "Panthers",
+              "location": "@",
+              "score": "23&ndash;13"
+            },
+            {
+              "winner": "Bengals",
+              "loser": "Chargers",
+              "location": "vs.",
+              "score": "26&ndash;17"
+            },
+            {
+              "winner": "Lions",
+              "loser": "Bears",
+              "location": "vs.",
+              "score": "17&ndash;16"
+            },
+            {
+              "winner": "Colts",
+              "loser": "Jaguars",
+              "location": "@",
+              "score": "34&ndash;7"
+            },
+            {
+              "winner": "Rams",
+              "loser": "Cowboys",
+              "location": "vs.",
+              "score": "17&ndash;10"
+            },
+            {
+              "winner": "Vikings",
+              "loser": "Packers",
+              "location": "vs.",
+              "score": "16&ndash;8"
+            },
+            {
+              "winner": "Patriots",
+              "loser": "Dolphins",
+              "location": "vs.",
+              "score": "37&ndash;35"
+            },
+            {
+              "winner": "Saints",
+              "loser": "Buccaneers",
+              "location": "vs.",
+              "score": "30&ndash;13"
+            },
+            {
+              "winner": "49ers",
+              "loser": "Cardinals",
+              "location": "vs.",
+              "score": "31&ndash;29"
+            },
+            {
+              "winner": "Eagles",
+              "loser": "Washington",
+              "location": "@",
+              "score": "27&ndash;20"
+            },
+            {
+              "winner": "Broncos",
+              "loser": "Titans",
+              "location": "vs.",
+              "score": "23&ndash;20"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Giants",
+              "location": "@",
+              "score": "41&ndash;17"
+            }
+          ],
           "text": "Patrick Mahomes picks up where he left off, with a 35-7 dismantling of the Texans &mdash; including three touchdown passes &mdash; on national television to open the season. The message is clear: The Chiefs aren&rsquo;t going anywhere."
         },
         {
-          "header": "Week 2",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week2.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 2 Winners",
+          "table": [
+            {
+              "winner": "Browns",
+              "loser": "Bengals",
+              "location": "vs.",
+              "score": "16&ndash;10"
+            },
+            {
+              "winner": "Cardinals",
+              "loser": "Washington",
+              "location": "vs.",
+              "score": "29&ndash;26"
+            },
+            {
+              "winner": "Giants",
+              "loser": "Bears",
+              "location": "@",
+              "score": "23&ndash;20"
+            },
+            {
+              "winner": "Cowboys",
+              "loser": "Falcons",
+              "location": "vs.",
+              "score": "24&ndash;19"
+            },
+            {
+              "winner": "Packers",
+              "loser": "Lions",
+              "location": "vs.",
+              "score": "38&ndash;3"
+            },
+            {
+              "winner": "Texans",
+              "loser": "Ravens",
+              "location": "vs.",
+              "score": "33&ndash;20"
+            },
+            {
+              "winner": "Vikings",
+              "loser": "Colts",
+              "location": "@",
+              "score": "24&ndash;10"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Chargers",
+              "location": "@",
+              "score": "34&ndash;13"
+            },
+            {
+              "winner": "Bills",
+              "loser": "Dolphins",
+              "location": "@",
+              "score": "17&ndash;10"
+            },
+            {
+              "winner": "49ers",
+              "loser": "Jets",
+              "location": "@",
+              "score": "59&ndash;28"
+            },
+            {
+              "winner": "Eagles",
+              "loser": "Rams",
+              "location": "vs.",
+              "score": "26&ndash;10"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Broncos",
+              "location": "vs.",
+              "score": "27&ndash;24"
+            },
+            {
+              "winner": "Seahawks",
+              "loser": "Patriots",
+              "location": "vs.",
+              "score": "31&ndash;25"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Panthers",
+              "location": "vs.",
+              "score": "37&ndash;35"
+            },
+            {
+              "winner": "Titans",
+              "loser": "Jaguars",
+              "location": "vs.",
+              "score": "27&ndash;19"
+            },
+            {
+              "winner": "Saints",
+              "loser": "Raiders",
+              "location": "@",
+              "score": "45&ndash;24"
+            }
+          ],
           "text": "Jimmy Garoppolo throws four touchdown passes &mdash; including the first of rookie Brandon Aiyuk&rsquo;s young career &mdash; as the 49ers run circles around the Jets&rsquo; defense and win 59-28. The Niners could be trouble this season."
         },
         {
-          "header": "Week 3",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week3.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 3 Winners",
+          "table": [
+            {
+              "winner": "Jaguars",
+              "loser": "Dolphins",
+              "location": "vs.",
+              "score": "28&ndash;9"
+            },
+            {
+              "winner": "Lions",
+              "loser": "Cardinals",
+              "location": "@",
+              "score": "16&ndash;15"
+            },
+            {
+              "winner": "Falcons",
+              "loser": "Bears",
+              "location": "vs.",
+              "score": "35&ndash;14"
+            },
+            {
+              "winner": "Bills",
+              "loser": "Rams",
+              "location": "vs.",
+              "score": "34&ndash;20"
+            },
+            {
+              "winner": "Browns",
+              "loser": "Washington",
+              "location": "vs.",
+              "score": "14&ndash;6"
+            },
+            {
+              "winner": "Broncos",
+              "loser": "Buccaneers",
+              "location": "vs.",
+              "score": "20&ndash;17"
+            },
+            {
+              "winner": "Jets",
+              "loser": "Colts",
+              "location": "@",
+              "score": "34&ndash;15"
+            },
+            {
+              "winner": "Chargers",
+              "loser": "Panthers",
+              "location": "vs.",
+              "score": "22&ndash;16"
+            },
+            {
+              "winner": "Vikings",
+              "loser": "Titans",
+              "location": "vs.",
+              "score": "48&ndash;21"
+            },
+            {
+              "winner": "Raiders",
+              "loser": "Patriots",
+              "location": "@",
+              "score": "31&ndash;24"
+            },
+            {
+              "winner": "Packers",
+              "loser": "Saints",
+              "location": "@",
+              "score": "23&ndash;13"
+            },
+            {
+              "winner": "49ers",
+              "loser": "Giants",
+              "location": "@",
+              "score": "30&ndash;20"
+            },
+            {
+              "winner": "Eagles",
+              "loser": "Bengals",
+              "location": "vs.",
+              "score": "32&ndash;27"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Texans",
+              "location": "vs.",
+              "score": "33&ndash;20"
+            },
+            {
+              "winner": "Cowboys",
+              "loser": "Seahawks",
+              "location": "@",
+              "score": "21&ndash;12"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Ravens",
+              "location": "@",
+              "score": "27&ndash;24"
+            }
+          ],
           "text": "After getting blown out by the Saints in Week 1 and narrowly beating the rebuilding Panthers in Week 2, the Tom Brady-led Buccaneers are now beaten by Drew Lock&rsquo;s Broncos 20-17. Is this Tampa Bay team really ready to make the leap into contention? Concern is creeping in."
         },
         {
-          "header": "Week 4",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week4.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 4 Winners",
+          "table": [
+            {
+              "winner": "Jets",
+              "loser": "Broncos",
+              "location": "vs.",
+              "score": "19&ndash;14"
+            },
+            {
+              "winner": "Panthers",
+              "loser": "Cardinals",
+              "location": "vs.",
+              "score": "18&ndash;17"
+            },
+            {
+              "winner": "Bears",
+              "loser": "Colts",
+              "location": "vs.",
+              "score": "20&ndash;16"
+            },
+            {
+              "winner": "Bengals",
+              "loser": "Jaguars",
+              "location": "vs.",
+              "score": "18&ndash;17"
+            },
+            {
+              "winner": "Cowboys",
+              "loser": "Browns",
+              "location": "vs.",
+              "score": "20&ndash;19"
+            },
+            {
+              "winner": "Lions",
+              "loser": "Saints",
+              "location": "vs.",
+              "score": "30&ndash;15"
+            },
+            {
+              "winner": "Vikings",
+              "loser": "Titans",
+              "location": "@",
+              "score": "30&ndash;10"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Patriots",
+              "location": "vs.",
+              "score": "38&ndash;28"
+            },
+            {
+              "winner": "Rams",
+              "loser": "Giants",
+              "location": "vs.",
+              "score": "38&ndash;13"
+            },
+            {
+              "winner": "Bills",
+              "loser": "Raiders",
+              "location": "@",
+              "score": "26&ndash;24"
+            },
+            {
+              "winner": "Seahawks",
+              "loser": "Dolphins",
+              "location": "@",
+              "score": "48&ndash;23"
+            },
+            {
+              "winner": "Eagles",
+              "loser": "49ers",
+              "location": "@",
+              "score": "42&ndash;7"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Chargers",
+              "location": "vs.",
+              "score": "27&ndash;16"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Titans",
+              "location": "@",
+              "score": "31&ndash;21"
+            },
+            {
+              "winner": "Ravens",
+              "loser": "Washington",
+              "location": "@",
+              "score": "27&ndash;7"
+            },
+            {
+              "winner": "Packers",
+              "loser": "Falcons",
+              "location": "vs.",
+              "score": "34&ndash;31"
+            }
+          ],
           "text": "The Eagles&rsquo; statement win over San Francisco has everyone talking, but the Vikings are also quietly 4-0 after a 30-10 toppling of the Texans. Minnesota has 118 points through four games even without Stefon Diggs running routes."
-        },
-        {
-          "header": "Week 4",
-          "hasWin": false,
-          "hasLoss": false,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": true,
-          "hasFirstTie": true,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week4.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
-          "text": "The Bills, Steelers, Chiefs, Eagles and Vikings are all perfect to start the year, while Miami and Washington are still looking for their first wins. What&rsquo;s going on in the AFC South, though? It&rsquo;s a four-way tie for first place … between 1-3 teams."
         }
       ],
       "analysis": [
@@ -155,77 +498,376 @@
       "introduction": [
         "As the division leaders in the AFC South scramble just to get to .500, the NFC North features a battle of the elites. Coming out of Week 4, the Vikings remain undefeated, but the Packers and Lions are both 3-1. A big Minnesota-Green Bay matchup looms in Week 8."
       ],
-      "stickyBits": [
+      "weeklyWinners": [
         {
-          "header": "Week 5",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": true,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week5.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 5 Winners",
+          "table": [
+            {
+              "winner": "Bears",
+              "loser": "Buccaneers",
+              "location": "vs.",
+              "score": "26&ndash;16"
+            },
+            {
+              "winner": "Falcons",
+              "loser": "Panthers",
+              "location": "vs.",
+              "score": "16&ndash;10"
+            },
+            {
+              "winner": "Ravens",
+              "loser": "Bengals",
+              "location": "vs.",
+              "score": "49&ndash;23"
+            },
+            {
+              "winner": "Colts",
+              "loser": "Browns",
+              "location": "@",
+              "score": "27&ndash;20"
+            },
+            {
+              "winner": "Cowboys",
+              "loser": "Giants",
+              "location": "vs.",
+              "score": "30&ndash;15"
+            },
+            {
+              "winner": "Texans",
+              "loser": "Jaguars",
+              "location": "vs.",
+              "score": "28&ndash;21"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Raiders",
+              "location": "vs.",
+              "score": "35&ndash;7"
+            },
+            {
+              "winner": "Patriots",
+              "loser": "Broncos",
+              "location": "vs.",
+              "score": "27&ndash;24"
+            },
+            {
+              "winner": "Cardinals",
+              "loser": "Jets",
+              "location": "@",
+              "score": "27&ndash;20"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Eagles",
+              "location": "vs.",
+              "score": "15&ndash;10"
+            },
+            {
+              "winner": "49ers",
+              "loser": "Dolphins",
+              "location": "vs.",
+              "score": "51&ndash;17"
+            },
+            {
+              "winner": "Vikings",
+              "loser": "Seahawks",
+              "location": "@",
+              "score": "24&ndash;17"
+            },
+            {
+              "winner": "Titans",
+              "loser": "Bills",
+              "location": "vs.",
+              "score": "40&ndash;11"
+            },
+            {
+              "winner": "Rams",
+              "loser": "Washington",
+              "location": "@",
+              "score": "27&ndash;10"
+            },
+            {
+              "winner": "Saints",
+              "loser": "Chargers",
+              "location": "vs.",
+              "score": "30&ndash;10"
+            }
+          ],
           "text": "It&rsquo;s already Tua Time in Miami, as the Dolphins turn to their top pick in Week 5. The rookie Tagovailoa throws for more than 300 yards, but the 49ers&rsquo; offense rolls to a 51-17 win. Meanwhile, another rook is on deck, as Chargers coach Anthony Lynn decides to pivot from Tyrod Taylor to Justin Herbert following the team&rsquo;s fourth loss in five games."
         },
         {
-          "header": "Week 6",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": true,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week6.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 6 Winners",
+          "table": [
+            {
+              "winner": "Bills",
+              "loser": "Chiefs",
+              "location": "vs.",
+              "score": "25&ndash;13"
+            },
+            {
+              "winner": "Panthers",
+              "loser": "Bears",
+              "location": "vs.",
+              "score": "28&ndash;0"
+            },
+            {
+              "winner": "Broncos",
+              "loser": "Dolphins",
+              "location": "vs.",
+              "score": "31&ndash;6"
+            },
+            {
+              "winner": "Colts",
+              "loser": "Bengals",
+              "location": "vs.",
+              "score": "30&ndash;27"
+            },
+            {
+              "winner": "Jaguars",
+              "loser": "Lions",
+              "location": "vs.",
+              "score": "34&ndash;21"
+            },
+            {
+              "winner": "Jets",
+              "loser": "Chargers",
+              "location": "@",
+              "score": "26&ndash;10"
+            },
+            {
+              "winner": "Falcons",
+              "loser": "Vikings",
+              "location": "@",
+              "score": "17&ndash;3"
+            },
+            {
+              "winner": "Washington",
+              "loser": "Giants",
+              "location": "@",
+              "score": "31&ndash;3"
+            },
+            {
+              "winner": "Eagles",
+              "loser": "Ravens",
+              "location": "vs.",
+              "score": "20&ndash;10"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Browns",
+              "location": "vs.",
+              "score": "27&ndash;10"
+            },
+            {
+              "winner": "Rams",
+              "loser": "49ers",
+              "location": "@",
+              "score": "23&ndash;16"
+            },
+            {
+              "winner": "Packers",
+              "loser": "Buccaneers",
+              "location": "@",
+              "score": "14&ndash;7"
+            },
+            {
+              "winner": "Titans",
+              "loser": "Texans",
+              "location": "vs.",
+              "score": "37&ndash;14"
+            },
+            {
+              "winner": "Cardinals",
+              "loser": "Cowboys",
+              "location": "@",
+              "score": "27&ndash;10"
+            }
+          ],
           "text": "One week after taking down the then-undefeated Eagles, the Steelers now become the last undefeated team. The Bills take down the 5-0 Chiefs, and the Falcons upset the 5-0 Vikings, leaving Pittsburgh &mdash; who took care of business with a 27-10 win over a floundering Browns team &mdash; as the only team left with a zero in the loss column."
         },
         {
-          "header": "Week 7",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": true,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week7.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 7 Winners",
+          "table": [
+            {
+              "winner": "Giants",
+              "loser": "Eagles",
+              "location": "@",
+              "score": "30&ndash;28"
+            },
+            {
+              "winner": "Seahawks",
+              "loser": "Cardinals",
+              "location": "@",
+              "score": "16&ndash;14"
+            },
+            {
+              "winner": "Falcons",
+              "loser": "Lions",
+              "location": "vs.",
+              "score": "40&ndash;20"
+            },
+            {
+              "winner": "Ravens",
+              "loser": "Steelers",
+              "location": "vs.",
+              "score": "30&ndash;10"
+            },
+            {
+              "winner": "Bengals",
+              "loser": "Browns",
+              "location": "vs.",
+              "score": "26&ndash;17"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Broncos",
+              "location": "@",
+              "score": "27&ndash;6"
+            },
+            {
+              "winner": "Texans",
+              "loser": "Packers",
+              "location": "vs.",
+              "score": "34&ndash;14"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Raiders",
+              "location": "@",
+              "score": "41&ndash;7"
+            },
+            {
+              "winner": "Dolphins",
+              "loser": "Chargers",
+              "location": "vs.",
+              "score": "20&ndash;3"
+            },
+            {
+              "winner": "49ers",
+              "loser": "Patriots",
+              "location": "@",
+              "score": "29&ndash;17"
+            },
+            {
+              "winner": "Saints",
+              "loser": "Panthers",
+              "location": "vs.",
+              "score": "20&ndash;12"
+            },
+            {
+              "winner": "Bills",
+              "loser": "Jets",
+              "location": "@",
+              "score": "23&ndash;21"
+            },
+            {
+              "winner": "Washington",
+              "loser": "Cowboys",
+              "location": "vs.",
+              "score": "26&ndash;23"
+            },
+            {
+              "winner": "Rams",
+              "loser": "Bears",
+              "location": "vs.",
+              "score": "38&ndash;20"
+            }
+          ],
           "text": "The Buccaneers&rsquo; offense finally gets on the same page, blowing out the Raiders in a 41-7 win. Tom Brady spreads it around in the end zone, hitting Rob Gronkowski, Mike Evans and Chris Godwin with a touchdown apiece."
         },
         {
-          "header": "Week 8",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": true,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week8.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 8 Winners",
+          "table": [
+            {
+              "winner": "Falcons",
+              "loser": "Panthers",
+              "location": "@",
+              "score": "20&ndash;14"
+            },
+            {
+              "winner": "Bills",
+              "loser": "Patriots",
+              "location": "vs.",
+              "score": "25&ndash;20"
+            },
+            {
+              "winner": "Saints",
+              "loser": "Bears",
+              "location": "@",
+              "score": "26&ndash;23"
+            },
+            {
+              "winner": "Bengals",
+              "loser": "Titans",
+              "location": "vs.",
+              "score": "44&ndash;41"
+            },
+            {
+              "winner": "Raiders",
+              "loser": "Browns",
+              "location": "@",
+              "score": "26&ndash;10"
+            },
+            {
+              "winner": "Lions",
+              "loser": "Colts",
+              "location": "vs.",
+              "score": "31&ndash;6"
+            },
+            {
+              "winner": "Packers",
+              "loser": "Vikings",
+              "location": "vs.",
+              "score": "27&ndash;24"
+            },
+            {
+              "winner": "Jets",
+              "loser": "Chiefs",
+              "location": "@",
+              "score": "22&ndash;17"
+            },
+            {
+              "winner": "Chargers",
+              "loser": "Jaguars",
+              "location": "vs.",
+              "score": "19&ndash;9"
+            },
+            {
+              "winner": "Rams",
+              "loser": "Dolphins",
+              "location": "@",
+              "score": "42&ndash;21"
+            },
+            {
+              "winner": "Eagles",
+              "loser": "Cowboys",
+              "location": "vs.",
+              "score": "30&ndash;14"
+            },
+            {
+              "winner": "Seahawks",
+              "loser": "49ers",
+              "location": "vs.",
+              "score": "37&ndash;0"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Giants",
+              "location": "@",
+              "score": "27&ndash;9"
+            }
+          ],
           "text": "Following a rousing 44-41 victory over the Titans that included four touchdown passes from Joe Burrow, the Bengals sit at .500 halfway through the season. Are they arriving ahead of schedule? Can the rookie keep it up?"
-        },
-        {
-          "header": "Week 8",
-          "hasWin": false,
-          "hasLoss": false,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": true,
-          "hasFirstTie": true,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week8.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
-          "text": "The Saints and 49ers were the favorites in the NFC, but neither lead their respective divisions. The 6-2 Falcons hum atop the NFC South, as Atlanta is fourth in both points scored and points allowed. And the Rams&rsquo; renewed offensive touch has them on top in the NFC West."
         }
       ],
       "analysis": [
         {
           "type": "subhead",
           "text": "What we saw in Weeks 5&ndash;8"
+        },
+        {
+          "type": "text",
+          "text": "<strong>New division leaders?</strong> The Saints and 49ers were the NFC favorites, but neither lead their respective divisions. The 6-2 Falcons hum atop the NFC South, as Atlanta is fourth in both points scored and points allowed. And the Rams&rsquo; renewed offensive touch has them on top in the NFC West."
         },
         {
           "type": "text",
@@ -280,6 +922,358 @@
           "number": 295,
           "description": "Receiving YDS"
         }
+      ],
+      "tables": [
+        {
+          "type": "afc",
+          "text": "AFC Standings",
+          "isMidseason": true,
+          "table": [
+            {
+              "thead": [
+                "North",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "Steelers",
+                  "win": 6,
+                  "loss": 1,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Bengals",
+                  "win": 4,
+                  "loss": 4,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Ravens",
+                  "win": 4,
+                  "loss": 3,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Browns",
+                  "win": 2,
+                  "loss": 6,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "South",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "Colts",
+                  "win": 3,
+                  "loss": 4,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Texans",
+                  "win": 3,
+                  "loss": 4,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Titans",
+                  "win": 3,
+                  "loss": 4,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Jaguars",
+                  "win": 2,
+                  "loss": 5,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "East",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "Bills",
+                  "win": 7,
+                  "loss": 1,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Jets",
+                  "win": 4,
+                  "loss": 4,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Patriots",
+                  "win": 2,
+                  "loss": 5,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Dolphins",
+                  "win": 1,
+                  "loss": 7,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "West",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "Chiefs",
+                  "win": 6,
+                  "loss": 2,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Broncos",
+                  "win": 3,
+                  "loss": 4,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Raiders",
+                  "win": 3,
+                  "loss": 4,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Chargers",
+                  "win": 2,
+                  "loss": 6,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "nfc",
+          "text": "NFC Standings",
+          "isMidseason": true,
+          "table": [
+            {
+              "thead": [
+                "North",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "Packers",
+                  "win": 5,
+                  "loss": 2,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Vikings",
+                  "win": 5,
+                  "loss": 2,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Lions",
+                  "win": 4,
+                  "loss": 3,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Bears",
+                  "win": 2,
+                  "loss": 6,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "South",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "Falcons",
+                  "win": 6,
+                  "loss": 2,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Saints",
+                  "win": 5,
+                  "loss": 2,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Buccaneers",
+                  "win": 4,
+                  "loss": 4,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Panthers",
+                  "win": 2,
+                  "loss": 6,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "East",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "Eagles",
+                  "win": 6,
+                  "loss": 2,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Cowboys",
+                  "win": 4,
+                  "loss": 4,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Giants",
+                  "win": 2,
+                  "loss": 6,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Washington",
+                  "win": 2,
+                  "loss": 5,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            },
+            {
+              "thead": [
+                "West",
+                "W",
+                "L",
+                "T"
+              ],
+              "tbody": [
+                {
+                  "name": "Rams",
+                  "win": 6,
+                  "loss": 2,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "49ers",
+                  "win": 5,
+                  "loss": 3,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Seahawks",
+                  "win": 4,
+                  "loss": 3,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                },
+                {
+                  "name": "Cardinals",
+                  "win": 3,
+                  "loss": 4,
+                  "tie": 0,
+                  "isProjectedPlayoff": false,
+                  "isDraftPick": false
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -294,71 +1288,373 @@
       "introduction": [
         "A chess match is developing in the NFC West between the 6-2 Rams and 5-3 49ers, while the 6-2 Falcons are trying to hold off the 5-3 Saints and 4-4 Buccaneers in the NFC South. But what about the lack of a race in the AFC North, where Ben Roethlisberger&rsquo;s Steelers still have only one loss entering Week 9? What is going on with the 4-3 Ravens?"
       ],
-      "stickyBits": [
+      "weeklyWinners": [
         {
-          "header": "Week 9",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": true,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week9.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 9 Winners",
+          "table": [
+            {
+              "winner": "49ers",
+              "loser": "Packers",
+              "location": "vs.",
+              "score": "34&ndash;7"
+            },
+            {
+              "winner": "Cardinals",
+              "loser": "Dolphins",
+              "location": "vs.",
+              "score": "26&ndash;24"
+            },
+            {
+              "winner": "Broncos",
+              "loser": "Falcons",
+              "location": "@",
+              "score": "23&ndash;0"
+            },
+            {
+              "winner": "Seahawks",
+              "loser": "Bills",
+              "location": "@",
+              "score": "28&ndash;24"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Cowboys",
+              "location": "@",
+              "score": "13&ndash;10"
+            },
+            {
+              "winner": "Ravens",
+              "loser": "Colts",
+              "location": "@",
+              "score": "41&ndash;16"
+            },
+            {
+              "winner": "Texans",
+              "loser": "Jaguars",
+              "location": "@",
+              "score": "34&ndash;31"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Panthers",
+              "location": "vs.",
+              "score": "41&ndash;20"
+            },
+            {
+              "winner": "Chargers",
+              "loser": "Raiders",
+              "location": "vs.",
+              "score": "33&ndash;28"
+            },
+            {
+              "winner": "Lions",
+              "loser": "Vikings",
+              "location": "@",
+              "score": "31&ndash;24"
+            },
+            {
+              "winner": "Saints",
+              "loser": "Buccaneers",
+              "location": "@",
+              "score": "34&ndash;30"
+            },
+            {
+              "winner": "Bears",
+              "loser": "Titans",
+              "location": "@",
+              "score": "26&ndash;10"
+            },
+            {
+              "winner": "Giants",
+              "loser": "Washington",
+              "location": "@",
+              "score": "34&ndash;23"
+            },
+            {
+              "winner": "Patriots",
+              "loser": "Jets",
+              "location": "@",
+              "score": "37&ndash;34"
+            }
+          ],
           "text": "With a 34-31 win over the Jaguars, the Texans have a .500 record and are in first place in the AFC South. Houston, you&rsquo;re the best of the worst! At least for now."
         },
         {
-          "header": "Week 10",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": true,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week10.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 10 Winners",
+          "table": [
+            {
+              "winner": "Titans",
+              "loser": "Colts",
+              "location": "vs.",
+              "score": "21&ndash;20"
+            },
+            {
+              "winner": "Bills",
+              "loser": "Cardinals",
+              "location": "@",
+              "score": "28&ndash;17"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Panthers",
+              "location": "@",
+              "score": "38&ndash;14"
+            },
+            {
+              "winner": "Browns",
+              "loser": "Texans",
+              "location": "vs.",
+              "score": "24&ndash;17"
+            },
+            {
+              "winner": "Washington",
+              "loser": "Lions",
+              "location": "@",
+              "score": "18&ndash;12"
+            },
+            {
+              "winner": "Packers",
+              "loser": "Jaguars",
+              "location": "vs.",
+              "score": "34&ndash;17"
+            },
+            {
+              "winner": "Rams",
+              "loser": "Seahawks",
+              "location": "vs.",
+              "score": "35&ndash;32"
+            },
+            {
+              "winner": "Raiders",
+              "loser": "Broncos",
+              "location": "vs.",
+              "score": "25&ndash;16"
+            },
+            {
+              "winner": "Dolphins",
+              "loser": "Jets",
+              "location": "vs.",
+              "score": "24&ndash;16"
+            },
+            {
+              "winner": "Ravens",
+              "loser": "Patriots",
+              "location": "@",
+              "score": "23&ndash;20"
+            },
+            {
+              "winner": "Saints",
+              "loser": "49ers",
+              "location": "vs.",
+              "score": "34&ndash;14"
+            },
+            {
+              "winner": "Giants",
+              "loser": "Eagles",
+              "location": "vs.",
+              "score": "19&ndash;13"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Bengals",
+              "location": "vs.",
+              "score": "27&ndash;23"
+            },
+            {
+              "winner": "Vikings",
+              "loser": "Bears",
+              "location": "@",
+              "score": "26&ndash;23"
+            }
+          ],
           "text": "In a 34-14 win over San Francisco, Saints QB Drew Brees connects on 21 of 30 pass attempts, including two touchdowns, while Alvin Kamara and Latavius Murray each add a score on the ground. New Orleans takes back the division lead from Atlanta."
         },
         {
-          "header": "Week 11",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": true,
-          "hasBye": true,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week11.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 11 Winners",
+          "table": [
+            {
+              "winner": "Cardinals",
+              "loser": "Seahawks",
+              "location": "@",
+              "score": "24&ndash;17"
+            },
+            {
+              "winner": "Titans",
+              "loser": "Ravens",
+              "location": "@",
+              "score": "20&ndash;7"
+            },
+            {
+              "winner": "Panthers",
+              "loser": "Lions",
+              "location": "vs.",
+              "score": "27&ndash;27",
+              "isTie": true
+            },
+            {
+              "winner": "Eagles",
+              "loser": "Browns",
+              "location": "@",
+              "score": "30&ndash;7"
+            },
+            {
+              "winner": "Chargers",
+              "loser": "Broncos",
+              "location": "@",
+              "score": "22&ndash;13"
+            },
+            {
+              "winner": "Texans",
+              "loser": "Patriots",
+              "location": "vs.",
+              "score": "23&ndash;20"
+            },
+            {
+              "winner": "Colts",
+              "loser": "Packers",
+              "location": "vs.",
+              "score": "19&ndash;16"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Jaguars",
+              "location": "@",
+              "score": "37&ndash;23"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Raiders",
+              "location": "@",
+              "score": "27&ndash;13"
+            },
+            {
+              "winner": "Cowboys",
+              "loser": "Vikings",
+              "location": "@",
+              "score": "45&ndash;12"
+            },
+            {
+              "winner": "Falcons",
+              "loser": "Saints",
+              "location": "@",
+              "score": "29&ndash;16"
+            },
+            {
+              "winner": "Washington",
+              "loser": "Bengals",
+              "location": "vs.",
+              "score": "19&ndash;13"
+            },
+            {
+              "winner": "Rams",
+              "loser": "Buccaneers",
+              "location": "@",
+              "score": "24&ndash;21"
+            }
+          ],
           "text": "A tie in Carolina? That&rsquo;s right. The Panthers and Lions end in a 27-all draw. For Detroit, it means it remains a half-game behind in the NFC North. For Carolina, it means the No. 1 draft pick in 2021 is a bit further away."
         },
         {
-          "header": "Week 12",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week12.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 12 Winners",
+          "table": [
+            {
+              "winner": "Cowboys",
+              "loser": "Washington",
+              "location": "vs.",
+              "score": "24&ndash;14"
+            },
+            {
+              "winner": "Lions",
+              "loser": "Texans",
+              "location": "vs.",
+              "score": "23&ndash;19"
+            },
+            {
+              "winner": "Ravens",
+              "loser": "Steelers",
+              "location": "@",
+              "score": "33&ndash;14"
+            },
+            {
+              "winner": "Falcons",
+              "loser": "Raiders",
+              "location": "vs.",
+              "score": "31&ndash;17"
+            },
+            {
+              "winner": "Chargers",
+              "loser": "Bills",
+              "location": "@",
+              "score": "34&ndash;6"
+            },
+            {
+              "winner": "Bengals",
+              "loser": "Giants",
+              "location": "vs.",
+              "score": "28&ndash;9"
+            },
+            {
+              "winner": "Broncos",
+              "loser": "Saints",
+              "location": "vs.",
+              "score": "31&ndash;24"
+            },
+            {
+              "winner": "Bears",
+              "loser": "Packers",
+              "location": "@",
+              "score": "20&ndash;16"
+            },
+            {
+              "winner": "Colts",
+              "loser": "Titans",
+              "location": "vs.",
+              "score": "31&ndash;19"
+            },
+            {
+              "winner": "Browns",
+              "loser": "Jaguars",
+              "location": "@",
+              "score": "14&ndash;13"
+            },
+            {
+              "winner": "49ers",
+              "loser": "Rams",
+              "location": "@",
+              "score": "40&ndash;32"
+            },
+            {
+              "winner": "Vikings",
+              "loser": "Panthers",
+              "location": "vs.",
+              "score": "16&ndash;6"
+            },
+            {
+              "winner": "Patriots",
+              "loser": "Cardinals",
+              "location": "vs.",
+              "score": "27&ndash;16"
+            },
+            {
+              "winner": "Dolphins",
+              "loser": "Jets",
+              "location": "@",
+              "score": "23&ndash;20"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Chiefs",
+              "location": "vs.",
+              "score": "35&ndash;31"
+            },
+            {
+              "winner": "Seahawks",
+              "loser": "Eagles",
+              "location": "@",
+              "score": "17&ndash;9"
+            }
+          ],
           "text": "It has become clear that the Tampa Bay offense can overpower just about anyone on the right day. And this was the right day: Tom Brady throws for 291 yards and three scores against the Chiefs, besting Patrick Mahomes."
-        },
-        {
-          "header": "Week 12",
-          "hasWin": false,
-          "hasLoss": false,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": true,
-          "hasFirstTie": true,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week12.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
-          "text": "There they are! After the 7-4 Ravens close the gap with 9-2 Pittsburgh with a 33-14 win over the Steelers in Week 12, the Steelers&rsquo; AFC North lead is reduced to two games. Lamar Jackson will need more performances like his Week 12 showing: two passing touchdowns and a third on the ground."
         }
       ],
       "analysis": [
@@ -437,83 +1733,509 @@
       "introduction": [
         "It&rsquo;s the final stretch, and playoff spots are up for grabs. Can Russell Wilson get his Seahawks back in the NFC West picture? Who will cross the line first in the ultratight NFC North? And which 5-6 AFC South team will be just good enough to play in January?"
       ],
-      "stickyBits": [
+      "weeklyWinners": [
         {
-          "header": "Week 13",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": true,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week13.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 13 Winners",
+          "table": [
+            {
+              "winner": "Ravens",
+              "loser": "Cowboys",
+              "location": "vs.",
+              "score": "31&ndash;17"
+            },
+            {
+              "winner": "Cardinals",
+              "loser": "Rams",
+              "location": "vs.",
+              "score": "28&ndash;14"
+            },
+            {
+              "winner": "Saints",
+              "loser": "Falcons",
+              "location": "@",
+              "score": "28&ndash;17"
+            },
+            {
+              "winner": "Bears",
+              "loser": "Lions",
+              "location": "vs.",
+              "score": "17&ndash;13"
+            },
+            {
+              "winner": "Eagles",
+              "loser": "Packers",
+              "location": "@",
+              "score": "26&ndash;16"
+            },
+            {
+              "winner": "Texans",
+              "loser": "Colts",
+              "location": "vs.",
+              "score": "20&ndash;17"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Broncos",
+              "location": "vs.",
+              "score": "23&ndash;17"
+            },
+            {
+              "winner": "Chargers",
+              "loser": "Patriots",
+              "location": "vs.",
+              "score": "30&ndash;21"
+            },
+            {
+              "winner": "Bengals",
+              "loser": "Dolphins",
+              "location": "@",
+              "score": "18&ndash;12"
+            },
+            {
+              "winner": "Jaguars",
+              "loser": "Vikings",
+              "location": "@",
+              "score": "37&ndash;24"
+            },
+            {
+              "winner": "Jets",
+              "loser": "Raiders",
+              "location": "vs.",
+              "score": "24&ndash;13"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Washington",
+              "location": "vs.",
+              "score": "38&ndash;10"
+            },
+            {
+              "winner": "Seahawks",
+              "loser": "Giants",
+              "location": "vs.",
+              "score": "28&ndash;7"
+            },
+            {
+              "winner": "Browns",
+              "loser": "Titans",
+              "location": "@",
+              "score": "21&ndash;13"
+            },
+            {
+              "winner": "49ers",
+              "loser": "Bills",
+              "location": "vs.",
+              "score": "27&ndash;24"
+            }
+          ],
           "text": "Seven catches and a touchdown for Saints receiver Michael Thomas helps New Orleans to a 28-17 win over the Falcons and a share of the division lead. Both teams sit at 8-4, while the Buccaneers linger behind at 6-6."
         },
         {
-          "header": "Week 14",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week14.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 14 Winners",
+          "table": [
+            {
+              "winner": "Rams",
+              "loser": "Patriots",
+              "location": "vs.",
+              "score": "19&ndash;12"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Bills",
+              "location": "@",
+              "score": "35&ndash;31"
+            },
+            {
+              "winner": "Broncos",
+              "loser": "Panthers",
+              "location": "@",
+              "score": "23&ndash;10"
+            },
+            {
+              "winner": "Texans",
+              "loser": "Bears",
+              "location": "@",
+              "score": "16&ndash;3"
+            },
+            {
+              "winner": "Cowboys",
+              "loser": "Bengals",
+              "location": "@",
+              "score": "29&ndash;24"
+            },
+            {
+              "winner": "Lions",
+              "loser": "Packers",
+              "location": "vs.",
+              "score": "23&ndash;20"
+            },
+            {
+              "winner": "Titans",
+              "loser": "Jaguars",
+              "location": "@",
+              "score": "34&ndash;31"
+            },
+            {
+              "winner": "Falcons",
+              "loser": "Chargers",
+              "location": "@",
+              "score": "33&ndash;30"
+            },
+            {
+              "winner": "Colts",
+              "loser": "Raiders",
+              "location": "@",
+              "score": "37&ndash;16"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Dolphins",
+              "location": "@",
+              "score": "30&ndash;17"
+            },
+            {
+              "winner": "Giants",
+              "loser": "Cardinals",
+              "location": "vs.",
+              "score": "25&ndash;21"
+            },
+            {
+              "winner": "Eagles",
+              "loser": "Saints",
+              "location": "vs.",
+              "score": "23&ndash;10"
+            },
+            {
+              "winner": "49ers",
+              "loser": "Washington",
+              "location": "vs.",
+              "score": "42&ndash;17"
+            },
+            {
+              "winner": "Seahawks",
+              "loser": "Jets",
+              "location": "vs.",
+              "score": "27&ndash;17"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Vikings",
+              "location": "vs.",
+              "score": "29&ndash;23"
+            },
+            {
+              "winner": "Ravens",
+              "loser": "Browns",
+              "location": "@",
+              "score": "41&ndash;16"
+            }
+          ],
           "text": "We got two division clinches! The 8-5 Bills fall in Week 14 to Pittsburgh, but losses from the Pats and Jets give them the AFC East. And in the AFC West, the 10-3 Chiefs repeat as champs. Kansas City steamrolled through its division, as no other team is even at .500."
         },
         {
-          "header": "Week 15",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week15.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 15 Winners",
+          "table": [
+            {
+              "winner": "Chargers",
+              "loser": "Raiders",
+              "location": "@",
+              "score": "24&ndash;20"
+            },
+            {
+              "winner": "Cardinals",
+              "loser": "Eagles",
+              "location": "vs.",
+              "score": "20&ndash;16"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Falcons",
+              "location": "@",
+              "score": "30&ndash;24"
+            },
+            {
+              "winner": "Ravens",
+              "loser": "Jaguars",
+              "location": "vs.",
+              "score": "24&ndash;10"
+            },
+            {
+              "winner": "Cowboys",
+              "loser": "49ers",
+              "location": "vs.",
+              "score": "31&ndash;17"
+            },
+            {
+              "winner": "Bills",
+              "loser": "Broncos",
+              "location": "@",
+              "score": "19&ndash;17"
+            },
+            {
+              "winner": "Packers",
+              "loser": "Panthers",
+              "location": "vs.",
+              "score": "48&ndash;3"
+            },
+            {
+              "winner": "Colts",
+              "loser": "Texans",
+              "location": "vs.",
+              "score": "20&ndash;17"
+            },
+            {
+              "winner": "Rams",
+              "loser": "Jets",
+              "location": "vs.",
+              "score": "22&ndash;7"
+            },
+            {
+              "winner": "Dolphins",
+              "loser": "Patriots",
+              "location": "vs.",
+              "score": "21&ndash;19"
+            },
+            {
+              "winner": "Vikings",
+              "loser": "Bears",
+              "location": "vs.",
+              "score": "17&ndash;6"
+            },
+            {
+              "winner": "Saints",
+              "loser": "Chiefs",
+              "location": "vs.",
+              "score": "23&ndash;17"
+            },
+            {
+              "winner": "Giants",
+              "loser": "Browns",
+              "location": "vs.",
+              "score": "27&ndash;20"
+            },
+            {
+              "winner": "Titans",
+              "loser": "Lions",
+              "location": "vs.",
+              "score": "16&ndash;10"
+            },
+            {
+              "winner": "Seahawks",
+              "loser": "Washington",
+              "location": "@",
+              "score": "27&ndash;20"
+            },
+            {
+              "winner": "Bengals",
+              "loser": "Steelers",
+              "location": "vs.",
+              "score": "23&ndash;20"
+            }
+          ],
           "text": "Seattle is on a four-game win streak and is perhaps back in the NFC West mix. Russell Wilson totals 238 passing yards in this week&rsquo;s matchup with Washington and throws his sixth and seventh TDs of the winning stretch."
         },
         {
-          "header": "Week 16",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week16.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 16 Winners",
+          "table": [
+            {
+              "winner": "Vikings",
+              "loser": "Saints",
+              "location": "@",
+              "score": "27&ndash;10"
+            },
+            {
+              "winner": "49ers",
+              "loser": "Cardinals",
+              "location": "@",
+              "score": "41&ndash;16"
+            },
+            {
+              "winner": "Ravens",
+              "loser": "Giants",
+              "location": "vs.",
+              "score": "38&ndash;10"
+            },
+            {
+              "winner": "Cowboys",
+              "loser": "Eagles",
+              "location": "vs.",
+              "score": "17&ndash;10"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Lions",
+              "location": "@",
+              "score": "27&ndash;9"
+            },
+            {
+              "winner": "Titans",
+              "loser": "Packers",
+              "location": "@",
+              "score": "28&ndash;17"
+            },
+            {
+              "winner": "Texans",
+              "loser": "Bengals",
+              "location": "vs.",
+              "score": "38&ndash;35"
+            },
+            {
+              "winner": "Bears",
+              "loser": "Jaguars",
+              "location": "@",
+              "score": "28&ndash;6"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Falcons",
+              "location": "vs.",
+              "score": "24&ndash;10"
+            },
+            {
+              "winner": "Broncos",
+              "loser": "Chargers",
+              "location": "@",
+              "score": "22&ndash;13"
+            },
+            {
+              "winner": "Raiders",
+              "loser": "Dolphins",
+              "location": "vs.",
+              "score": "40&ndash;20"
+            },
+            {
+              "winner": "Browns",
+              "loser": "Jets",
+              "location": "@",
+              "score": "27&ndash;11"
+            },
+            {
+              "winner": "Steelers",
+              "loser": "Colts",
+              "location": "vs.",
+              "score": "22&ndash;20"
+            },
+            {
+              "winner": "Rams",
+              "loser": "Seahawks",
+              "location": "@",
+              "score": "30&ndash;27"
+            },
+            {
+              "winner": "Panthers",
+              "loser": "Washington",
+              "location": "@",
+              "score": "35&ndash;32"
+            },
+            {
+              "winner": "Bills",
+              "loser": "Patriots",
+              "location": "@",
+              "score": "22&ndash;17"
+            }
+          ],
           "text": "Dallas is hot. The 9-6 Cowboys have won four in a row, including this week&rsquo;s 17-10 victory over the Eagles. Ezekiel Elliott rumbles for 81 yards and a score, helping the Cowboys level up with Philly in the NFC East."
         },
         {
-          "header": "Week 17",
-          "hasWin": true,
-          "hasLoss": true,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/week17.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
-          "text": "The final week puts the 8-8 Chargers and Colts in the playoffs. Los Angeles needs a win to get in, and Justin Herbert (three touchdowns) and Keenan Allen outduel the Chiefs. The Colts, meanwhile, squeaked past the Jaguars in a 9-7 barnburner."
-        },
-        {
-          "header": "Week 17",
-          "hasWin": false,
-          "hasLoss": false,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": true,
-          "hasFirstTie": true,
-          "isChampionship": false,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_leader_week17.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-400x580.png",
+          "header": "Week 17 Winners",
+          "table": [
+            {
+              "winner": "Bills",
+              "loser": "Dolphins",
+              "location": "vs.",
+              "score": "16&ndash;6"
+            },
+            {
+              "winner": "Saints",
+              "loser": "Panthers",
+              "location": "@",
+              "score": "37&ndash;3"
+            },
+            {
+              "winner": "Bears",
+              "loser": "Packers",
+              "location": "vs.",
+              "score": "25&ndash;16"
+            },
+            {
+              "winner": "Ravens",
+              "loser": "Bengals",
+              "location": "@",
+              "score": "37&ndash;3"
+            },
+            {
+              "winner": "Browns",
+              "loser": "Steelers",
+              "location": "vs.",
+              "score": "23&ndash;10"
+            },
+            {
+              "winner": "Broncos",
+              "loser": "Raiders",
+              "location": "vs.",
+              "score": "16&ndash;13"
+            },
+            {
+              "winner": "Vikings",
+              "loser": "Lions",
+              "location": "@",
+              "score": "48&ndash;25"
+            },
+            {
+              "winner": "Texans",
+              "loser": "Titans",
+              "location": "vs.",
+              "score": "27&ndash;20"
+            },
+            {
+              "winner": "Colts",
+              "loser": "Jaguars",
+              "location": "vs.",
+              "score": "9&ndash;7"
+            },
+            {
+              "winner": "Chargers",
+              "loser": "Chiefs",
+              "location": "@",
+              "score": "35&ndash;28"
+            },
+            {
+              "winner": "Cardinals",
+              "loser": "Rams",
+              "location": "@",
+              "score": "27&ndash;3"
+            },
+            {
+              "winner": "Patriots",
+              "loser": "Jets",
+              "location": "vs.",
+              "score": "28&ndash;7"
+            },
+            {
+              "winner": "Giants",
+              "loser": "Cowboys",
+              "location": "vs.",
+              "score": "20&ndash;13"
+            },
+            {
+              "winner": "Eagles",
+              "loser": "Washington",
+              "location": "vs.",
+              "score": "34&ndash;17"
+            },
+            {
+              "winner": "49ers",
+              "loser": "Seahawks",
+              "location": "vs.",
+              "score": "19&ndash;13"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Falcons",
+              "location": "vs.",
+              "score": "55&ndash;31"
+            }
+          ],
           "text": "The NFC South was deadlocked in a three-way tie entering Week 17, but the Saints win the division at 10-6 when they beat Carolina 37-3. The Bucs, meanwhile, end the Falcons&rsquo; season with a huge 55-31 win in the final matchup. Tom Brady&rsquo;s four-TD outing puts Tampa Bay in a wild-card spot."
         }
       ],
@@ -584,6 +2306,7 @@
         {
           "type": "afc",
           "text": "AFC Final Standings",
+          "isMidseason": false,
           "table": [
             {
               "thead": [
@@ -756,8 +2479,9 @@
           ]
         },
         {
-          "type": "NFC",
+          "type": "nfc",
           "text": "NFC Final Standings",
+          "isMidseason": false,
           "table": [
             {
               "thead": [
@@ -876,7 +2600,7 @@
                   "isDraftPick": false
                 },
                 {
-                  "name": "Redskins",
+                  "name": "Washington",
                   "win": 4,
                   "loss": 12,
                   "tie": 0,
@@ -985,60 +2709,97 @@
         ]
       },
       "introduction": [
-        "The expanded playoffs give us some fun opening weekend matchups, including Rams-Saints, Cowboys-Eagles and Buccaneers-Falcons. Looking ahead, could the Ravens take the AFC crown from Kansas City? Will Tom Brady win No. 7? Can Buffalo or Minnesota finally win the big game?"
+        "Expanded playoffs give us 14 teams contending. The field includes the top seven offenses &mdash; led by Baltimore (459 points) and San Francisco (457) &mdash; and four of the top five defenses &mdash; topped by Baltimore and Philadelphia (256 points against, each). Could the Ravens take the AFC crown from Kansas City? Will Tom Brady win No. 7? Can Buffalo or Minnesota finally win the big game?"
       ],
-      "isStickyBitsChampionship": true,
-      "stickyBits": [
+      "weeklyWinners": [
         {
-          "header": "Playoffs Round",
-          "hasWin": false,
-          "hasLoss": false,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": true,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/playoffs_round.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
-          "text": "Expanded playoffs give us 14 teams contending. The field includes the top seven offenses &mdash; led by Baltimore (459 points) and San Francisco (457) &mdash; and four of the top five defenses &mdash; topped by Baltimore and Philadelphia (256 points against, each)."
-        },
-        {
-          "header": "WC Round",
-          "hasWin": false,
-          "hasLoss": false,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": true,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/wc_round.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
+          "header": "Wild Card Round Winners",
+          "table": [
+            {
+              "winner": "Bills",
+              "loser": "Chargers",
+              "location": "vs.",
+              "score": "30&ndash;10"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Colts",
+              "location": "vs.",
+              "score": "19&ndash;9"
+            },
+            {
+              "winner": "Texans",
+              "loser": "Steelers",
+              "location": "vs.",
+              "score": "31&ndash;24"
+            },
+            {
+              "winner": "Cowboys",
+              "loser": "Eagles",
+              "location": "@",
+              "score": "16&ndash;10"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Vikings",
+              "location": "@",
+              "score": "10&ndash;9"
+            },
+            {
+              "winner": "Saints",
+              "loser": "Rams",
+              "location": "vs.",
+              "score": "23&ndash;10"
+            }
+          ],
           "text": "The 9-7 Texans stun the 12-win Steelers, as Bill O&rsquo;Brien answers his critics. New Orleans gets playoff revenge: a decisive 23-10 win over the Rams featuring seven catches from Michael Thomas. And Dak Prescott&rsquo;s 271 passing yards help Dallas over Philadelphia."
         },
         {
-          "header": "Divisional Round",
-          "hasWin": false,
-          "hasLoss": false,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": true,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/div_round.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
+          "header": "Divisional Round Winners",
+          "table": [
+            {
+              "winner": "Ravens",
+              "loser": "Texans",
+              "location": "vs.",
+              "score": "19&ndash;9"
+            },
+            {
+              "winner": "Chiefs",
+              "loser": "Bills",
+              "location": "@",
+              "score": "27&ndash;7"
+            },
+            {
+              "winner": "Cowboys",
+              "loser": "49ers",
+              "location": "@",
+              "score": "39&ndash;26"
+            },
+            {
+              "winner": "Buccaneers",
+              "loser": "Saints",
+              "location": "@",
+              "score": "38&ndash;26"
+            }
+          ],
           "text": "Tom Brady is headed to the NFC Championship Game after a 264-yard, 3-TD win over the Saints, the Niners are gone after the Cowboys dropped 39 on their defense and Patrick Mahomes dismisses the Bills with a 27-7 blowout."
         },
         {
-          "header": "Championship Round",
-          "hasWin": false,
-          "hasLoss": false,
-          "hasTie": false,
-          "hasBye": false,
-          "hasLeader": false,
-          "hasFirstTie": false,
-          "isChampionship": true,
-          "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/champ_round.jpg",
-          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
+          "header": "Championship Round Winners",
+          "table": [
+            {
+              "winner": "Chiefs",
+              "loser": "Ravens",
+              "location": "@",
+              "score": "17&ndash;14"
+            },
+            {
+              "winner": "Cowboys",
+              "loser": "Buccaneers",
+              "location": "@",
+              "score": "26&ndash;14"
+            }
+          ],
           "text": "Down goes Brady! A 330-passing-yard day from Brady wasn&rsquo;t enough to top the efficiency of the Dallas passing attack. In the AFC, the Ravens held Patrick Mahomes&rsquo; offense to 10 points in three and a half quarters. But a late drive leads to a Mecole Hardman game-winning touchdown."
         }
       ],
