@@ -3,7 +3,7 @@
  * Injests all of the subcomponent JS here
  */
 import initOpener from './opener/Opener';
-import initStickyBits from './sticky-bits/StickyBits';
+import initWeeklyWinners from './weekly-winners/WeeklyWinners';
 import initPerformers from './performers/Performers';
 import initTable from './table/Table';
 
@@ -12,7 +12,7 @@ import initTable from './table/Table';
  */
 export default function init() {
   initOpener();
-  initStickyBits();
+  initWeeklyWinners();
   initPerformers();
   initTable();
 }
