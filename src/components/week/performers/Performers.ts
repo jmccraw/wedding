@@ -15,9 +15,9 @@ class Performer {
   index: number;
 
   /**
-   * Construct the StickyBit
-   * @param {Element} _el The selector for this StickyBits
-   * @param {Number} index The index of the StickyBit
+   * Construct the Performer
+   * @param {Element} _el The selector for this Performer
+   * @param {Number} index The index of the Performer
    */
   constructor( _el: Element, index: number ) {
     this._el = _el;
