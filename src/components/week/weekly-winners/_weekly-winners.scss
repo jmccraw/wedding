@@ -1,0 +1,129 @@
+/**
+ * Weekly Winners styles
+ */
+ .fpi-weekly-winners {
+  margin: -4px auto 0;
+  padding: 40px 0;
+  position: relative;
+  width: calc(100% - 16px);
+
+  + .fpi-weekly-winners {
+    margin-top: -1px;
+    padding-top: 0;
+  }
+
+  @include screen-from(mobile-up) {
+    width: calc(100% - 32px);
+  }
+
+  @include screen-from(mobile-max) {
+    width: calc(100% - 48px);
+  }
+
+  @include screen-from(tablet) {
+    width: calc(100% - 80px);
+  }
+}
+
+.fpi-weekly-winners__hed {
+  color: $black;
+  font: 400 17px/1 $benton-bold;
+  letter-spacing: 0.2px;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+}
+
+.fpi-weekly-winners__container {
+  border: 1px solid $medium-gray;
+  margin-bottom: 44px;
+  padding: 10px 20px 20px;
+  position: relative;
+  width: 100%;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include screen-from(tablet) {
+    // align-items: flex-start;
+    // display: flex;
+    // flex-flow: row wrap;
+    // justify-content: space-between;
+    margin-bottom: 37px;
+  }
+}
+
+.fpi-weekly-winners__table {
+  border-collapse: collapse;
+  color: $medium-gray;
+  font: 400 13px/1 $benton-medium;
+  letter-spacing: 0.15px;
+  margin-bottom: 16px;
+  padding: 20px 20px 17px;
+  position: relative;
+  table-layout: fixed;
+  text-transform: uppercase;
+  width: 100%;
+
+  strong {
+    color: $blue;
+    font-family: $benton-bold;
+    font-weight: 400;
+  }
+
+  span {
+    text-transform: none;
+  }
+
+  tr {
+    border-bottom: 1px solid $light-gray;
+    height: 29px;
+  }
+
+  tr:last-child {
+    border-bottom: none;
+  }
+
+  td {
+    padding-top: 5px;
+    position: relative;
+    text-align: right;
+  }
+
+  td:first-child {
+    text-align: left;
+    width: 80%;
+  }
+
+  tbody {
+    @include screen-from(tablet) {
+      align-items: flex-start;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+
+      tr {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: calc(50% - 16px);
+      }
+
+      tr:nth-last-of-type(2),
+      tr:last-of-type {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.fpi-weekly-winners__text {
+  background-color: $medium-gray;
+  color: $white;
+  font: 400 15px/1.2 $benton-medium;
+  letter-spacing: 0.18px;
+  margin: 0 0 -20px -20px;
+  padding: 20px;
+  position: relative;
+  width: calc(100% + 40px);
+}
