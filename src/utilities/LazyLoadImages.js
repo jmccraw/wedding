@@ -69,10 +69,11 @@ function checkForLazyImages() {
         st && st.kill();
 
         // If this is the first time coming into the FPI Week container, then refresh the ScrollTrigger points
-        if ( _image.classList.contains( 'fpi-week__opener-image' ) && ! _image.parentElement.classList.contains( 'is-refreshed' ) ) {
-          _image.parentElement.classList.add( 'is-refreshed' );
-          window.ScrollTrigger.refresh();
-        }
+        // TODO This is only for use with Sticky Bits
+        // if ( _image.classList.contains( 'fpi-week__opener-image' ) && ! _image.parentElement.classList.contains( 'is-refreshed' ) ) {
+        //   _image.parentElement.classList.add( 'is-refreshed' );
+        //   window.ScrollTrigger.refresh();
+        // }
       }
       _newImage.setAttribute( 'src', newSrc );
     };
