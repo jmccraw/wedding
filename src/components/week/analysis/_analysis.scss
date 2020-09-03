@@ -36,12 +36,13 @@
 
   .body-text.serif {
     color: $dark-gray;
+    font: 400 17px/1.47 $benton;
     margin-top: 0;
   }
 }
 
 .fpi-analysis__hed {
-  font: 400 17px/1.18 $benton-bold;
+  font: 400 17px/1.47 $benton-bold;
   text-transform: uppercase;
 }
 
