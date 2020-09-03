@@ -14,7 +14,7 @@
       ],
       "weeklyWinners": [
         {
-          "header": "Week 1 Winners",
+          "header": "Week 1 Scores",
           "table": [
             {
               "winner": "Chiefs",
@@ -116,7 +116,7 @@
           "text": "Patrick Mahomes picks up where he left off, with a 35-7 dismantling of the Texans &mdash; including three touchdown passes &mdash; on national television to open the season. The message is clear: The Chiefs aren&rsquo;t going anywhere."
         },
         {
-          "header": "Week 2 Winners",
+          "header": "Week 2 Scores",
           "table": [
             {
               "winner": "Browns",
@@ -218,7 +218,7 @@
           "text": "Jimmy Garoppolo throws four touchdown passes &mdash; including the first of rookie Brandon Aiyuk&rsquo;s young career &mdash; as the 49ers run circles around the Jets&rsquo; defense and win 59-28. The Niners could be trouble this season."
         },
         {
-          "header": "Week 3 Winners",
+          "header": "Week 3 Scores",
           "table": [
             {
               "winner": "Jaguars",
@@ -320,7 +320,7 @@
           "text": "After getting blown out by the Saints in Week 1 and narrowly beating the rebuilding Panthers in Week 2, the Tom Brady-led Buccaneers are now beaten by Drew Lock&rsquo;s Broncos 20-17. Is this Tampa Bay team really ready to make the leap into contention? Concern is creeping in."
         },
         {
-          "header": "Week 4 Winners",
+          "header": "Week 4 Scores",
           "table": [
             {
               "winner": "Jets",
@@ -500,7 +500,7 @@
       ],
       "weeklyWinners": [
         {
-          "header": "Week 5 Winners",
+          "header": "Week 5 Scores",
           "table": [
             {
               "winner": "Bears",
@@ -596,7 +596,7 @@
           "text": "It&rsquo;s already Tua Time in Miami, as the Dolphins turn to their top pick in Week 5. The rookie Tagovailoa throws for more than 300 yards, but the 49ers&rsquo; offense rolls to a 51-17 win. Meanwhile, another rook is on deck, as Chargers coach Anthony Lynn decides to pivot from Tyrod Taylor to Justin Herbert following the team&rsquo;s fourth loss in five games."
         },
         {
-          "header": "Week 6 Winners",
+          "header": "Week 6 Scores",
           "table": [
             {
               "winner": "Bills",
@@ -686,7 +686,7 @@
           "text": "One week after taking down the then-undefeated Eagles, the Steelers now become the last undefeated team. The Bills take down the 5-0 Chiefs, and the Falcons upset the 5-0 Vikings, leaving Pittsburgh &mdash; who took care of business with a 27-10 win over a floundering Browns team &mdash; as the only team left with a zero in the loss column."
         },
         {
-          "header": "Week 7 Winners",
+          "header": "Week 7 Scores",
           "table": [
             {
               "winner": "Giants",
@@ -776,7 +776,7 @@
           "text": "The Buccaneers&rsquo; offense finally gets on the same page, blowing out the Raiders in a 41-7 win. Tom Brady spreads it around in the end zone, hitting Rob Gronkowski, Mike Evans and Chris Godwin with a touchdown apiece."
         },
         {
-          "header": "Week 8 Winners",
+          "header": "Week 8 Scores",
           "table": [
             {
               "winner": "Falcons",
@@ -1290,7 +1290,7 @@
       ],
       "weeklyWinners": [
         {
-          "header": "Week 9 Winners",
+          "header": "Week 9 Scores",
           "table": [
             {
               "winner": "49ers",
@@ -1380,7 +1380,7 @@
           "text": "With a 34-31 win over the Jaguars, the Texans have a .500 record and are in first place in the AFC South. Houston, you&rsquo;re the best of the worst! At least for now."
         },
         {
-          "header": "Week 10 Winners",
+          "header": "Week 10 Scores",
           "table": [
             {
               "winner": "Titans",
@@ -1470,7 +1470,7 @@
           "text": "In a 34-14 win over San Francisco, Saints QB Drew Brees connects on 21 of 30 pass attempts, including two touchdowns, while Alvin Kamara and Latavius Murray each add a score on the ground. New Orleans takes back the division lead from Atlanta."
         },
         {
-          "header": "Week 11 Winners",
+          "header": "Week 11 Scores",
           "table": [
             {
               "winner": "Cardinals",
@@ -1555,7 +1555,7 @@
           "text": "A tie in Carolina? That&rsquo;s right. The Panthers and Lions end in a 27-all draw. For Detroit, it means it remains a half-game behind in the NFC North. For Carolina, it means the No. 1 draft pick in 2021 is a bit further away."
         },
         {
-          "header": "Week 12 Winners",
+          "header": "Week 12 Scores",
           "table": [
             {
               "winner": "Cowboys",
@@ -1735,7 +1735,7 @@
       ],
       "weeklyWinners": [
         {
-          "header": "Week 13 Winners",
+          "header": "Week 13 Scores",
           "table": [
             {
               "winner": "Ravens",
@@ -1831,7 +1831,7 @@
           "text": "Seven catches and a touchdown for Saints receiver Michael Thomas helps New Orleans to a 28-17 win over the Falcons and a share of the division lead. Both teams sit at 8-4, while the Buccaneers linger behind at 6-6."
         },
         {
-          "header": "Week 14 Winners",
+          "header": "Week 14 Scores",
           "table": [
             {
               "winner": "Rams",
@@ -1933,7 +1933,7 @@
           "text": "We got two division clinches! The 8-5 Bills fall in Week 14 to Pittsburgh, but losses from the Pats and Jets give them the AFC East. And in the AFC West, the 10-3 Chiefs repeat as champs. Kansas City steamrolled through its division, as no other team is even at .500."
         },
         {
-          "header": "Week 15 Winners",
+          "header": "Week 15 Scores",
           "table": [
             {
               "winner": "Chargers",
@@ -2035,7 +2035,7 @@
           "text": "Seattle is on a four-game win streak and is perhaps back in the NFC West mix. Russell Wilson totals 238 passing yards in this week&rsquo;s matchup with Washington and throws his sixth and seventh TDs of the winning stretch."
         },
         {
-          "header": "Week 16 Winners",
+          "header": "Week 16 Scores",
           "table": [
             {
               "winner": "Vikings",
@@ -2137,7 +2137,7 @@
           "text": "Dallas is hot. The 9-6 Cowboys have won four in a row, including this week&rsquo;s 17-10 victory over the Eagles. Ezekiel Elliott rumbles for 81 yards and a score, helping the Cowboys level up with Philly in the NFC East."
         },
         {
-          "header": "Week 17 Winners",
+          "header": "Week 17 Scores",
           "table": [
             {
               "winner": "Bills",
@@ -2713,7 +2713,7 @@
       ],
       "weeklyWinners": [
         {
-          "header": "Wild Card Round Winners",
+          "header": "Wild Card Round Scores",
           "table": [
             {
               "winner": "Bills",
@@ -2755,7 +2755,7 @@
           "text": "The 9-7 Texans stun the 12-win Steelers, as Bill O&rsquo;Brien answers his critics. New Orleans gets playoff revenge: a decisive 23-10 win over the Rams featuring seven catches from Michael Thomas. And Dak Prescott&rsquo;s 271 passing yards help Dallas over Philadelphia."
         },
         {
-          "header": "Divisional Round Winners",
+          "header": "Divisional Round Scores",
           "table": [
             {
               "winner": "Ravens",
@@ -2785,7 +2785,7 @@
           "text": "Tom Brady is headed to the NFC Championship Game after a 264-yard, 3-TD win over the Saints, the Niners are gone after the Cowboys dropped 39 on their defense and Patrick Mahomes dismisses the Bills with a 27-7 blowout."
         },
         {
-          "header": "Championship Round Winners",
+          "header": "Championship Round Scores",
           "table": [
             {
               "winner": "Chiefs",
