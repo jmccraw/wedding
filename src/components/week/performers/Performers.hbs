@@ -8,7 +8,7 @@
     {{#each performers}}
     {{#compare 'performer' '===' this.type}}
     <figure class="fpi-performers__profile">
-      <img class="fpi-performers__profile-image is-lazy" src="" data-src="{{this.image}}" />
+      <img class="fpi-performers__profile-image is-lazy" src="{{this.placeholder}}" data-src="{{this.image}}" />
       <figcaption class="fpi-performers__caption">
         <p class="fpi-performers__caption-text">{{{this.firstName}}} <span class="is-last-name">{{{this.lastName}}}, {{{this.team}}}</span> <span class="fpi-performers__big-number">{{{this.number}}}</span> <span class="fpi-performers__description">{{{this.description}}}</span></p>
       </figcaption>
