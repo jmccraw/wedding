@@ -460,15 +460,17 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_brady.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Tom",
           "lastName": "Brady",
           "team": "TB",
           "number": "1,223",
-          "description": "Passings YDS"
+          "description": "Passing YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_sanders.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Miles",
           "lastName": "Sanders",
           "team": "PHI",
@@ -478,6 +480,7 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_thomas.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Michael",
           "lastName": "Thomas",
           "team": "NO",
@@ -898,15 +901,17 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_prescott.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Dak",
           "lastName": "Prescott",
           "team": "DAL",
           "number": "1,234",
-          "description": "Passings YDS"
+          "description": "Passing YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_mccaffrey.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Christian",
           "lastName": "McCaffrey",
           "team": "CAR",
@@ -916,6 +921,7 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_cooper.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Amari",
           "lastName": "Cooper",
           "team": "DAL",
@@ -1695,15 +1701,17 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_brady.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Tom",
           "lastName": "Brady",
           "team": "TB",
           "number": "1,162",
-          "description": "Passings YDS"
+          "description": "Passing YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_henry.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Derrick",
           "lastName": "Henry",
           "team": "TEN",
@@ -1713,6 +1721,7 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_thomas.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Michael",
           "lastName": "Thomas",
           "team": "NO",
@@ -2277,15 +2286,17 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_ryan.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Matt",
           "lastName": "Ryan",
           "team": "ATL",
           "number": "1,564",
-          "description": "Passings YDS"
+          "description": "Passing YDS"
         },
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_henry.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Derrick",
           "lastName": "Henry",
           "team": "TEN",
@@ -2295,6 +2306,7 @@
         {
           "type": "performer",
           "image": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/head_thomas.jpg",
+          "placeholder": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/placeholder-600x600.png",
           "firstName": "Michael",
           "lastName": "Thomas",
           "team": "NO",
