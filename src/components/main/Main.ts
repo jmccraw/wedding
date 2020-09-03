@@ -1,7 +1,7 @@
 /**
  * Main TS
  */
-import { setIsMobile, getIsMobile } from '../../utilities/IsMobile.js';
+import { setIsMobile } from '../../utilities/IsMobile.js';
 import { trackVisibilityChange, getVisibilityChange } from '../../utilities/TrackTabFocus.js';
 import { trackOrientationChange } from '../../utilities/TrackOrientation.js';
 
