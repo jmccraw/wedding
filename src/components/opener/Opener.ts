@@ -13,15 +13,17 @@ let openerImageCompletions: number = 0;
 
 /**
  * Jumps to the introduction section of the piece
+ * TODO FIXME Still seems a bit funky on Chrome for whatever reason
  */
 function jumpToIntro() {
   const _target: any = document.querySelector( '.fpi-introduction' );
 
   window.gsap.to( window, {
     duration: 0.25,
-    ease: 'power4.out',
+    ease: 'expo.out',
     overwrite: true,
-    scrollTo: { y: _target, autoKill: false }
+    scrollTo: { y: _target, autoKill: false },
+    delay: 0
   } );
 
   trackAnalyticsEvent( 'jump-button:click' );
