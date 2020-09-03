@@ -3,10 +3,10 @@
   <img class="fpi-week__opener-background-image is-mobile is-lazy" src="{{openerImage.mobilePlaceholder}}" data-src="{{openerImage.mobile}}" />
   <img class="fpi-week__opener-background-image is-desktop is-lazy" src="{{openerImage.desktopPlaceholder}}" data-src="{{openerImage.desktop}}" />
   {{#each openerImage.mobileSubset}}
-  <img class="fpi-week__opener-image is-mobile is-{{@index}} is-lazy" src="{{openerImage.mobilePlaceholder}}" data-src="{{this.src}}" data-x-offset="{{this.xOffset}}" data-y-offset="{{this.yOffset}}" />
+  <img class="fpi-week__opener-image is-mobile is-{{@index}} is-lazy" src="{{../openerImage.mobilePlaceholder}}" data-src="{{this.src}}" data-x-offset="{{this.xOffset}}" data-y-offset="{{this.yOffset}}" />
   {{/each}}
   {{#each openerImage.desktopSubset}}
-  <img class="fpi-week__opener-image is-desktop is-{{@index}} is-lazy" src="{{openerImage.desktopPlaceholder}}" data-src="{{this.src}}" data-x-offset="{{this.xOffset}}" data-y-offset="{{this.yOffset}}" />
+  <img class="fpi-week__opener-image is-desktop is-{{@index}} is-lazy" src="{{../openerImage.desktopPlaceholder}}" data-src="{{this.src}}" data-x-offset="{{this.xOffset}}" data-y-offset="{{this.yOffset}}" />
   {{/each}}
 </figure>
 {{/compare}}
