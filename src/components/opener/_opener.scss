@@ -283,7 +283,11 @@
 
 .fpi-opener__dek .byline {
   color: $medium-gray;
-  margin-top: 8px;
+  margin-top: 0;
+
+  @include screen-from(tablet) {
+    margin-top: 8px;
+  }
 }
 
 .fpi-opener__button {
