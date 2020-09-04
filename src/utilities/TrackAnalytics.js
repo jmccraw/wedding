@@ -7,11 +7,11 @@ import { getIsMobile } from './IsMobile.js';
 export default function trackAnalyticsEvent( customEvent ) {
   const device = getIsMobile() ? 'mobile:' : 'desktop:';
 
-  // if ( window.espn && window.espn.track ) {
-  //   window.espn.track.trackLink( {
-  //     linkPos: `espncom:nfl-fpi:${device}${customEvent}`,
-  //     linkId: null
-  //   } );
-  // }
-  window.console.log( `espncom:nfl-fpi:${device}${customEvent}` );
+  if ( window.espn && window.espn.track ) {
+    window.espn.track.trackLink( {
+      linkPos: `espncom:nfl-fpi:${device}${customEvent}`,
+      linkId: null
+    } );
+  }
+  // window.console.log( `espncom:nfl-fpi:${device}${customEvent}` );
 }

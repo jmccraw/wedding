@@ -8,6 +8,7 @@ import initImageHelper from './components/image-helper/ImageHelper';
 
 declare global {
   interface Window {
+    espn: any;
     gsap: any;
     ScrollToPlugin: any;
     ScrollTrigger: any;
