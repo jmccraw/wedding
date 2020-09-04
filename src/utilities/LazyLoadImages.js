@@ -1,50 +1,11 @@
 import trackAnalyticsEvent from './TrackAnalytics.js';
 let _lazyPictures = null;
-let lazyImagesObserver = null;
 
 /**
  * Sets the _lazyPictures variable
  */
 export function setLazyPictures( _els ) {
   _lazyPictures = _els;
-}
-
-/**
- * Loads all of the images as a fallback for older browsers
- * TODO FIXME Would be better to base this off a scroll
- */
-function loadImagesFallback() {
-  _lazyPictures.forEach( ( _lazyPicture ) => {
-    _lazyPicture.setAttribute( 'src', _lazyPicture.dataset.src );
-    _lazyPicture.classList.remove( 'is-lazy' );
-  } );
-
-  trackAnalyticsEvent( 'no-intersectionobserver' );
-}
-
-/**
- * Checks for images that need lazy loading (have the data-src attribute and 'is-lazy' attribute)
- * @param {Array} observersArray The IntersectionObserver objects
- */
-function checkForLazyLoadImages( observersArray ) {
-  observersArray.forEach( ( observedItem ) => {
-    let _img;
-
-    if ( observedItem.isIntersecting ) {
-      _img = observedItem.target;
-      _img.setAttribute( 'src', _img.dataset.src );
-      window.setTimeout( () => {
-        _img.classList.remove( 'is-lazy' );
-      }, 350 );
-      lazyImagesObserver.unobserve( _img );
-    }
-  } );
-}
-
-/**
- * Load the lazy image
- */
-function loadImage( _image, st ) {
 }
 
 /**
@@ -101,22 +62,5 @@ export function watchForLazyImages() {
     }, 3500 );
   }
 
-checkForLazyImages();
-
-
-/*
-
-  // Checks if the browser supports the IntersectionObserver and uses that, else,
-  // just loads all the images and hides the Tallies
-  // Modified from: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
-  if ( window.IntersectionObserver ) {
-    lazyImagesObserver = new IntersectionObserver( checkForLazyLoadImages );
-    _lazyPictures.forEach( ( _lazyPicture ) => {
-      lazyImagesObserver.observe( _lazyPicture );
-    } );
-  } else {
-    loadImagesFallback();
-  }
-
-  */
+  checkForLazyImages();
 }
