@@ -13,7 +13,6 @@ let openerImageCompletions: number = 0;
 
 /**
  * Jumps to the introduction section of the piece
- * TODO FIXME Still seems a bit funky on Chrome for whatever reason
  */
 function jumpToIntro() {
   const _target: any = document.querySelector( '.fpi-introduction' );
