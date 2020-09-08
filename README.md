@@ -1,7 +1,8 @@
 # NFL FPI Simulator
 NFL Simulator run 40,000 times to predict the season winners and highlights.
 
-* [Live URL TK](#)
+**URLS**
+* [We simulated the entire 2020 NFL season: Scores and storylines for all 269 games](https://www.espn.com/espn/feature/story/_/id/29548083/simulating-entire-2020-nfl-season-scores-storylines-all-269-games-plus-super-bowl-champion)
 * [Asana Board](https://app.asana.com/0/1186333914646499/board)
 
 Project boilerplate for creating standalone articles and other templates.
