@@ -1,9 +1,5 @@
-# NFL FPI Simulator
-NFL Simulator run 40,000 times to predict the season winners and highlights.
-
-**URLS**
-* [We simulated the entire 2020 NFL season: Scores and storylines for all 269 games](https://www.espn.com/espn/feature/story/_/id/29548083/simulating-entire-2020-nfl-season-scores-storylines-all-269-games-plus-super-bowl-champion)
-* [Asana Board](https://app.asana.com/0/1186333914646499/board)
+# Wedding
+It's a wedding!
 
 Project boilerplate for creating standalone articles and other templates.
 
@@ -16,8 +12,8 @@ Folder are broken into `/components`, `/styles`, and `/utilities`. Components co
 Install the dependencies …
 
 ```bash
-git clone git@code.espn.com:contentDesign/nfl_fpi.git
-cd nfl_fpi
+git TK
+cd wedding
 npm install
 ```
 
@@ -28,7 +24,6 @@ npm run start
 ```
 
 This will start a dev server on (http://localhost:8080/)[http://localhost:8080/] with hot reloading.
-
 
 ## Building and running in production mode
 

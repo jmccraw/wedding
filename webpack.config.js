@@ -1,3 +1,4 @@
+/** @type {import('webpack').Configuration} */
 const path = require( 'path' );
 const HtmlWebpackPlugin = require( 'html-webpack-plugin' );
 const mergeJSON = require( 'handlebars-webpack-plugin/utils/mergeJSON' );
@@ -29,8 +30,10 @@ module.exports = {
       },
       {
         test: /\.s(a|c)ss$/,
-        loader: [
-          isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
+        use: [
+          {
+            loader: isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader
+          },
           {
             loader: 'css-loader',
             options: {

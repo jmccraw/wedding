@@ -1,7 +1,7 @@
 {
-  "name": "project-boilerplate",
+  "name": "wedding",
   "version": "1.0.0",
-  "description": "Project boilerplate for creating standalone articles and other templates.",
+  "description": "Wedding site generated using my old project-boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,40 +12,43 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmccraw/project-boilerplate.git"
+    "url": "git+https://github.com/jmccraw/wedding.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jmccraw/project-boilerplate/issues"
+    "url": "https://github.com/jmccraw/wedding/issues"
   },
-  "homepage": "https://github.com/jmccraw/project-boilerplate#readme",
+  "homepage": "https://github.com/jmccraw/wedding#readme",
   "devDependencies": {
-    "@babel/core": "^7.10.5",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-typescript": "^7.10.4",
-    "babel-loader": "^8.1.0",
-    "clean-webpack-plugin": "^3.0.0",
-    "cross-env": "^7.0.2",
-    "css-loader": "^3.5.3",
-    "handlebars": "^4.7.6",
-    "handlebars-loader": "^1.7.1",
-    "handlebars-webpack-plugin": "^1.8.1",
-    "html-loader": "^1.1.0",
-    "html-webpack-plugin": "^4.3.0",
-    "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.14.1",
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.3",
+    "handlebars-webpack-plugin": "^2.2.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "node-sass": "^8.0.0",
     "path": "^0.12.7",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2",
-    "source-map-loader": "^1.0.1",
-    "style-loader": "^1.2.1",
-    "typescript": "^3.9.7",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
+    "sass": "^1.58.0",
+    "sass-loader": "^13.2.0",
+    "source-map-loader": "^4.0.1",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "overrides": {
+    "html-webpack-plugin": "^5.5.0"
   }
 }
