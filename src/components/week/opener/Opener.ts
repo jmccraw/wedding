@@ -2,7 +2,6 @@
  * Week Opener image logic TS
  */
 import { getIsMobile } from '../../../utilities/IsMobile.js';
-import trackAnalyticsEvent from '../../../utilities/TrackAnalytics.js';
 const _openerFigures: NodeListOf<Element> = document.querySelectorAll( '.fpi-week__opener-figure' );
 
 /**
@@ -37,13 +36,6 @@ class WeekOpener {
   }
 
   /**
-   * Tracks the trigger animating in
-   */
-  trackTrigger() {
-    trackAnalyticsEvent( `week-opener-${this.index}:trigger` );
-  }
-
-  /**
    * Triggers the timeline animation to run
    */
   triggerTimelineAnimation() {
@@ -51,7 +43,6 @@ class WeekOpener {
 
     self.scrollTrigger && self.scrollTrigger.kill();
     self.timeline.play();
-    self.trackTrigger();
 
       // let st = window.ScrollTrigger.create( {
       //   trigger: _image,
@@ -105,7 +96,6 @@ class WeekOpener {
       scrub: false,
       pin: false,
       markers: false,
-      onEnter: self.trackTrigger.bind( self )
     } );
   }
 

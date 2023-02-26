@@ -1,0 +1,22 @@
+/*
+ * Nav containing jump links with smooth scroll
+ */
+.nav {
+  align-items: center;
+  background-color: transparent;
+  bottom: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 0;
+  padding: 0 25px 0 24px;
+  position: fixed;
+  width: 100%;
+  z-index: 7;
+
+  &__link {
+    color: red;
+    text-decoration: underline;
+  }
+}

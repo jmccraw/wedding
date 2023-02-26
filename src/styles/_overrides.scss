@@ -1,32 +1,3 @@
 ::selection {
   background-color: rgba(0, 102, 204, 0.35);
 }
-
-#toolbar,
-#main-header,
-.jumper {
-  display: none;
-}
-
-#main-article {
-  padding-bottom: 0 !important; // To override styles
-  top: 0 !important; // To override styles
-}
-
-.fpi-introduction a,
-.fpi-week a {
-  border-bottom: 1px dashed $blue;
-  color: $blue;
-  text-decoration: none;
-  transition: border-bottom 0.25s ease-in-out;
-
-  &:hover {
-    @include screen-from(tablet) {
-      border-bottom: 1px solid $blue;
-    }
-  }
-
-  &:active {
-    border-bottom: 1px solid $blue;
-  }
-}

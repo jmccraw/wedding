@@ -1,24 +1,13 @@
 {
-  "hed": "Simulating all 267 games of the 2020 NFL season",
-  "dek": "We played out one of our Football Power Index&rsquo;s 20,000 season sims, from Week 1 through Super Bowl LV, with game winners, playoff races and more.",
-  "byline": "Seth Walder",
+  "hed": "Justin + Tyler",
   "background": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/bkgd.jpg",
   "images": [
     {
-      "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/brady_full.png",
-      "xOffset": -15
+      "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/brady_full.png"
     },
     {
-      "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/mahomes_full.png",
-      "xOffset": -15
-    },
-    {
-      "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/zeke_full.png",
-      "xOffset": 15
-    },
-    {
-      "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/watt_full.png",
-      "xOffset": 15
+      "src": "https://a.espncdn.com/prod/styles/pagetype/otl/2020/200907_nfl_fpi/images/header/mahomes_full.png"
     }
-  ]
+  ],
+  "testLeft": "../../assets/test-left.png"
 }

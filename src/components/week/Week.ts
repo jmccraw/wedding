@@ -11,8 +11,8 @@ import initTable from './table/Table';
  * Initialize the Week overarching container and all its possible components
  */
 export default function init() {
-  initOpener();
-  initWeeklyWinners();
-  initPerformers();
-  initTable();
+  // initOpener();
+  // initWeeklyWinners();
+  // initPerformers();
+  // initTable();
 }

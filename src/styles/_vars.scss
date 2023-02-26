@@ -1,13 +1,25 @@
 // Colors
-$black: #000;
+$black: #333;
 $blue: #06c;
 $dark-gray: #4a4a4a;
 $light-gray: #d8d8d8;
 $medium-gray: #808080;
+$smokey: #f2f2f2;
 $white: #fff;
 
+$burnt: #610608;
+$sage: #292f15;
+$sage-accent: #5d5d44;
+$cream: #d4c9b4;
+$tan: #986a43;
+$alibaster: #f5f4f5;
+$fire: #970421;
+
+// Widths
+$content: toRems(680px);
+
+
 // Fonts
-$benton: 'BentonSans', sans-serif;
-$benton-bold: 'BentonSansBold', 'BentonSansMedium', 'BentonSans', sans-serif;
-$benton-medium: 'BentonSansMedium', 'BentonSans', sans-serif;
-$tungsten: 'HCo Tungsten', 'BentonSans', sans-serif;
+$monospace: Monospace, Georgia, serif;
+$stormline: 'Stormline', sans-serif;
+$california: 'California', sans-serif;

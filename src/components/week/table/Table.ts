@@ -1,8 +1,6 @@
 /**
  * Table TS
  */
-import trackAnalyticsEvent from '../../../utilities/TrackAnalytics.js';
-
 const _tableContainers: NodeListOf<Element> = document.querySelectorAll( '.fpi-table__container' );
 
 /**
@@ -27,13 +25,6 @@ class Table {
   }
 
   /**
-   * Track that the animation sequence triggered
-   */
-  trackTrigger() {
-    trackAnalyticsEvent( `table-${this.index}:trigger` );
-  }
-
-  /**
    * Registers the Table animations for each table element
    */
   registerTableAnimation() {
@@ -55,7 +46,6 @@ class Table {
       scrub: false,
       pin: false,
       markers: false,
-      onEnter: self.trackTrigger.bind( self )
     } );
   }
 

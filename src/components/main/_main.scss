@@ -1,10 +1,49 @@
 /*
  * Main container for HTML content
  */
-.fpi-main {
-  background-color: $light-gray;
+.wedding {
+  background-color: $sage;
   margin: 0;
   padding: 0;
   position: relative;
   width: 100%;
+}
+
+// Main content article sections
+.articles {
+  background-color: $cream;
+  border: 60px solid $sage-accent;
+  border-radius: 5px;
+  box-sizing: content-box;
+  margin: 0 auto toRems(100px);
+  max-width: $content;
+  padding: 40px 8px 40px;
+  position: relative;
+
+  @include screen-from(mobile-up) {
+    padding-bottom: 19px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  @include screen-from(mobile-max) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  &__headline {
+    font: 400 toRems(50px)/1.2 $california;
+    color: $burnt;
+    margin: 0 auto 20px;
+    max-width: toRems(600px);
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    color: $black;
+    font: 400 toRems(18px)/1.4 $monospace;
+    margin: 0 auto 20px;
+    max-width: toRems(600px);
+  }
 }
