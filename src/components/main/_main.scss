@@ -12,38 +12,73 @@
 // Main content article sections
 .articles {
   background-color: $cream;
-  border: 60px solid $sage-accent;
+  border: toRems(60px) solid $sage-accent;
   border-radius: 5px;
   box-sizing: content-box;
+  display: flex;
   margin: 0 auto toRems(100px);
-  max-width: $content;
-  padding: 40px 8px 40px;
+  max-width: toRems(680px);
   position: relative;
 
-  @include screen-from(mobile-up) {
-    padding-bottom: 19px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  @include screen-from(mobile-max) {
-    padding-left: 24px;
-    padding-right: 24px;
+  &__header {
+    align-items: flex-start;
+    border-right: 2px solid $sage-accent;
+    display: flex;
+    justify-content: center;
+    width: toRems(100px);
   }
 
   &__headline {
-    font: 400 toRems(50px)/1.2 $california;
     color: $burnt;
-    margin: 0 auto 20px;
-    max-width: toRems(600px);
-    text-align: center;
+    font: 400 toRems(60px)/1 $california;
+    letter-spacing: 0.1rem;
+    margin-left: 7px;
+    margin-top: toRems(206px);
+    transform: rotate(-90deg);
     text-transform: uppercase;
   }
 
+  &__container {
+    padding: 30px;
+  }
+
   &__text {
-    color: $black;
+    color: $dark-gray;
     font: 400 toRems(18px)/1.4 $monospace;
     margin: 0 auto 20px;
     max-width: toRems(600px);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  img {
+    height: auto;
+    margin-bottom: toRems(20px);
+    width: 100%;
+  }
+}
+
+.articles.is-simple {
+  display: block;
+  padding: 40px 8px;
+
+  .articles__header {
+    border-right: none;
+    display: block;
+    margin: 0 auto toRems(20px);
+    max-width: toRems(600px);
+    width: auto;
+  }
+
+  .articles__headline {
+    font-size: toRems(46px);
+    margin: 0;
+    transform: none;
+  }
+
+  .articles__container {
+    padding: 0;
   }
 }

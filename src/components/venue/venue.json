@@ -1,8 +1,9 @@
 {
-  "header": "Accomodations",
+  "id": "venue",
+  "header": "The Venue",
   "image": {
-    "src": "",
-    "alt": ""
+    "src": "https://loremflickr.com/600/400",
+    "alt": "TK"
   },
   "text": [
     "Blocks of rooms are available from Seven Feathers Resort & Casino in Myrtle Creek, OR, which is approximately 20 minutes from the wedding and reception venue.",

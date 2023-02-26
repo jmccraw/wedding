@@ -1,8 +1,10 @@
-<article class="articles">
+<article class="articles is-simple">
   <header class="articles__header">
     <h2 class="articles__headline">{{introduction.header}}</h2>
   </header>
-  {{#each introduction.text}}
-  <p class="articles__text">{{{this}}}</p>
-  {{/each}}
+  <div class="articles__container">
+    {{#each introduction.text}}
+    <p class="articles__text">{{{this}}}</p>
+    {{/each}}
+  </div>
 </article>

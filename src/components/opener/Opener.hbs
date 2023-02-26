@@ -1,31 +1,29 @@
 <!-- This is a recreation of Unfold's (https://dribbble.com/unfold) parallax scene, which is a recreation of Tom Miller's CodePen (https://codepen.io/creativeocean/pen/qBbBLyB) -->
-<div class="scrollDist"></div>
-<div class="main">
+<div class="opener__scroller"></div>
+<div class="opener__container">
   <svg viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg" border="0">
     <mask id="m">
-      <g class="cloud1">
+      <g class="opener__fixed">
         <rect fill="#fff" width="100%" height="801" y="799" />
         <image xlink:href="./camelia-bg.jpg" width="1280" height="800"/>
       </g>
     </mask>
 
-    <image class="sky" xlink:href="https://images.unsplash.com/photo-1572984056191-312ddb5a5c77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" width="1280" height="854"  />
-    <image class="mountBg" xlink:href="./camelia-back.png" width="1280" height="800" />
-    <image class="mountMg is-hidden" xlink:href="./test-left.png" width="1188" height="1980" x="-300" y="150" />
-    <image class="cloud2" xlink:href="./honeysuckle-1.png" width="1280" height="800"/>
-    <image class="cloud1" xlink:href="./honeysuckle-2.png" width="1280" height="800"/>
-    <image class="mountFg is-hidden" xlink:href="./test-right.png" width="1188" height="1800" x="380" y="200" />
-    <image class="cloud3" xlink:href="./garden.png" width="1280" height="800"/>
-    <text class="names is-hidden" fill="#fff" x="210" y="200">Justin &amp; Tyler</text>
-    <polyline class="arrow" fill="#fff" points="653,250 653,289 644,279 644,282 654,292 663,282 664,279 655,289 655,250" />
-
-    <rect id="arrowBtn" width="100" height="100" opacity="0" x="550" y="220" style="cursor:pointer"/>
+    <image class="opener__background" xlink:href="https://images.unsplash.com/photo-1572984056191-312ddb5a5c77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" width="1280" height="854"  />
+    <image class="opener__center" xlink:href="./camelia-back.png" width="1280" height="800" />
+    <image class="opener__justin is-hidden" xlink:href="./test-left.png" width="1188" height="1980" x="-300" y="150" />
+    <image class="opener__honeysuckle" xlink:href="./honeysuckle-1.png" width="1280" height="800"/>
+    <image class="opener__fixed" xlink:href="./honeysuckle-2.png" width="1280" height="800"/>
+    <image class="opener__tyler is-hidden" xlink:href="./test-right.png" width="1188" height="1800" x="380" y="200" />
+    <image class="opener__garden" xlink:href="./garden.png" width="1280" height="800"/>
+    <text class="opener__names is-hidden" fill="#fff" x="225" y="200">Justin <tspan class="opener__amperand" y="175">&amp;</tspan> <tspan y="200">Tyler</tspan></text>
+    <polyline class="opener__arrow" fill="#fff" points="653,250 653,289 644,279 644,282 654,292 663,282 664,279 655,289 655,250" />
 
     <g mask="url(#m)">
       <rect fill="#292f15" width="100%" height="100%" />
-      <text class="date" x="181" y="200" fill="#986a43">October 28, 2023</text>
+      <text class="opener__date" x="181" y="200" fill="#986a43">October 28, 2023</text>
     </g>
 
-    <rect class="date-line" fill="#5d5d44" width="5" height="20%" x="638" y="280" opacity="0" />
+    <rect class="opener__acceent-line" fill="#5d5d44" width="5" height="20%" x="638" y="280" opacity="0" />
   </svg>
 </div>

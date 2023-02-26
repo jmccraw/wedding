@@ -1,13 +1,13 @@
-<article class="venue">
-  <header class="venue__header">
-    <h2 class="venue__headline">{{venue.header}}</h2>
+<article id="#{{venue.id}}" class="articles">
+  <header class="articles__header">
+    <h2 class="articles__headline">{{venue.header}}</h2>
   </header>
-  <div class="venue__container">
-    <figure>
-      <img src="https://loremflickr.com/600/400" loading="lazy" />
+  <div class="articles__container">
+    <figure class="articles__figure">
+      <img src="{{venue.image.src}}" alt="{{venue.image.alt}}" loading="lazy" />
     </figure>
     {{#each venue.text}}
-    <p class="venue__text">{{{this}}}</p>
+    <p class="articles__text">{{{this}}}</p>
     {{/each}}
   </div>
 </article>
