@@ -1,0 +1,11 @@
+{{#each timeline}}
+  {{#compare type '===' 'accomodations'}}
+  {{> ../articles/Articles this}}
+  {{/compare}}
+  {{#compare type '===' 'venue'}}
+  {{> ../articles/Articles this}}
+  {{/compare}}
+  {{#compare type '===' 'polaroid'}}
+  {{> ../polaroids/Polaroids this}}
+  {{/compare}}
+{{/each}}

@@ -1,6 +1,6 @@
-<figure class="polaroids is-counterclockwise">
-  <img class="polaroids__image" src="https://loremflickr.com/280/280" loading="lazy" />
+<figure class="polaroids{{#if this.classes}} {{this.classes}}{{/if}}">
+  <img class="polaroids__image" src="{{this.src}}" alt="{{this.alt}}" loading="lazy" />
   <figcaption class="polaroids__figcaption">
-    <p class="polaroids__caption">CAPTION</p>
+    <p class="polaroids__caption">{{{this.caption}}}</p>
   </figcaption>
 </figure>

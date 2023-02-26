@@ -1,12 +1,12 @@
-<article id="#{{venue.id}}" class="articles">
+<article id="#{{this.id}}" class="articles">
   <header class="articles__header">
-    <h2 class="articles__headline">{{venue.header}}</h2>
+    <h2 class="articles__headline">{{this.header}}</h2>
   </header>
   <div class="articles__container">
     <figure class="articles__figure">
-      <img src="{{venue.image.src}}" alt="{{venue.image.alt}}" loading="lazy" />
+      <img src="{{this.image.src}}" alt="{{this.image.alt}}" loading="lazy" />
     </figure>
-    {{#each venue.text}}
+    {{#each this.text}}
     <p class="articles__text">{{{this}}}</p>
     {{/each}}
   </div>

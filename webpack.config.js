@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require( 'html-webpack-plugin' );
 const mergeJSON = require( 'handlebars-webpack-plugin/utils/mergeJSON' );
 const { CleanWebpackPlugin } = require( 'clean-webpack-plugin' );
 const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' );
-const projectData = mergeJSON( path.join( __dirname, '/src/components/**/*.json' ) );
+const projectData = mergeJSON( path.join( __dirname, '/src/content.json' ) );
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
 module.exports = {
