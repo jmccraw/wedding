@@ -1,8 +1,6 @@
 /**
  * Weekly Winners Table TS
  */
-import trackAnalyticsEvent from '../../../utilities/TrackAnalytics.js';
-// import { getIsMobile } from '../../../utilities/IsMobile.js';
 const _weeklyWinners: NodeListOf<Element> = document.querySelectorAll( '.fpi-weekly-winners__table' );
 
 /**
@@ -24,13 +22,6 @@ class WeeklyWinners {
     // this._trs = _el.querySelectorAll( 'tr' );
     this.index = index;
     this.timeline = window.gsap.timeline( { repeat: 0 } );
-  }
-
-  /**
-   * Track that the animation sequence triggered
-   */
-  trackTrigger() {
-    trackAnalyticsEvent( `weekly-winners-table-${this.index}:trigger` );
   }
 
   /**
@@ -64,7 +55,6 @@ class WeeklyWinners {
       scrub: false,
       pin: false,
       markers: false,
-      onEnter: self.trackTrigger.bind( self )
     } );
   }
 

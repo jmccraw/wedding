@@ -1,5 +1,8 @@
-<article class="fpi-introduction">
+<article class="articles">
+  <header class="articles__header">
+    <h2 class="articles__headline">{{introduction.header}}</h2>
+  </header>
   {{#each introduction.text}}
-  <p class="body-text serif">{{{this}}}</p>
+  <p class="articles__text">{{{this}}}</p>
   {{/each}}
 </article>

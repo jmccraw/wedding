@@ -1,9 +1,8 @@
 import { initViewportHeight, setViewportHeightVariableName } from './utilities/ViewportHeight.js';
 import initMain from './components/main/Main';
+import initNav from './components/nav/Nav';
 import initOpener from './components/opener/Opener';
-import initStickyHeader from './components/sticky-header/StickyHeader';
-import initWeek from './components/week/Week';
-import initRelatedStories from './components/related-stories/RelatedStories';
+import initPolaroids from './components/polaroids/Polaroids';
 import initImageHelper from './components/image-helper/ImageHelper';
 
 declare global {
@@ -16,13 +15,13 @@ declare global {
 }
 
 const App = () => {
+  // TODO FIXME
   setViewportHeightVariableName( '--fpi-vh' );
   initViewportHeight();
   initMain();
+  initNav();
   initOpener();
-  initStickyHeader();
-  initWeek();
-  initRelatedStories();
+  initPolaroids();
   initImageHelper();
 };
 

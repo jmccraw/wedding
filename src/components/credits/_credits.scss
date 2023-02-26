@@ -1,7 +1,7 @@
 /**
  * Credits section styles
  */
-.fpi-credits {
+.credits {
   background-color: $white;
   margin: 0 auto;
   padding: 38px 0 19px;
@@ -9,9 +9,9 @@
   width: 100%;
 }
 
-.fpi-credits__text {
+.credits__text {
   color: $medium-gray;
-  font: 400 13px/1.23 $benton-medium;
+  font: 400 13px/1.23 $monospace;
   letter-spacing: 0.15px;
   margin: 0 auto 18px;
   position: relative;

@@ -1,7 +1,6 @@
 /**
  * Performers section animations TS
  */
-import trackAnalyticsEvent from '../../../utilities/TrackAnalytics.js';
 const _performers: NodeListOf<Element> = document.querySelectorAll( '.fpi-performers' );
 
 /**
@@ -27,13 +26,6 @@ class Performer {
   }
 
   /**
-   * Track that the animation sequence triggered
-   */
-  trackTrigger() {
-    trackAnalyticsEvent( `performers-${this.index}:trigger` );
-  }
-
-  /**
    * Sets the animation sequence for this Performer group and when to trigger it
    */
   setAnimationTrigger() {
@@ -55,7 +47,6 @@ class Performer {
       scrub: false,
       pin: false,
       markers: false,
-      onEnter: self.trackTrigger.bind( self )
     } );
   }
 

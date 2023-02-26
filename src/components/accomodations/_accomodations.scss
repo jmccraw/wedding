@@ -1,0 +1,13 @@
+// Accomodations-specific styles
+.accomodations {
+  background: $cream;
+  position: relative;
+  margin: 0 auto;
+  max-width: 37.5rem;
+
+  img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

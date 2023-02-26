@@ -1,0 +1,11 @@
+<article class="articles">
+  <header class="articles__header">
+    <h2 class="articles__headline">{{accomodations.header}}</h2>
+  </header>
+    <figure class="accomodations">
+      <img src="https://loremflickr.com/600/400" loading="lazy" />
+    </figure>
+  {{#each accomodations.text}}
+  <p class="articles__text">{{{this}}}</p>
+  {{/each}}
+</article>
