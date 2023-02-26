@@ -7,8 +7,7 @@
  * @param scope
  * @returns {Function}
  */
-export function throttle( fn, threshhold, scope ) {
-  threshhold || ( threshhold = 250 );
+export function throttle(fn, threshhold = 250, scope) {
   let last;
   let deferTimer;
   return function() {

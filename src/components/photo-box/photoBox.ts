@@ -1,6 +1,8 @@
 /**
  * Helper functions to accomodate creation of a Polaroid experience
  */
+import { throttle } from '../../utilities/Throttle';
+
 const _photoBoxes: NodeListOf<Element> = document.querySelectorAll('.photo-box');
 
 /**
@@ -29,7 +31,6 @@ class PhotoBox {
   triggerTimelineAnimation() {
     const self = this;
 
-    self.scrollTrigger && self.scrollTrigger.kill();
     self.timeline.play();
   }
 
@@ -52,26 +53,23 @@ class PhotoBox {
   }
 
   /**
-   * Sets the initial starting positions for the various images
+   * Register where the Polaroids should animate to
    */
-  setInitialOpenerStates() {
+  setTimelineAnimationStates() {
     const self = this;
     const durationOffset = 0.35;
     const length = self._polaroids.length - 1;
+    const halfWindow = window.innerWidth / 2;
 
     self._polaroids.forEach((_polaroid: any, index: number) => {
-      const offset: number = +_polaroid.dataset.offset;
-      let restingOffset: number;
+      const offset = +_polaroid.dataset.offset;
+      let restingOffset;
 
       if (index === length) {
-        restingOffset = 50;
+        restingOffset = halfWindow - 350;
       } else {
-        restingOffset = offset > 0 ? 250 : -80;
+        restingOffset = offset > 0 ? halfWindow - 250 : halfWindow - 500;
       }
-
-      window.gsap.set(_polaroid, {
-        x: offset > 0 ? window.innerWidth - offset : offset,
-      });
 
       self.timeline.to(_polaroid, {
         duration: durationOffset,
@@ -81,11 +79,42 @@ class PhotoBox {
   }
 
   /**
+   * Sets the initial starting positions for the various images
+   */
+  setInitialOpenerStates() {
+    const self = this;
+
+    self._polaroids.forEach((_polaroid: any) => {
+      const offset = +_polaroid.dataset.offset;
+
+      window.gsap.set(_polaroid, {
+        x: offset > 0 ? window.innerWidth - offset : offset,
+      });
+    });
+  }
+
+  recalculateLocations() {
+    const self = this;
+
+    self.timeline.kill();
+    self.setTimelineAnimationStates();
+  }
+
+  attachEventListener() {
+    const self = this;
+    const throttledRecalc = throttle(self.recalculateLocations, 200, self);
+
+    window.addEventListener('resize', throttledRecalc, { passive: true });
+  }
+
+  /**
    * Initialize the Polaroid
    */
   init() {
     this.setInitialOpenerStates();
+    this.setTimelineAnimationStates();
     this.watchForScrollTrigger();
+    this.attachEventListener();
   }
 };
 

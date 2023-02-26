@@ -24,7 +24,7 @@ function initiateOpenerSequence() {
     width: '100%',
   });
 
-  const j = window.gsap.timeline({ scrollTrigger:
+  window.gsap.timeline({ scrollTrigger:
       {
         end: 'bottom bottom',
         scrub: 0.5,
@@ -34,13 +34,13 @@ function initiateOpenerSequence() {
     })
     .fromTo('.opener__background', { y: 0 }, { y: -200 }, 0)
     .fromTo('.opener__fixed', { y: -10 }, { y: -800 }, 0)
-    .fromTo('.opener__honeysuckle', { y: -100 }, { y: -500 }, 0)
+    // .fromTo('.opener__honeysuckle', { y: -100 }, { y: -500 }, 0)
     .fromTo('.opener__garden', { y: -50 }, { y: -650 }, 0)
     .fromTo('.opener__center', { y: -10 }, { y: -150 }, 0)
     .fromTo('.opener__justin', { y: -20, x: -10 }, { y: -500, x: 0 }, 0)
     .fromTo('.opener__tyler', { y: -50, x: 10 }, { y: -550, x: 0}, 0)
-    .fromTo('.opener__acceent-line', { opacity: 0, y: -50 }, { delay: 0.2, opacity: 1, y: 0 }, 0);
-  const k = window.gsap.timeline({
+    .fromTo('.opener__accent-line', { opacity: 0, y: -50 }, { delay: 0.2, opacity: 1, y: 0 }, 0);
+  const timeline = window.gsap.timeline({
       scrollTrigger: {
         end: 'bottom +=10vh',
         scrub: 0.5,
@@ -49,14 +49,13 @@ function initiateOpenerSequence() {
       }
     })
     .fromTo('.opener__container', { opacity: 1 }, { opacity: 0 }, 0);
-  // TODO FIXME Need to figure out a way to render this sequence if the user is already scrolled down
-  // to trigger the page to fade away
-  // j.invalidate();
-  // k.invalidate();
-  k.scrollTrigger.refresh();
 
   window.setTimeout(() => {
-    window.gsap.to('.opener__container', { opacity: 1, duration: 2 });
+    if (window.scrollY < window.innerHeight * 1.7) {
+      timeline.to('.opener__container', { opacity: 1, duration: 2 });
+    }
+
+    timeline.scrollTrigger.refresh();
   }, 500);
 
   window.setTimeout(() => {
