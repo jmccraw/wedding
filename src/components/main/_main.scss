@@ -22,7 +22,7 @@
 
   &__header {
     align-items: flex-start;
-    border-right: 2px solid $sage-accent;
+    border-right: 3px solid $sage-accent;
     display: flex;
     justify-content: center;
     width: toRems(100px);
@@ -32,10 +32,12 @@
     color: $burnt;
     font: 400 toRems(60px)/1 $california;
     letter-spacing: 0.1rem;
-    margin-left: 7px;
-    margin-top: toRems(206px);
-    transform: rotate(-90deg);
+    padding-bottom: toRems(26px);
+    padding-right: toRems(8px);
+    transform: rotate(180deg);
+    text-orientation: mixed;
     text-transform: uppercase;
+    writing-mode: vertical-lr;
   }
 
   &__container {
@@ -75,10 +77,13 @@
   .articles__headline {
     font-size: toRems(46px);
     margin: 0;
+    padding: 0;
     transform: none;
+    writing-mode: initial;
   }
 
   .articles__container {
     padding: 0;
   }
 }
+// TODO FIXME Need to test the views when a scrollbar is constant

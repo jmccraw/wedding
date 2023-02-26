@@ -1,12 +1,14 @@
 // Polaroids
 .polaroids {
   background-color: $white;
-  box-shadow: 0px 0px 20px rgba(0, 0,0, 0.15);
+  box-shadow: 0px 0px 20px $black;
   height: toRems(400px);
   margin: toRems(20px) toRems(200px) toRems(50px);
   object-fit: cover;
   padding: toRems(20px);
-  width: toRems(300px);
+  position: absolute;
+  top: toRems(30px);
+  width: toRems(326px);
 
   &.is-clockwise {
     transform: rotate(15deg);
@@ -16,14 +18,30 @@
     transform: rotate(-15deg);
   }
 
+  + .polaroids {
+    top: toRems(60px);
+
+    + .polaroids {
+      top: toRems(240px);
+    }
+  }
+
   &__image {
     height: auto;
     margin: 0 auto toRems(16px);
-    max-width: toRems(260px);
     width: 100%;
   }
 
   &__figcaption {
+    position: relative;
+  }
 
+  &__caption {
+    color: $tan;
+    // TODO FIXME Test 700 font-weight in Firefox
+    font-weight: 400;
+    font: 700 toRems(22px)/1.2 $california;
+    -webkit-font-smoothing: subpixel-antialiased;
+    letter-spacing: 0.1rem;
   }
 }

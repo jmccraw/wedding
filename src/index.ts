@@ -2,12 +2,11 @@ import { initViewportHeight, setViewportHeightVariableName } from './utilities/V
 import initMain from './components/main/Main';
 import initNav from './components/nav/Nav';
 import initOpener from './components/opener/Opener';
-import initPolaroids from './components/polaroids/Polaroids';
+import initPhotoBox from './components/photo-box/photoBox';
 import initImageHelper from './components/image-helper/ImageHelper';
 
 declare global {
   interface Window {
-    espn: any;
     gsap: any;
     ScrollToPlugin: any;
     ScrollTrigger: any;
@@ -16,13 +15,13 @@ declare global {
 
 const App = () => {
   // TODO FIXME
-  setViewportHeightVariableName( '--fpi-vh' );
+  setViewportHeightVariableName('--fpi-vh');
   initViewportHeight();
   initMain();
   initNav();
   initOpener();
-  initPolaroids();
+  initPhotoBox();
   initImageHelper();
 };
 
-document.addEventListener( 'DOMContentLoaded', App, { passive: true } );
+document.addEventListener('DOMContentLoaded', App, { passive: true });

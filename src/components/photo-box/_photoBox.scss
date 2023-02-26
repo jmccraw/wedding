@@ -1,0 +1,10 @@
+.photo-box {
+  min-height: toRems(768px);
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+
+  &:last-of-type {
+    min-height: toRems(600px);
+  }
+}

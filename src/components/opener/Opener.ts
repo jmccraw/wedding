@@ -32,7 +32,7 @@ function initiateOpenerSequence() {
         trigger: '.opener__scroller',
       }
     })
-    .fromTo('.opener__background', { y: 0 },{ y: -200 }, 0)
+    .fromTo('.opener__background', { y: 0 }, { y: -200 }, 0)
     .fromTo('.opener__fixed', { y: -10 }, { y: -800 }, 0)
     .fromTo('.opener__honeysuckle', { y: -100 }, { y: -500 }, 0)
     .fromTo('.opener__garden', { y: -50 }, { y: -650 }, 0)
@@ -51,9 +51,9 @@ function initiateOpenerSequence() {
     .fromTo('.opener__container', { opacity: 1 }, { opacity: 0 }, 0);
   // TODO FIXME Need to figure out a way to render this sequence if the user is already scrolled down
   // to trigger the page to fade away
-  j.invalidate();
-  k.invalidate();
-  window.ScrollTrigger.refresh();
+  // j.invalidate();
+  // k.invalidate();
+  k.scrollTrigger.refresh();
 
   window.setTimeout(() => {
     window.gsap.to('.opener__container', { opacity: 1, duration: 2 });
