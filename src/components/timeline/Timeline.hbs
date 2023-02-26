@@ -1,11 +1,8 @@
 {{#each timeline}}
-  {{#compare type '===' 'accomodations'}}
+  {{#compare type '===' 'article'}}
   {{> ../articles/Articles this}}
   {{/compare}}
-  {{#compare type '===' 'venue'}}
-  {{> ../articles/Articles this}}
-  {{/compare}}
-  {{#compare type '===' 'polaroid'}}
-  {{> ../polaroids/Polaroids this}}
+  {{#compare type '===' 'photoBox'}}
+  {{> ../photo-box/PhotoBox this}}
   {{/compare}}
 {{/each}}

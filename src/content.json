@@ -9,7 +9,36 @@
   },
   "timeline": [
     {
-      "type": "accomodations",
+      "type": "photoBox",
+      "polaroids": [
+        {
+          "type": "polaroid",
+          "classes": "is-clockwise",
+          "src": "https://loremflickr.com/280/280",
+          "alt": "TK",
+          "caption": "Some alt text caption stuff.",
+          "offset": "300"
+        },
+        {
+          "type": "polaroid",
+          "classes": "is-counterclockwise",
+          "src": "https://loremflickr.com/281/281",
+          "alt": "TK",
+          "caption": "Some alt text caption stuff.",
+          "offset": "-300"
+        },
+        {
+          "type": "polaroid",
+          "classes": "is-clockwise",
+          "src": "https://loremflickr.com/282/283",
+          "alt": "TK",
+          "caption": "Some alt text caption stuff.",
+          "offset": "300"
+        }
+      ]
+    },
+    {
+      "type": "article",
       "id": "accomodations",
       "header": "Accomodations",
       "image": {
@@ -22,25 +51,38 @@
       ]
     },
     {
-      "type": "polaroid",
-      "classes": "is-counterclockwise",
-      "src": "https://loremflickr.com/280/280",
-      "alt": "TK",
-      "height": 280,
-      "width": 280
+      "type": "photoBox",
+      "polaroids": [
+        {
+          "type": "polaroid",
+          "classes": "is-counterclockwise",
+          "src": "https://loremflickr.com/280/280",
+          "alt": "TK",
+          "caption": "Some fake caption to test the length and such.",
+          "offset": "-300"
+        },
+        {
+          "type": "polaroid",
+          "classes": "is-clockwise",
+          "src": "https://loremflickr.com/281/281",
+          "alt": "TK",
+          "caption": "Some fake caption to test the length and such.",
+          "offset": "300"
+        },
+        {
+          "type": "polaroid",
+          "classes": "is-counterclockwise",
+          "src": "https://loremflickr.com/282/283",
+          "alt": "TK",
+          "caption": "Some fake caption to test the length and such.",
+          "offset": "-300"
+        }
+      ]
     },
     {
-      "type": "polaroid",
-      "classes": "is-clockwise",
-      "src": "https://loremflickr.com/281/281",
-      "alt": "TK",
-      "height": 280,
-      "width": 280
-    },
-    {
-      "type": "venue",
+      "type": "article",
       "id": "venue",
-      "header": "The Venue",
+      "header": "The Mountaintop",
       "image": {
         "src": "https://loremflickr.com/600/400",
         "alt": "TK"
@@ -48,6 +90,103 @@
       "text": [
         "Blocks of rooms are available from Seven Feathers Resort & Casino in Myrtle Creek, OR, which is approximately 20 minutes from the wedding and reception venue.",
         "Those wishing to book elsewhere are welcome to do so, but please let us know so we can open the blocked rooms."
+      ]
+    },
+    {
+      "type": "photoBox",
+      "polaroids": [
+        {
+          "type": "polaroid",
+          "classes": "is-clockwise",
+          "src": "https://loremflickr.com/280/280",
+          "alt": "TK",
+          "caption": "Some fake caption to test the length and such.",
+          "offset": "300"
+        },
+        {
+          "type": "polaroid",
+          "classes": "is-counterclockwise",
+          "src": "https://loremflickr.com/281/281",
+          "alt": "TK",
+          "caption": "Some fake caption to test the length and such.",
+          "offset": "-300"
+        },
+        {
+          "type": "polaroid",
+          "classes": "is-clockwise",
+          "src": "https://loremflickr.com/282/283",
+          "alt": "TK",
+          "caption": "Some fake caption to test the length and such.",
+          "offset": "300"
+        }
+      ]
+    },
+    {
+      "type": "article",
+      "id": "service",
+      "header": "The Service",
+      "image": {
+        "src": "https://loremflickr.com/600/410",
+        "alt": "TK"
+      },
+      "text": [
+        "Blocks of rooms are available from Seven Feathers Resort & Casino in Myrtle Creek, OR, which is approximately 20 minutes from the wedding and reception venue.",
+        "Those wishing to book elsewhere are welcome to do so, but please let us know so we can open the blocked rooms."
+      ]
+    },
+    {
+      "type": "photoBox",
+      "polaroids": [
+        {
+          "type": "polaroid",
+          "classes": "is-counterclockwise",
+          "src": "https://loremflickr.com/280/280",
+          "alt": "TK",
+          "caption": "Some fake caption to test the length and such.",
+          "offset": "-300"
+        },
+        {
+          "type": "polaroid",
+          "classes": "is-clockwise",
+          "src": "https://loremflickr.com/282/283",
+          "alt": "TK",
+          "caption": "Some fake caption to test the length and such.",
+          "offset": "300"
+        },
+        {
+          "type": "polaroid",
+          "classes": "is-counterclockwise",
+          "src": "https://loremflickr.com/281/281",
+          "alt": "TK",
+          "caption": "Some fake caption to test the length and such.",
+          "offset": "-300"
+        }
+      ]
+    },
+    {
+      "type": "article",
+      "id": "registry",
+      "header": "The Registry",
+      "image": {
+        "src": "https://loremflickr.com/600/410",
+        "alt": "TK"
+      },
+      "text": [
+        "Blocks of rooms are available from Seven Feathers Resort & Casino in Myrtle Creek, OR, which is approximately 20 minutes from the wedding and reception venue.",
+        "Those wishing to book elsewhere are welcome to do so, but please let us know so we can open the blocked rooms."
+      ]
+    },
+    {
+      "type": "photoBox",
+      "polaroids": [
+        {
+          "type": "polaroid",
+          "classes": "is-counterclockwise",
+          "src": "https://loremflickr.com/280/280",
+          "alt": "TK",
+          "caption": "Some fake caption to test the length and such.",
+          "offset": "-300"
+        }
       ]
     }
   ],
