@@ -41,14 +41,14 @@ class PhotoBox {
     const self = this;
 
     window.ScrollTrigger.create({
-      animation: self.timeline,
       trigger: self._el,
       start: 'top center',
       end: 'bottom top',
       once: true,
       scrub: false,
       pin: false,
-      markers: false,
+      markers: true,
+      onToggle: () => self.setTimelineAnimationStates(),
     });
   }
 
@@ -97,6 +97,7 @@ class PhotoBox {
     const self = this;
 
     self.timeline.kill();
+    self.timeline.invalidate();
     self.setTimelineAnimationStates();
   }
 
@@ -112,7 +113,6 @@ class PhotoBox {
    */
   init() {
     this.setInitialOpenerStates();
-    this.setTimelineAnimationStates();
     this.watchForScrollTrigger();
     this.attachEventListener();
   }
