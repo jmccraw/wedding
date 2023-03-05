@@ -4,7 +4,7 @@
   </header>
   <div class="articles__container">
     <figure class="articles__figure">
-      <img src="{{this.image.src}}" alt="{{this.image.alt}}" loading="lazy" />
+      <img src="{{this.image.src}}" alt="{{this.image.alt}}" width="{{this.image.width}}" height="{{this.image.height}}" loading="lazy" />
     </figure>
     {{#each this.text}}
     <p class="articles__text">{{{this}}}</p>

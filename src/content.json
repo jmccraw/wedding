@@ -17,7 +17,9 @@
           "src": "https://loremflickr.com/280/280",
           "alt": "TK",
           "caption": "Some alt text caption stuff.",
-          "offset": "300"
+          "offset": "300",
+          "width": "350",
+          "height": "350"
         },
         {
           "type": "polaroid",
@@ -25,7 +27,9 @@
           "src": "https://loremflickr.com/281/281",
           "alt": "TK",
           "caption": "Some alt text caption stuff.",
-          "offset": "-300"
+          "offset": "-300",
+          "width": "350",
+          "height": "350"
         },
         {
           "type": "polaroid",
@@ -33,7 +37,9 @@
           "src": "https://loremflickr.com/282/283",
           "alt": "TK",
           "caption": "Some alt text caption stuff.",
-          "offset": "300"
+          "offset": "300",
+          "width": "350",
+          "height": "350"
         }
       ]
     },
@@ -43,7 +49,9 @@
       "header": "Accomodations",
       "image": {
         "src": "https://loremflickr.com/600/400",
-        "alt": "TK"
+        "alt": "TK",
+        "width": "531",
+        "height": "363"
       },
       "text": [
         "Blocks of rooms are available from Seven Feathers Resort & Casino in Myrtle Creek, OR, which is approximately 20 minutes from the wedding and reception venue.",
@@ -59,7 +67,9 @@
           "src": "https://loremflickr.com/280/280",
           "alt": "TK",
           "caption": "Some fake caption to test the length and such.",
-          "offset": "-300"
+          "offset": "-300",
+          "width": "350",
+          "height": "350"
         },
         {
           "type": "polaroid",
@@ -67,7 +77,9 @@
           "src": "https://loremflickr.com/281/281",
           "alt": "TK",
           "caption": "Some fake caption to test the length and such.",
-          "offset": "300"
+          "offset": "300",
+          "width": "350",
+          "height": "350"
         },
         {
           "type": "polaroid",
@@ -75,7 +87,9 @@
           "src": "https://loremflickr.com/282/283",
           "alt": "TK",
           "caption": "Some fake caption to test the length and such.",
-          "offset": "-300"
+          "offset": "-300",
+          "width": "350",
+          "height": "350"
         }
       ]
     },
@@ -85,7 +99,9 @@
       "header": "The Mountaintop",
       "image": {
         "src": "https://loremflickr.com/600/400",
-        "alt": "TK"
+        "alt": "TK",
+        "width": "531",
+        "height": "363"
       },
       "text": [
         "Blocks of rooms are available from Seven Feathers Resort & Casino in Myrtle Creek, OR, which is approximately 20 minutes from the wedding and reception venue.",
@@ -101,7 +117,9 @@
           "src": "https://loremflickr.com/280/280",
           "alt": "TK",
           "caption": "Some fake caption to test the length and such.",
-          "offset": "300"
+          "offset": "300",
+          "width": "350",
+          "height": "350"
         },
         {
           "type": "polaroid",
@@ -109,7 +127,9 @@
           "src": "https://loremflickr.com/281/281",
           "alt": "TK",
           "caption": "Some fake caption to test the length and such.",
-          "offset": "-300"
+          "offset": "-300",
+          "width": "350",
+          "height": "350"
         },
         {
           "type": "polaroid",
@@ -117,7 +137,9 @@
           "src": "https://loremflickr.com/282/283",
           "alt": "TK",
           "caption": "Some fake caption to test the length and such.",
-          "offset": "300"
+          "offset": "300",
+          "width": "350",
+          "height": "350"
         }
       ]
     },
@@ -127,7 +149,9 @@
       "header": "The Service",
       "image": {
         "src": "https://loremflickr.com/600/410",
-        "alt": "TK"
+        "alt": "TK",
+        "width": "531",
+        "height": "363"
       },
       "text": [
         "Blocks of rooms are available from Seven Feathers Resort & Casino in Myrtle Creek, OR, which is approximately 20 minutes from the wedding and reception venue.",
@@ -143,7 +167,9 @@
           "src": "https://loremflickr.com/280/280",
           "alt": "TK",
           "caption": "Some fake caption to test the length and such.",
-          "offset": "-300"
+          "offset": "-300",
+          "width": "350",
+          "height": "350"
         },
         {
           "type": "polaroid",
@@ -151,7 +177,9 @@
           "src": "https://loremflickr.com/282/283",
           "alt": "TK",
           "caption": "Some fake caption to test the length and such.",
-          "offset": "300"
+          "offset": "300",
+          "width": "350",
+          "height": "350"
         },
         {
           "type": "polaroid",
@@ -159,7 +187,9 @@
           "src": "https://loremflickr.com/281/281",
           "alt": "TK",
           "caption": "Some fake caption to test the length and such.",
-          "offset": "-300"
+          "offset": "-300",
+          "width": "350",
+          "height": "350"
         }
       ]
     },
@@ -169,7 +199,9 @@
       "header": "The Registry",
       "image": {
         "src": "https://loremflickr.com/600/410",
-        "alt": "TK"
+        "alt": "TK",
+        "width": "531",
+        "height": "363"
       },
       "text": [
         "Blocks of rooms are available from Seven Feathers Resort & Casino in Myrtle Creek, OR, which is approximately 20 minutes from the wedding and reception venue.",
@@ -185,7 +217,9 @@
           "src": "https://loremflickr.com/280/280",
           "alt": "TK",
           "caption": "Some fake caption to test the length and such.",
-          "offset": "-300"
+          "offset": "-300",
+          "width": "350",
+          "height": "350"
         }
       ]
     }
