@@ -86,4 +86,23 @@
     padding: 0;
   }
 }
+
+// Content Container for Feed
+.content {
+  background-color: $sage;
+  position: relative;
+  width: 100vw;
+
+  &::before {
+    background: linear-gradient(transparent 50%, $sage);
+    content: '';
+    height: toRems(100px);
+    left: 0;
+    position: absolute;
+    top: toRems(-100px);
+    width: 100%;
+  }
+}
+
 // TODO FIXME Need to test the views when a scrollbar is constant
+

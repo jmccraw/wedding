@@ -14,34 +14,7 @@
   font-size: toRems(144px);
 }
 
-.opener__tyler,
-.opener__justin,
-.opener__names,
-.opener__arrow {
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.opener__names {
-  transition-duration: 1s;
-}
-
 .opener__amperand {
   font-size: toRems(112px);
 }
 
-.opener__arrow {
-  transition-delay: .5s;
-  transition: opacity 0.5s ease-in-out,
-    transform 0.5s ease-in-out;
-  transform: translate3d(0, 0, 0);
-}
-
-.is-hidden,
-.is-hidden + .opener__arrow {
-  opacity: 0;
-}
-
-.is-hidden + .opener__arrow {
-  transform: translate3d(0, -10px, 0);
-}
