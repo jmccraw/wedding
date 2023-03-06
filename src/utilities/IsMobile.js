@@ -5,7 +5,7 @@ let oldViewport = 768;
  * Sets the status of isMobile
  * @param {Number} viewport The viewport, in pixels, to determine if something lower is mobile
  */
-export function setIsMobile( viewport = 768 ) {
+export function setIsMobile(viewport = 768) {
   oldViewport = viewport;
   isMobile = window.innerWidth < viewport;
 }
@@ -21,8 +21,8 @@ export function getIsMobile() {
  * Attach event listeners that help determine whether if this is mobile
  */
 function attachEventListeners() {
-  window.addEventListener( 'resize', () => {
-    setIsMobile( oldViewport );
+  window.addEventListener('resize', () => {
+    setIsMobile(oldViewport);
   }, { passive: true } );
 }
 

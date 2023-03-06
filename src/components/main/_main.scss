@@ -12,7 +12,7 @@
 // Main content article sections
 .articles {
   background-color: $cream;
-  border: toRems(60px) solid $sage-accent;
+  border: toRems(16px) solid $sage-accent;
   border-radius: 5px;
   box-sizing: content-box;
   display: flex;
@@ -30,7 +30,7 @@
 
   &__headline {
     color: $burnt;
-    font: 400 toRems(60px)/1 $california;
+    font: 400 toRems(48px)/1 $california;
     letter-spacing: 0.1rem;
     padding-bottom: toRems(26px);
     padding-right: toRems(8px);
@@ -59,6 +59,29 @@
     height: auto;
     margin-bottom: toRems(20px);
     width: 100%;
+  }
+
+  a {
+    border-bottom: 1px solid $sage;
+    color: $burnt;
+    text-decoration: none;
+    transition: border-bottom 0.25s ease-in-out;
+
+    &:visited {
+      border-bottom-color: $tan;
+    }
+
+    &:hover {
+      border-bottom-color: $alibaster;
+    }
+  }
+
+  @include screen-from(tablet) {
+    border-width: toRems(60px);
+
+    &__headline {
+      font-size: toRems(60px);
+    }
   }
 }
 
@@ -90,6 +113,7 @@
 // Content Container for Feed
 .content {
   background-color: $sage;
+  margin-top: -90vh;
   position: relative;
   width: 100vw;
 
@@ -101,6 +125,10 @@
     position: absolute;
     top: toRems(-100px);
     width: 100%;
+  }
+
+  @include screen-from(tablet) {
+    margin-top: 0;
   }
 }
 
