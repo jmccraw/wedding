@@ -1,5 +1,13 @@
 .opener__scroller {
   height: 170vh;
+
+  @include screen-from(tablet) {
+    height: 170vh;
+  }
+}
+
+.opener__container {
+  opacity: 0;
 }
 
 .opener__names,

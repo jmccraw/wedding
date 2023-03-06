@@ -2,12 +2,14 @@
 .polaroids {
   background-color: $white;
   box-shadow: 0px 0px 20px $black;
+  cursor: pointer;
   height: toRems(400px);
   margin: toRems(20px) toRems(200px) toRems(50px);
   object-fit: cover;
   padding: toRems(20px);
   position: absolute;
   top: toRems(30px);
+  touch-action: manipulation;
   width: toRems(326px);
 
   &.is-clockwise {
@@ -42,6 +44,28 @@
     font-weight: 400;
     font: 700 toRems(22px)/1.2 $california;
     -webkit-font-smoothing: subpixel-antialiased;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.15rem;
+
+    .hint {
+      color: $fire;
+      display: block;
+      font: 400 toRems(16px)/1 $monospace;
+    }
+
+    .mobile {
+      display: inline;
+
+      @include screen-from(tablet) {
+        display: none;
+      }
+    }
+
+    .desktop {
+      display: none;
+
+      @include screen-from(tablet) {
+        display: inline;
+      }
+    }
   }
 }

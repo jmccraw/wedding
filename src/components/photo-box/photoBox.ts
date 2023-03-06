@@ -47,7 +47,7 @@ class PhotoBox {
       once: true,
       scrub: false,
       pin: false,
-      markers: true,
+      markers: false,
       onToggle: () => self.setTimelineAnimationStates(),
     });
   }
@@ -101,11 +101,31 @@ class PhotoBox {
     self.setTimelineAnimationStates();
   }
 
+  bringToFront(frontIndex: number) {
+    const self = this;
+    let maxZIndex = 1;
+
+    self._polaroids.forEach((_polaroid: HTMLElement) => {
+      const polaroidZIndex = +_polaroid.style.zIndex;
+      if (polaroidZIndex > maxZIndex) maxZIndex = polaroidZIndex;
+    });
+
+    window.gsap.to(self._polaroids[frontIndex], {
+      zIndex: maxZIndex + 1,
+      delay: 0,
+      duration: 0,
+    });
+  }
+
   attachEventListener() {
     const self = this;
     const throttledRecalc = throttle(self.recalculateLocations, 200, self);
 
     window.addEventListener('resize', throttledRecalc, { passive: true });
+
+    self._polaroids.forEach((_polaroid, index) => {
+      _polaroid.addEventListener('click', () => self.bringToFront(index), { passive: true });
+    });
   }
 
   /**
