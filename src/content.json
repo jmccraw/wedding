@@ -36,7 +36,7 @@
           "classes": "is-clockwise",
           "src": "./polaroids/beer-garden.jpg",
           "alt": "Justin with his arm around Tyler at a beer garden",
-          "caption": "Beer garden with friends <span class=hint><span class=desktop>Click</span><span class=mobile>Tap</span> photos to bring them to the front</span>",
+          "caption": "Beer garden with friends <span class=hint>Click photos to bring them to the front</span>",
           "offset": "300",
           "width": "350",
           "height": "350"
