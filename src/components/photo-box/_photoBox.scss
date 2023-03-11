@@ -1,10 +1,21 @@
 .photo-box {
+  margin-bottom: toRems(100px);
+  margin-top: toRems(100px);
   min-height: toRems(768px);
   overflow: hidden;
   position: relative;
   width: 100vw;
 
   &:last-of-type {
-    min-height: toRems(600px);
+    min-height: toRems(450px);
+  }
+
+  @include screen-from(tablet) {
+    margin-bottom: 0;
+    margin-top: 0;
+
+    &:last-of-type {
+      min-height: toRems(600px);
+    }
   }
 }

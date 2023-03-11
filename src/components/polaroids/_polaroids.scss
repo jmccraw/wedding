@@ -4,28 +4,19 @@
   box-shadow: 0px 0px 20px $black;
   cursor: pointer;
   height: toRems(400px);
-  margin: toRems(20px) toRems(200px) toRems(50px);
+  margin: toRems(20px) auto toRems(16px);
   object-fit: cover;
   padding: toRems(20px);
-  position: absolute;
-  top: toRems(30px);
+  position: relative;
   touch-action: manipulation;
   width: toRems(326px);
 
   &.is-clockwise {
-    transform: rotate(15deg);
+    transform: rotate(7deg);
   }
 
   &.is-counterclockwise {
-    transform: rotate(-15deg);
-  }
-
-  + .polaroids {
-    top: toRems(60px);
-
-    + .polaroids {
-      top: toRems(240px);
-    }
+    transform: rotate(-7deg);
   }
 
   &__image {
@@ -48,23 +39,33 @@
 
     .hint {
       color: $fire;
-      display: block;
+      display: none;
       font: 400 toRems(16px)/1 $monospace;
-    }
-
-    .mobile {
-      display: inline;
 
       @include screen-from(tablet) {
-        display: none;
+        display: block;
       }
     }
+  }
 
-    .desktop {
-      display: none;
+  @include screen-from(tablet) {
+    margin: toRems(20px) toRems(200px) toRems(50px);
+    position: absolute;
+    top: toRems(30px);
 
-      @include screen-from(tablet) {
-        display: inline;
+    &.is-clockwise {
+      transform: rotate(15deg);
+    }
+
+    &.is-counterclockwise {
+      transform: rotate(-15deg);
+    }
+
+    + .polaroids {
+      top: toRems(60px);
+
+      + .polaroids {
+        top: toRems(240px);
       }
     }
   }

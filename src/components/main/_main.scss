@@ -25,33 +25,30 @@
   border: toRems(16px) solid $sage-accent;
   border-radius: 5px;
   box-sizing: content-box;
-  display: flex;
+  display: block;
   margin: 0 auto toRems(100px);
   max-width: toRems(680px);
   position: relative;
 
   &__header {
-    align-items: flex-start;
-    border-right: 3px solid $sage-accent;
+    align-items: center;
+    border-bottom: 3px solid $sage-accent;
     display: flex;
     justify-content: center;
-    width: toRems(100px);
   }
 
   &__headline {
     color: $burnt;
-    font: 400 toRems(48px)/1 $california;
+    font: 400 toRems(42px)/1 $california;
     letter-spacing: 0.1rem;
-    padding-bottom: toRems(26px);
-    padding-right: toRems(8px);
-    transform: rotate(180deg);
-    text-orientation: mixed;
+    padding-bottom: toRems(20px);
+    padding-top: toRems(26px);
+    text-align: center;
     text-transform: uppercase;
-    writing-mode: vertical-lr;
   }
 
   &__container {
-    padding: 30px;
+    padding: toRems(16px);
   }
 
   &__text {
@@ -88,16 +85,35 @@
 
   @include screen-from(tablet) {
     border-width: toRems(60px);
+    display: flex;
+
+    &__header {
+      align-items: flex-start;
+      border-bottom: none;
+      border-right: 3px solid $sage-accent;
+      width: toRems(100px);
+    }
 
     &__headline {
       font-size: toRems(60px);
+      padding-bottom: toRems(26px);
+      padding-right: toRems(8px);
+      padding-top: 0;
+      transform: rotate(180deg);
+      text-align: initial;
+      text-orientation: mixed;
+      writing-mode: vertical-lr;
+    }
+
+    &__container {
+      padding: toRems(30px);
     }
   }
 }
 
 .articles.is-simple {
   display: block;
-  padding: 40px 0;
+  padding: toRems(16px) 0;
 
   .articles__header {
     border-right: none;
@@ -110,13 +126,23 @@
   .articles__headline {
     font-size: toRems(46px);
     margin: 0;
-    padding: 0;
+    padding: toRems(20px) toRems(16px) toRems(26px);
     transform: none;
     writing-mode: initial;
   }
 
   .articles__container {
-    padding: 0;
+    padding: 0 toRems(16px);
+  }
+
+  @include screen-from(tablet) {
+    padding: 40px 0;
+
+    .articles__headline,
+    .articles__container {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 }
 

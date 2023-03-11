@@ -1,7 +1,8 @@
 /**
- * Helper functions to accomodate creation of a Polaroid experience
+ * Helper functions to accommodate creation of a Polaroid experience
  */
 import { throttle } from '../../utilities/Throttle';
+import { getIsMobile } from '../../utilities/IsMobile';
 
 const _photoBoxes: NodeListOf<Element> = document.querySelectorAll('.photo-box');
 
@@ -48,7 +49,8 @@ class PhotoBox {
       scrub: false,
       pin: false,
       markers: false,
-      onToggle: () => self.setTimelineAnimationStates(),
+      onEnter: () => self.setTimelineAnimationStates(),
+      onLeaveBack: () => self.setTimelineAnimationStates(),
     });
   }
 
@@ -60,12 +62,15 @@ class PhotoBox {
     const durationOffset = 0.35;
     const length = self._polaroids.length - 1;
     const halfWindow = window.innerWidth / 2;
+    const isMobile = getIsMobile();
 
     self._polaroids.forEach((_polaroid: any, index: number) => {
       const offset = +_polaroid.dataset.offset;
       let restingOffset;
 
-      if (index === length) {
+      if (isMobile) {
+        restingOffset = 0;
+      } else if (index === length) {
         restingOffset = halfWindow - 350;
       } else {
         restingOffset = offset > 0 ? halfWindow - 250 : halfWindow - 500;
@@ -104,6 +109,8 @@ class PhotoBox {
   bringToFront(frontIndex: number) {
     const self = this;
     let maxZIndex = 1;
+
+    if (getIsMobile()) return;
 
     self._polaroids.forEach((_polaroid: HTMLElement) => {
       const polaroidZIndex = +_polaroid.style.zIndex;
