@@ -16,6 +16,10 @@
   position: relative;
   width: calc(100% - 16px);
 
+  a {
+    color: $tan;
+  }
+
   &:first-child {
     border-top: 1px solid $cream;
     padding-top: 41px;

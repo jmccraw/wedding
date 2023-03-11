@@ -88,12 +88,20 @@ class PhotoBox {
    */
   setInitialOpenerStates() {
     const self = this;
+    const isMobile = getIsMobile();
+    const innerWidth = window.innerWidth;
 
     self._polaroids.forEach((_polaroid: any) => {
-      const offset = +_polaroid.dataset.offset;
+      let offset = +_polaroid.dataset.offset;
+
+      if (offset > 0) {
+        offset = isMobile ? innerWidth * 0.8 : innerWidth - offset;
+      } else {
+        offset = isMobile ? innerWidth * -0.8 : offset;
+      }
 
       window.gsap.set(_polaroid, {
-        x: offset > 0 ? window.innerWidth - offset : offset,
+        x: offset,
       });
     });
   }

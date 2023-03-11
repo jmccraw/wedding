@@ -10,15 +10,21 @@
   bottom: 0;
   box-sizing: border-box;
   display: flex;
-  height: toRems(38px);
+  flex-flow: column nowrap;
+  height: toRems(400px);
   justify-content: space-between;
   left: 50%;
   max-width: toRems(800px);
-  padding: 0 toRems(25px) 0 toRems(24px);
+  padding: toRems(40px) toRems(25px) toRems(112px) toRems(24px);
   position: fixed;
-  transform: translate3d(-50%, 0, 0);
-  width: calc(100% - 40px)  ;
+  transform: translate3d(-50%, 101%, 0);
+  transition: transform 0.5s ease-in-out;
+  width: calc(100% - 32px);
   z-index: 7;
+
+  &.is-open {
+    transform: translate3d(-50%, 0, 0);
+  }
 
   &__link {
     background-color: $sage;
@@ -33,5 +39,60 @@
     &:hover {
       background-color: $burnt;
     }
+  }
+
+  @include screen-from(tablet) {
+    flex-flow: row nowrap;
+    height: toRems(38px);
+    padding-bottom: 0;
+    padding-top: 0;
+    transform: translate3d(-50%, 0, 0);
+    width: calc(100% - 40px);
+  }
+}
+
+// Mobile Open/Close Nav Button
+.nav__button {
+  background-color: $sage;
+  border: 2px solid $sage-accent;
+  border-radius: 50%;
+  bottom: toRems(20px);
+  color: $alibaster;
+  height: toRems(60px);
+  left: 50%;
+  overflow: hidden;
+  position: fixed;
+  text-indent: -9999rem;
+  text-transform: uppercase;
+  transform: translate3d(-50%, 0, 0);
+  width: toRems(60px);
+  z-index: 8;
+
+  img {
+    height: 30px;
+    margin: 0 auto;
+    width: 30px;
+  }
+
+  .nav__icon--open {
+    display: block;
+  }
+
+  .nav__icon--closed {
+    display: none;
+  }
+
+  @include screen-from(tablet) {
+    display: none;
+  }
+}
+
+.nav.is-open + .nav__button {
+  .nav__icon--open {
+    display: none;
+  }
+
+  .nav__icon--closed {
+    display: block;
   }
 }

@@ -2,7 +2,7 @@
  * Main container for HTML content
  */
 .wedding {
-  margin: 0 0 toRems(50px);
+  margin: 0 0 toRems(100px);
   padding: 0;
   position: relative;
   width: 100%;
@@ -86,6 +86,7 @@
   @include screen-from(tablet) {
     border-width: toRems(60px);
     display: flex;
+    margin-bottom: toRems(50px);
 
     &__header {
       align-items: flex-start;

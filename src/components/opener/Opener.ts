@@ -41,7 +41,8 @@ function initiateOpenerSequence() {
 
   window.setTimeout(() => {
     window.gsap.to('.opener__names', { opacity: 1, duration: 1 });
-    window.gsap.to(['.opener__arrow', '.nav'], { opacity: 1, y: 0, duration: 0.5, delay: 0.5 });
+    window.gsap.to('.opener__arrow', { opacity: 1, y: 0, duration: 0.5, delay: 0.5 });
+    window.gsap.to('.nav', { opacity: 1, duration: 0.5, delay: 1 });
     window.ScrollTrigger.refresh();
   }, 2000);
 }

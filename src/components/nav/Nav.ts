@@ -1,10 +1,21 @@
 /**
  * Nav TS
  */
+import { getIsMobile } from "../../utilities/IsMobile";
+
 const _nav: HTMLElement = document.querySelector('.nav');
+const _button: HTMLButtonElement = document.querySelector('.nav__button');
 const _links: NodeListOf<HTMLLinkElement> = _nav.querySelectorAll('.nav__link');
 
 const IS_CURRENT = 'is-current';
+const IS_OPEN = 'is-open';
+
+/**
+ * Opens/closes the Nav
+ */
+function toggleNav() {
+  _nav.classList.toggle(IS_OPEN);
+}
 
 /**
  * Highlight the current href that's in view
@@ -22,21 +33,30 @@ function highlightCurrentLink(currentHref: string) {
 
 function initiateNav() {
   const _articles = document.querySelectorAll('.articles');
+  const isMobile = getIsMobile();
 
-  _articles.forEach((_article: HTMLLinkElement) => {
-    window.gsap.to(_article, {
-      scrollTrigger: {
-        trigger: _article,
-        start: 'top center',
-        end: 'bottom top',
-        onToggle: () => highlightCurrentLink(`#${_article.id}`),
-      }
+  if (!isMobile) {
+    _articles.forEach((_article: HTMLLinkElement) => {
+      window.gsap.to(_article, {
+        scrollTrigger: {
+          trigger: _article,
+          start: 'top center',
+          end: 'bottom top',
+          onToggle: () => {
+            highlightCurrentLink(`#${_article.id}`);
+            toggleNav();
+          },
+        }
+      });
     });
-  });
+  }
 
   _links.forEach((_link: HTMLLinkElement) => {
-    _link.addEventListener('click', () => highlightCurrentLink(_link.href), { passive: true });
-  })
+    if (!isMobile) _link.addEventListener('click', () => highlightCurrentLink(_link.href), { passive: true });
+    else _link.addEventListener('click', toggleNav, { passive: true });
+  });
+
+  _button.addEventListener('click', toggleNav, { passive: true });
 }
 
 /**
