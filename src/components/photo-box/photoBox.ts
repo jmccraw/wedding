@@ -136,6 +136,7 @@ class PhotoBox {
     const self = this;
     const throttledRecalc = throttle(self.recalculateLocations, 200, self);
 
+    // @ts-ignore
     window.addEventListener('resize', throttledRecalc, { passive: true });
 
     self._polaroids.forEach((_polaroid, index) => {
