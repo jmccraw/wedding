@@ -8,6 +8,9 @@
  * {@link https://codepen.io/creativeocean/pen/qBbBLyB}
  */
 function initiateOpenerSequence() {
+  const _wedding = document.querySelector('.wedding');
+  _wedding.classList.remove('is-loading');
+
   window.gsap.timeline({ scrollTrigger:
       {
         end: 'bottom bottom',

@@ -14,7 +14,26 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image:alt" content="image description" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <style>
+    .wedding {
+      background-color: #292f15;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      width: 100%;
+    }
 
+    .wedding.is-loading::after {
+      background-color: #292f15;
+      bottom: 0;
+      content: '';
+      left: 0;
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 99;
+    }
+  </style>
 </head>
 <body>
 
