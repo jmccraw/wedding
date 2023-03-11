@@ -41,7 +41,7 @@ function initiateOpenerSequence() {
 
   window.setTimeout(() => {
     window.gsap.to('.opener__names', { opacity: 1, duration: 1 });
-    window.gsap.to('.opener__arrow', { opacity: 1, y: 0, duration: 0.5, delay: 0.5 });
+    window.gsap.to(['.opener__arrow', '.nav'], { opacity: 1, y: 0, duration: 0.5, delay: 0.5 });
     window.ScrollTrigger.refresh();
   }, 2000);
 }
@@ -89,7 +89,7 @@ function setInitialGsapStates() {
     z: '0',
   });
 
-  window.gsap.set(['.opener__justin', '.opener__tyler', '.opener__names'], {
+  window.gsap.set(['.opener__justin', '.opener__tyler', '.opener__names', '.nav'], {
     opacity: 0,
   });
 

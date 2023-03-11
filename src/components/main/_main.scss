@@ -2,8 +2,7 @@
  * Main container for HTML content
  */
 .wedding {
-  background-color: $sage;
-  margin: 0;
+  margin: 0 0 toRems(50px);
   padding: 0;
   position: relative;
   width: 100%;
@@ -98,7 +97,7 @@
 
 .articles.is-simple {
   display: block;
-  padding: 40px 8px;
+  padding: 40px 0;
 
   .articles__header {
     border-right: none;

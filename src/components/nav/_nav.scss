@@ -3,20 +3,35 @@
  */
 .nav {
   align-items: center;
-  background-color: transparent;
+  background-color: $sage;
+  border: 2px solid $sage-accent;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0  ;
   bottom: 0;
   box-sizing: border-box;
   display: flex;
-  height: 38px;
-  justify-content: flex-end;
-  left: 0;
-  padding: 0 25px 0 24px;
+  height: toRems(38px);
+  justify-content: space-between;
+  left: 50%;
+  max-width: toRems(800px);
+  padding: 0 toRems(25px) 0 toRems(24px);
   position: fixed;
-  width: 100%;
+  transform: translate3d(-50%, 0, 0);
+  width: calc(100% - 40px)  ;
   z-index: 7;
 
   &__link {
-    color: red;
-    text-decoration: underline;
+    background-color: $sage;
+    color: $cream;
+    font: 400 toRems(15px)/1 $monospace;
+    letter-spacing: 0rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.25s ease-in-out;
+
+    &.is-current,
+    &:hover {
+      background-color: $burnt;
+    }
   }
 }
