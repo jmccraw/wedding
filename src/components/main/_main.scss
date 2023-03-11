@@ -83,6 +83,10 @@
     }
   }
 
+  strong {
+    text-transform: uppercase;
+  }
+
   @include screen-from(tablet) {
     border-width: toRems(60px);
     display: flex;
@@ -141,8 +145,7 @@
 
     .articles__headline,
     .articles__container {
-      padding-left: 0;
-      padding-right: 0;
+      padding: 0;
     }
   }
 }

@@ -4,7 +4,7 @@
     "text": [
       "…we’ll be glad to see you there.",
       "This isn’t the wedding we initially envisioned, but it is the one we’ll cherish for the rest of our lives.",
-      "If you’re reading this, then you were selected from a handful of family and friends who mean the world to us. (No offense to those we couldn’t invite! <em>We feel really bad!</em>) This will be an intimate affair on a mountaintop in Round Prairie, OR, situated amongst the natural splendor of Oregon’s nature."
+      "If you’re reading this, then you were selected from a handful of family and friends who mean the world to us. (No offense to those we couldn’t invite! <em>We feel really bad!</em>) This will be an intimate affair on a mountaintop in Round Prairie, OR, situated amongst the natural splendor of Oregon’s bounty."
     ]
   },
   "timeline": [
@@ -48,15 +48,16 @@
       "id": "mountaintop",
       "header": "Mountaintop",
       "image": {
-        "src": "https://loremflickr.com/600/400",
-        "alt": "TK",
-        "width": "531",
-        "height": "363"
+        "src": "./mountaintop.jpg",
+        "alt": "A rainbow in the background with a red-leafed tree in the foreground.",
+        "width": "549",
+        "height": "327"
       },
       "text": [
-        "Nestled above the South Umpqua River, Stacey and Craig McLaughlin’s mountaintop provides panoramic views of the valley below. Stacey, a strategic leadership coach, opened her heart to Justin while he was a student worker at the local natural history museum, and they’ve maintained a friendship ever since.",
+        "Nestled above the South Umpqua River, Stacey and Craig McLaughlin’s <strong>mountaintop</strong> provides panoramic views of the valley below. Stacey, a strategic leadership coach, opened her heart to Justin while he was a student worker at the local natural history museum, and they’ve maintained a friendship ever since.",
         "We asked Stacey to lead our ceremony, and look forward to her thoughtful words as she joins us in matrimony.",
-        "An Oregon-centric dinner, local drinks, and sparkling conversation will commence before and after the ceremony. We look forward to seeing you there."
+        "An Oregon-centric dinner, local libations, and sparkling conversation will commence before and after the ceremony. Unless otherwise specified, no plus ones.",
+        "<strong>The night before</strong>, we hope you’ll join us at <a href=\"https://truekitchenandbar.com/\" target=_blank rel=\"noopener noreferrer\">True Kitchen &amp; Bar</a> for dinner 🍽 at 6 o’clock."
       ]
     },
     {
@@ -99,16 +100,16 @@
       "id": "travel-accommodations",
       "header": "Travel & Accommodations",
       "image": {
-        "src": "https://loremflickr.com/600/400",
-        "alt": "TK",
-        "width": "531",
-        "height": "363"
+        "src": "./accommodations.jpg",
+        "alt": "A queen bed hotel room at Seven Feathers",
+        "width": "549",
+        "height": "355"
       },
       "text": [
-        "Blocks of rooms are available from <a href=\"https://sevenfeathers.com/\" target=_blank rel=\"noopener noreferrer\">Seven Feathers Resort & Casino</a> in Myrtle Creek, OR, which is approximately a 20-minute drive from the wedding and reception venue. Use the code “ABCD” to book within our block of rooms. Those wishing to book elsewhere are welcome to do so, but please let us know so we can update the hotel.",
-        "Transportation to and from the hotel will be provided. Details to come.",
-        "This being Halloween weekend, the casino is putting on a Spooktacular. Feel free to participate in any of the offerings during your stay.",
-        "<strong>Travel</strong> to the Roseburg area can be accomplished via flights to Portland (PDX), Eugene (EUG), Medford (MFR), and Grantspass (GTP) airports. PDX will probably be the cheapest option and offer the best car rental options. Seven Feathers is around <a href=\"https://www.google.com/maps/dir/PDX,+Northeast+Airport+Way,+Portland,+OR/Seven+Feathers+Casino+Resort,+Chief+Miwaleta+Lane,+Canyonville,+OR/@44.2587661,-124.0840832,8z/data=!3m2!4b1!5s0x54c5b55f249b6355:0x97cac7f1f3d8235a!4m14!4m13!1m5!1m1!1s0x5495a0aa74dc20d1:0x5bda7693380e5c3d!2m2!1d-122.5950942!2d45.5897694!1m5!1m1!1s0x54c5b55eda22e2a9:0x1f87d215776a4838!2m2!1d-123.2842427!2d42.9393752!3e0\" target=_blank rel=\"noopener noreferrer\">3.25 hours south of Portland</a>, <a href=\"https://www.google.com/maps/dir/Eugene+Airport,+Douglas+Drive,+Eugene,+OR/Seven+Feathers+Casino+Resort,+Chief+Miwaleta+Lane,+Canyonville,+OR/@43.5288856,-123.7503216,9z/data=!3m2!4b1!5s0x54c5b55f249b6355:0x97cac7f1f3d8235a!4m14!4m13!1m5!1m1!1s0x54c102dec4db7dd1:0xf6acae00aa866d93!2m2!1d-123.2159003!2d44.1217811!1m5!1m1!1s0x54c5b55eda22e2a9:0x1f87d215776a4838!2m2!1d-123.2842427!2d42.9393752!3e0\" target=_blank rel=\"noopener noreferrer\">1.75 hours south of Eugene</a>, <a href=\"https://www.google.com/maps/dir/Medford+Airport,+Terminal+Loop+Parkway,+Medford,+OR/Seven+Feathers+Casino+Resort,+Chief+Miwaleta+Lane,+Canyonville,+OR/@42.6527852,-123.4140171,10z/data=!3m2!4b1!5s0x54c5b55f249b6355:0x97cac7f1f3d8235a!4m14!4m13!1m5!1m1!1s0x54cf7b7c358f1167:0xf7f556697f30373d!2m2!1d-122.8740386!2d42.3684768!1m5!1m1!1s0x54c5b55eda22e2a9:0x1f87d215776a4838!2m2!1d-123.2842427!2d42.9393752!3e0\" target=_blank rel=\"noopener noreferrer\">64 minutes from Medford</a>, and <a href=\"https://www.google.com/maps/dir/Grants+Pass+Airport,+Brookside+Boulevard,+Grants+Pass,+OR/Seven+Feathers+Casino+Resort,+Chief+Miwaleta+Lane,+Canyonville,+OR/@42.7174911,-123.5959382,10z/data=!3m2!4b1!5s0x54c5b55f249b6355:0x97cac7f1f3d8235a!4m14!4m13!1m5!1m1!1s0x54c576b71c7030a3:0x1eabdd186838f231!2m2!1d-123.3890839!2d42.5092354!1m5!1m1!1s0x54c5b55eda22e2a9:0x1f87d215776a4838!2m2!1d-123.2842427!2d42.9393752!3e0\" target=_blank rel=\"noopener noreferrer\">40 minutes from Grantspass</a>. We know it’s annoying, but we love you. 🤎 And just remember: There’s <u>no sales tax</u> in Oregon, and you <u>don’t pump your own gas</u> (and don’t need to tip the gas attendants!)."
+        "<strong>Rooms 🛏</strong> should be booked at <a href=\"https://sevenfeathers.com/\" target=_blank rel=\"noopener noreferrer\">Seven Feathers Resort &amp; Casino</a> in Myrtle Creek, OR, which is approximately a 20-minute drive from the wedding and reception venue. There is no room code, and they are first-come, first-serve. Those wishing to book elsewhere are welcome to do so, but please let us know so we can keep a tally.",
+        "Transportation to and from Seven Feathers will be provided. Details to come.",
+        "This being Halloween 🎃 weekend, the casino is putting on a Spooktacular 👻 party. Feel free to participate in any of the offerings during your stay. More details to come closer to the event.",
+        "<strong>Travel ✈️</strong> to the Roseburg area can be accomplished via flights to Portland (PDX), Eugene (EUG), Medford (MFR), or Grantspass (GTP) airports. PDX will probably be the cheapest option and offer the best car rental choices. Seven Feathers is around <a href=\"https://www.google.com/maps/dir/PDX,+Northeast+Airport+Way,+Portland,+OR/Seven+Feathers+Casino+Resort,+Chief+Miwaleta+Lane,+Canyonville,+OR/@44.2587661,-124.0840832,8z/data=!3m2!4b1!5s0x54c5b55f249b6355:0x97cac7f1f3d8235a!4m14!4m13!1m5!1m1!1s0x5495a0aa74dc20d1:0x5bda7693380e5c3d!2m2!1d-122.5950942!2d45.5897694!1m5!1m1!1s0x54c5b55eda22e2a9:0x1f87d215776a4838!2m2!1d-123.2842427!2d42.9393752!3e0\" target=_blank rel=\"noopener noreferrer\">3.25 hours south of Portland</a>, <a href=\"https://www.google.com/maps/dir/Eugene+Airport,+Douglas+Drive,+Eugene,+OR/Seven+Feathers+Casino+Resort,+Chief+Miwaleta+Lane,+Canyonville,+OR/@43.5288856,-123.7503216,9z/data=!3m2!4b1!5s0x54c5b55f249b6355:0x97cac7f1f3d8235a!4m14!4m13!1m5!1m1!1s0x54c102dec4db7dd1:0xf6acae00aa866d93!2m2!1d-123.2159003!2d44.1217811!1m5!1m1!1s0x54c5b55eda22e2a9:0x1f87d215776a4838!2m2!1d-123.2842427!2d42.9393752!3e0\" target=_blank rel=\"noopener noreferrer\">1.75 hours south of Eugene</a>, <a href=\"https://www.google.com/maps/dir/Medford+Airport,+Terminal+Loop+Parkway,+Medford,+OR/Seven+Feathers+Casino+Resort,+Chief+Miwaleta+Lane,+Canyonville,+OR/@42.6527852,-123.4140171,10z/data=!3m2!4b1!5s0x54c5b55f249b6355:0x97cac7f1f3d8235a!4m14!4m13!1m5!1m1!1s0x54cf7b7c358f1167:0xf7f556697f30373d!2m2!1d-122.8740386!2d42.3684768!1m5!1m1!1s0x54c5b55eda22e2a9:0x1f87d215776a4838!2m2!1d-123.2842427!2d42.9393752!3e0\" target=_blank rel=\"noopener noreferrer\">64 minutes from Medford</a>, and <a href=\"https://www.google.com/maps/dir/Grants+Pass+Airport,+Brookside+Boulevard,+Grants+Pass,+OR/Seven+Feathers+Casino+Resort,+Chief+Miwaleta+Lane,+Canyonville,+OR/@42.7174911,-123.5959382,10z/data=!3m2!4b1!5s0x54c5b55f249b6355:0x97cac7f1f3d8235a!4m14!4m13!1m5!1m1!1s0x54c576b71c7030a3:0x1eabdd186838f231!2m2!1d-123.3890839!2d42.5092354!1m5!1m1!1s0x54c5b55eda22e2a9:0x1f87d215776a4838!2m2!1d-123.2842427!2d42.9393752!3e0\" target=_blank rel=\"noopener noreferrer\">40 minutes from Grantspass</a>. We know it’s annoying, but we love you. 🤎 And just remember: There’s <u>no sales tax</u> in Oregon, you <u>don’t pump your own gas ⛽️</u>, and you <u>don’t tip the gas attendants</u>!"
       ]
     },
     {
@@ -151,13 +152,13 @@
       "id": "day-after",
       "header": "Day After",
       "image": {
-        "src": "https://loremflickr.com/600/410",
-        "alt": "TK",
-        "width": "531",
-        "height": "363"
+        "src": "./mcmenamins.jpg",
+        "alt": "McMenamins restaurant outside",
+        "width": "549",
+        "height": "412"
       },
       "text": [
-        "Following a well-rested night surrounded by slot machines, we hope you’ll join us for a send-off brunch at TKTK RESTAURANT at 11 a.m. on us. We truly appreciate you all coming to our event and can’t wait to see your bushy-eyed faces."
+        "Following a well-rested night surrounded by slot machines, we hope you’ll join us for a <strong>send-off brunch</strong> at <a href=\"https://www.mcmenamins.com/roseburg-station-pub-brewery/menus/\" target=_blank rel=\"noopener noreferrer\">McMenamins Roseburg Station Pub &amp; Brewery</a> at 11 a.m. on us. We truly appreciate you all coming to our event and can’t wait to see your bushy-eyed faces."
       ]
     },
     {
@@ -200,18 +201,18 @@
       "id": "in-the-area",
       "header": "In the Area",
       "image": {
-        "src": "https://loremflickr.com/600/410",
-        "alt": "TK",
-        "width": "531",
-        "height": "363"
+        "src": "./crater-lake.jpg",
+        "alt": "Tyler standing above Wizard Island at Crater Lake",
+        "width": "549",
+        "height": "412"
       },
       "text": [
-        "The Pacific Northwest offers a trove of outdoor experiences to partake. The Umpqua Valley, where Roseburg is situated, is home to easy access to Crater Lake National Park, the Oregon coast, Duck central at the University of Oregon, microbreweries, and local vineyards. If you’ll be staying in the area before or after the wedding, let us know, and we can offer some suggestions for activities you might look into. Apart from libations, Oregon is also known for Chinook salmon, dungeoness crab, hazelnuts, marionberries, and dairy.",
-        "<strong>Crater Lake National Park</strong> is located around 2 hours from Roseburg and is the <a href=\"https://www.travelcraterlake.com/\" target=_blank rel=\"noopener noreferrer\">deepest lake in the United States</a>. This time of year, expect snowfall around the rim and beautiful views from any of the ample lookouts.",
-        "<strong>The Oregon Coast</strong> is around 1 hour from Roseburg. The closest towns are probably <a href=\"https://visittheoregoncoast.com/cities/coos-bay/\" target=_blank rel=\"noopener noreferrer\">Coos Bay</a> and <a href=\"https://visittheoregoncoast.com/cities/charleston-2/\" target=_blank rel=\"noopener noreferrer\">Charleston</a>, small fishing towns that offer a variety of taffy shops, cheese mongers, and crabbing. Further north is <a href=\"https://www.eugenecascadescoast.org/florence/\" target=_blank rel=\"noopener noreferrer\">Florence</a>, which has a larger town and <a href=\"https://www.eugenecascadescoast.org/outdoors/scenic-landscapes-nature/oregon-coast-sand-dunes/\" target=_blank rel=\"noopener noreferrer\">sand dunes</a>. And even further are <a href=\"https://www.tillamook.com/\" target=_blank rel=\"noopener noreferrer\">Tillamook</a>, known for its cheese and other dairy products, and Astoria, known for being the home of <a href=\"https://www.amazon.com/Goonies-Sean-Astin/dp/B0091WNK8M/ref=sr_1_2?crid=30WTYX7IOFKOP&keywords=the+goonies&qid=1678059079&s=instant-video&sprefix=the+goonies%2Cinstant-video%2C87&sr=1-2\" target=_blank rel=\"noopener noreferrer\"><em>The Goonies</em></a> and <a href=\"https://www.amazon.com/Kindergarten-Cop-Arnold-Schwarzenegger/dp/B001VLLES4/\" target=_blank rel=\"noopener noreferrer\"><em>Kindergarten Cop</em></a>.",
-        "<strong>The University of Oregon</strong> will be a good stop for anyone who enjoys collegiate sports, the Nike story, or summer Olympics. Featuring the <a href=\"https://goducks.com/\" target=_blank rel=\"noopener noreferrer\">world-famous</a> Hayward Field &mdash; used for Olympic time trials &mdash; and the Oregon Ducks football stadium and basketball arena, the UO and surrounding Eugene offer a great college town experience with all that entails, along with finer dining and tax-free shopping.",
-        "<strong>Microbreweries</strong> are surprisingly plentiful throughout Oregon, and Roseburg is no exception. Notable locations include <a href=\"https://www.google.com/maps/place/Backside+Brewing+Co.+Outpost/@43.3902075,-123.3160364,17z/data=!3m1!4b1!4m6!3m5!1s0x54c6a7f0ce91cbb1:0x8422e6d1bb93fa79!8m2!3d43.3902075!4d-123.3138477!16s%2Fg%2F11lt954962\" target=_blank rel=\"noopener noreferrer\">Backside Brewing Co.</a>, <a href=\"https://www.google.com/maps/place/Two-Shy+Brewing/@43.2252145,-123.3575012,17z/data=!3m1!4b1!4m6!3m5!1s0x54c422c45e73d627:0x61cc3084081c19e3!8m2!3d43.2252145!4d-123.3553125!16s%2Fg%2F11_txb_sc\" target=_blank rel=\"noopener noreferrer\">Two-Shy Brewing</a>, <a href=\"https://www.google.com/maps/place/North+Forty+Beer+Company/@43.2101029,-123.3450795,17z/data=!3m1!4b1!4m6!3m5!1s0x54c4232f56bddbbf:0x3f711d9a5ebca744!8m2!3d43.2101029!4d-123.3428908!16s%2Fg%2F11fzd2wz83\" target=_blank rel=\"noopener noreferrer\">North Forty Beer Company</a>, and <a href=\"https://www.google.com/maps/place/Salud+Brewery+and+Food+Truck/@43.20726,-123.3490003,17z/data=!3m1!4b1!4m6!3m5!1s0x54c4232f4093cd75:0xabe530c4b3cdacc1!8m2!3d43.20726!4d-123.3468116!16s%2Fg%2F1q67w9nry\" target=_blank rel=\"noopener noreferrer\">Salud Brewery</a>. Most have food and a wide variety of beer types. If you’re not into beer, recommended coffee shops include <a href=\"http://cascadescoffeehouse.com/\" target=_blank rel=\"noopener noreferrer\">Cascades Coffee House</a> and <a href=\"https://www.mycoffeeroseburg.com/\" target=_blank rel=\"noopener noreferrer\">My Coffee</a>, and any of the <a href=\"https://www.dutchbros.com/\" target=_blank rel=\"noopener noreferrer\">Dutch Bros.</a> coffee huts you’ll no doubt have seen along the road (where they’ll put a straw in a cup of hot coffee &mdash; just go with it).",
-        "<strong>Vineyards</strong> find a great home in the Umpqua Valley and, a bit more north, the more famous Willamette Valley. Local vineyards that offer tastings, tours, and more, include <a href=\"https://www.abacela.com/\" target=_blank rel=\"noopener noreferrer\">Abacela Winery</a>, <a href=\"https://www.reustlevineyards.com/\" target=_blank rel=\"noopener noreferrer\">Reustle Prayer Rock Vineyard</a>, <a href=\"https://www.melrosevineyards.com/\" target=_blank rel=\"noopener noreferrer\">Melrose Vineyards</a>, and <a href=\"https://www.henryestate.com/\" target=_blank rel=\"noopener noreferrer\">Henry Estate</a>. If you’re into something a little different, there’s a mead shop called <a href=\"https://www.oranmormead.com/\" target=_blank rel=\"noopener noreferrer\">Oran Mor Mead</a> we’ve been meaning to check out."
+        "The Pacific Northwest offers a trove of outdoor experiences 🌲 to partake. The Umpqua Valley, where Roseburg is situated, is home to easy access to Crater Lake National Park, the Oregon coast, Duck central at the University of Oregon, microbreweries, and local vineyards. If you’ll be staying in the area before or after the wedding, let us know, and we can offer some suggestions for activities you might look into. Apart from libations, Oregon is also known for Chinook salmon 🐟, Dungeness crab 🦀, hazelnuts 🌰, marionberries 🫐, and dairy 🧀.",
+        "<strong>Crater Lake National Park 🗻</strong> is located around 2 hours from Roseburg and is the <a href=\"https://www.travelcraterlake.com/\" target=_blank rel=\"noopener noreferrer\">deepest lake in the United States</a>. This time of year, expect snowfall around the rim and beautiful views from any of the ample lookouts.",
+        "<strong>The Oregon Coast 🌊</strong> is around 1 hour from Roseburg. The closest towns are probably <a href=\"https://visittheoregoncoast.com/cities/coos-bay/\" target=_blank rel=\"noopener noreferrer\">Coos Bay</a> and <a href=\"https://visittheoregoncoast.com/cities/charleston-2/\" target=_blank rel=\"noopener noreferrer\">Charleston</a>, small fishing towns that offer a variety of taffy shops, cheese mongers, and crabbing. Further north is <a href=\"https://www.eugenecascadescoast.org/florence/\" target=_blank rel=\"noopener noreferrer\">Florence</a>, which has a larger town and <a href=\"https://www.eugenecascadescoast.org/outdoors/scenic-landscapes-nature/oregon-coast-sand-dunes/\" target=_blank rel=\"noopener noreferrer\">sand dunes</a>. And even further are <a href=\"https://www.tillamook.com/\" target=_blank rel=\"noopener noreferrer\">Tillamook</a>, known for its cheese and other dairy products, and Astoria, known for being the home of <a href=\"https://www.amazon.com/Goonies-Sean-Astin/dp/B0091WNK8M/ref=sr_1_2?crid=30WTYX7IOFKOP&keywords=the+goonies&qid=1678059079&s=instant-video&sprefix=the+goonies%2Cinstant-video%2C87&sr=1-2\" target=_blank rel=\"noopener noreferrer\"><em>The Goonies</em></a> and <a href=\"https://www.amazon.com/Kindergarten-Cop-Arnold-Schwarzenegger/dp/B001VLLES4/\" target=_blank rel=\"noopener noreferrer\"><em>Kindergarten Cop</em></a>.",
+        "<strong>The University of Oregon 🦆</strong> will be a good stop for anyone who enjoys collegiate sports, the Nike story, or summer Olympics. Featuring the <a href=\"https://goducks.com/\" target=_blank rel=\"noopener noreferrer\">world-famous</a> Hayward Field &mdash; used for Olympic time trials &mdash; and the Oregon Ducks football stadium and basketball arena, the UO and surrounding Eugene offer a great college town experience with all that entails, along with finer dining and tax-free shopping.",
+        "<strong>Microbreweries 🍻</strong> are surprisingly plentiful throughout Oregon, and Roseburg is no exception. Notable locations include <a href=\"https://www.google.com/maps/place/Backside+Brewing+Co.+Outpost/@43.3902075,-123.3160364,17z/data=!3m1!4b1!4m6!3m5!1s0x54c6a7f0ce91cbb1:0x8422e6d1bb93fa79!8m2!3d43.3902075!4d-123.3138477!16s%2Fg%2F11lt954962\" target=_blank rel=\"noopener noreferrer\">Backside Brewing Co.</a>, <a href=\"https://www.google.com/maps/place/Two-Shy+Brewing/@43.2252145,-123.3575012,17z/data=!3m1!4b1!4m6!3m5!1s0x54c422c45e73d627:0x61cc3084081c19e3!8m2!3d43.2252145!4d-123.3553125!16s%2Fg%2F11_txb_sc\" target=_blank rel=\"noopener noreferrer\">Two-Shy Brewing</a>, <a href=\"https://www.google.com/maps/place/North+Forty+Beer+Company/@43.2101029,-123.3450795,17z/data=!3m1!4b1!4m6!3m5!1s0x54c4232f56bddbbf:0x3f711d9a5ebca744!8m2!3d43.2101029!4d-123.3428908!16s%2Fg%2F11fzd2wz83\" target=_blank rel=\"noopener noreferrer\">North Forty Beer Company</a>, and <a href=\"https://www.google.com/maps/place/Salud+Brewery+and+Food+Truck/@43.20726,-123.3490003,17z/data=!3m1!4b1!4m6!3m5!1s0x54c4232f4093cd75:0xabe530c4b3cdacc1!8m2!3d43.20726!4d-123.3468116!16s%2Fg%2F1q67w9nry\" target=_blank rel=\"noopener noreferrer\">Salud Brewery</a>. Most have food and a wide variety of beer types. If you’re not into beer, <strong>recommended coffee shops ☕️</strong> include <a href=\"http://cascadescoffeehouse.com/\" target=_blank rel=\"noopener noreferrer\">Cascades Coffee House</a>, <a href=\"https://www.mycoffeeroseburg.com/\" target=_blank rel=\"noopener noreferrer\">My Coffee</a>, and any of the <a href=\"https://www.dutchbros.com/\" target=_blank rel=\"noopener noreferrer\">Dutch Bros.</a> coffee huts you’ll no doubt have seen along the road (where they’ll put a straw in a cup of hot coffee &mdash; just go with it).",
+        "<strong>Vineyards 🍇</strong> find a great home in the Umpqua Valley and, a bit more north, the more famous Willamette Valley. Local vineyards offering tastings, tours, and more, include <a href=\"https://www.abacela.com/\" target=_blank rel=\"noopener noreferrer\">Abacela Winery</a>, <a href=\"https://www.reustlevineyards.com/\" target=_blank rel=\"noopener noreferrer\">Reustle Prayer Rock Vineyard</a>, <a href=\"https://www.melrosevineyards.com/\" target=_blank rel=\"noopener noreferrer\">Melrose Vineyards</a>, and <a href=\"https://www.henryestate.com/\" target=_blank rel=\"noopener noreferrer\">Henry Estate</a>. If you’re into something a little different, there’s a mead shop called <a href=\"https://www.oranmormead.com/\" target=_blank rel=\"noopener noreferrer\">Oran Mor Mead</a> we’ve been meaning to try."
       ]
     },
     {
@@ -254,13 +255,13 @@
       "id": "registry",
       "header": "Registry",
       "image": {
-        "src": "https://loremflickr.com/600/410",
-        "alt": "TK",
-        "width": "531",
-        "height": "363"
+        "src": "./registry.jpg",
+        "alt": "Justin and Tyler at their first event together",
+        "width": "549",
+        "height": "355"
       },
       "text": [
-        "Your presence is enough for us. But if you’re looking to bring a gift, please consider donating to our honeymoon fund instead."
+        "Your presence is enough for us. But if you’re looking to bring a gift, please consider donating to our <strong>honeymoon fund</strong> instead. And if that isn’t to your liking, we’ll be compiling a small registry shortly."
       ]
     },
     {
@@ -271,7 +272,7 @@
           "classes": "is-counterclockwise",
           "src": "./polaroids/irish-kiss.jpg",
           "alt": "Tyler and Justin leaning in for a kiss at an Irish castle",
-          "caption": "Going in for some luck of the Irish",
+          "caption": "Can’t wait to see you Saturday, Oct. 28, 2023!",
           "offset": "-300",
           "width": "350",
           "height": "350"
@@ -281,8 +282,8 @@
   ],
   "credits": {
     "text": [
-      "Copyright &copy; 2023 Justin McCraw",
-      "Photography by Tyler Lares, Justin McCraw, Unsplash.com",
+      "Copyright &copy; 2023 JustinAndTyler.com",
+      "Photography by Tyler Lares, Justin McCraw, Unsplash.com, Seven Feathers Casino &amp; Resort, Google Maps",
       "Mobile Hamburger icon by <a href=\"https://icons8.com/icons/set/hamburger\" target=_blank rel=\"noopener noreferrer\">Icons8</a>"
     ]
   }
