@@ -23,7 +23,7 @@ npm install
 npm run start
 ```
 
-This will start a dev server on (http://localhost:8080/)[http://localhost:8080/] with hot reloading.
+This will start a dev server on [http://localhost:8080/](http://localhost:8080/) with hot reloading.
 
 ## Building and running in production mode
 
