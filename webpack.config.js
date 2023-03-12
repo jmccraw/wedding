@@ -11,7 +11,7 @@ module.exports = {
   mode: isDevelopment ? 'development' : 'production',
   entry: [ './src/index.ts', './src/styles.scss' ],
   output: {
-    path: path.join( __dirname, '/' ),
+    path: path.join( __dirname, '/dist' ),
     filename: isDevelopment ? '[name].js' : '[name].[hash].js'
   },
   module: {
