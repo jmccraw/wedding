@@ -26,7 +26,7 @@ function highlightCurrentLink(currentHref: string) {
     _link.classList.remove(IS_CURRENT);
     if (_link.href.indexOf(currentHref) > -1) {
       _link.classList.add(IS_CURRENT);
-      window.history.pushState({}, undefined, currentHref);
+      window.history.pushState({}, '', currentHref);
     }
   });
 }

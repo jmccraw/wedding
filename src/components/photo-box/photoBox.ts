@@ -111,6 +111,7 @@ class PhotoBox {
 
     self.timeline.kill();
     self.timeline.invalidate();
+    window.ScrollTrigger.refresh();
     self.setTimelineAnimationStates();
   }
 
@@ -135,9 +136,14 @@ class PhotoBox {
   attachEventListener() {
     const self = this;
     const throttledRecalc = throttle(self.recalculateLocations, 200, self);
+    let oldHeight = window.innerHeight;
 
     // @ts-ignore
-    window.addEventListener('resize', throttledRecalc, { passive: true });
+    window.addEventListener('resize', () => {
+      if (!getIsMobile() || (getIsMobile() && Math.abs(oldHeight - window.innerHeight) > 100)) {
+        throttledRecalc();
+      }
+    }, { passive: true });
 
     self._polaroids.forEach((_polaroid, index) => {
       _polaroid.addEventListener('click', () => self.bringToFront(index), { passive: true });

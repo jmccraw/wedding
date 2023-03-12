@@ -26,3 +26,14 @@
   font-size: toRems(112px);
 }
 
+.opener__background,
+.opener__fixed,
+.opener__garden,
+.opener__center,
+.opener__justin,
+.opener__tyler,
+.opener__accent-line,
+.opener__arrow {
+  will-change: transform;
+}
+

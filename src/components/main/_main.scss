@@ -96,17 +96,20 @@
       align-items: flex-start;
       border-bottom: none;
       border-right: 3px solid $sage-accent;
-      width: toRems(100px);
+      flex-grow: 0;
+      min-width: toRems(100px);
     }
 
     &__headline {
       font-size: toRems(60px);
+      line-height: 1.5;
       padding-bottom: toRems(26px);
       padding-right: toRems(8px);
       padding-top: 0;
       transform: rotate(180deg);
       text-align: initial;
       text-orientation: mixed;
+      width: 100%;
       writing-mode: vertical-lr;
     }
 

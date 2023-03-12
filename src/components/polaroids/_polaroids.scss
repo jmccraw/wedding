@@ -10,6 +10,11 @@
   position: relative;
   touch-action: manipulation;
   width: toRems(326px);
+  will-change: transform;
+
+  &:last-child {
+    margin-bottom: toRems(32px);
+  }
 
   &.is-clockwise {
     transform: rotate(7deg);
@@ -52,6 +57,10 @@
     margin: toRems(20px) toRems(200px) toRems(50px);
     position: absolute;
     top: toRems(30px);
+
+    &:last-child {
+      margin-bottom: toRems(16px);
+    }
 
     &.is-clockwise {
       transform: rotate(15deg);

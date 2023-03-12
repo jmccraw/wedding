@@ -14,7 +14,7 @@
         {
           "type": "polaroid",
           "classes": "is-clockwise",
-          "src": "./polaroids/crab.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/crab.jpg",
           "alt": "Tyler in a lobster bib",
           "caption": "Ready to crack some shells",
           "offset": "300",
@@ -24,7 +24,7 @@
         {
           "type": "polaroid",
           "classes": "is-counterclockwise",
-          "src": "./polaroids/chicago.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/chicago.jpg",
           "alt": "Tyler and Justin in sunglasses smiling",
           "caption": "Enjoying the sun in Chicago",
           "offset": "-300",
@@ -34,7 +34,7 @@
         {
           "type": "polaroid",
           "classes": "is-clockwise",
-          "src": "./polaroids/beer-garden.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/beer-garden.jpg",
           "alt": "Justin with his arm around Tyler at a beer garden",
           "caption": "Beer garden with friends <span class=hint>Click photos to bring them to the front</span>",
           "offset": "300",
@@ -48,7 +48,7 @@
       "id": "mountaintop",
       "header": "Mountaintop",
       "image": {
-        "src": "./mountaintop.jpg",
+        "src": "https://www.justinandtyler.com/public/mountaintop.jpg",
         "alt": "A rainbow in the background with a red-leafed tree in the foreground.",
         "width": "549",
         "height": "327"
@@ -66,7 +66,7 @@
         {
           "type": "polaroid",
           "classes": "is-counterclockwise",
-          "src": "./polaroids/date-night.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/date-night.jpg",
           "alt": "Tyler in a suit jacket by the subway.",
           "caption": "Looking dashing before a date",
           "offset": "-300",
@@ -76,7 +76,7 @@
         {
           "type": "polaroid",
           "classes": "is-clockwise",
-          "src": "./polaroids/farewell-party.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/farewell-party.jpg",
           "alt": "Tyler grabbing the camera from Justin",
           "caption": "Justin and Tyler at Alistaire and Nick’s going away",
           "offset": "300",
@@ -86,7 +86,7 @@
         {
           "type": "polaroid",
           "classes": "is-counterclockwise",
-          "src": "./polaroids/morning-dino.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/morning-dino.jpg",
           "alt": "Tyler crouching next to Dino",
           "caption": "Tyler and Dino during one of their typical morning routines",
           "offset": "-300",
@@ -100,7 +100,7 @@
       "id": "travel-accommodations",
       "header": "Travel & Accommodations",
       "image": {
-        "src": "./accommodations.jpg",
+        "src": "https://www.justinandtyler.com/public/accommodations.jpg",
         "alt": "A queen bed hotel room at Seven Feathers",
         "width": "549",
         "height": "355"
@@ -118,7 +118,7 @@
         {
           "type": "polaroid",
           "classes": "is-clockwise",
-          "src": "./polaroids/ireland.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/ireland.jpg",
           "alt": "Tyler and Justin in Ireland",
           "caption": "Celebrating our friend’s wedding in Ireland",
           "offset": "300",
@@ -128,7 +128,7 @@
         {
           "type": "polaroid",
           "classes": "is-counterclockwise",
-          "src": "./polaroids/rings.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/rings.jpg",
           "alt": "Justin and Tyler holding up their hands to show off their wedding rings",
           "caption": "Flashing the bling after Tyler proposed",
           "offset": "-300",
@@ -138,7 +138,7 @@
         {
           "type": "polaroid",
           "classes": "is-clockwise",
-          "src": "./polaroids/bended-knee.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/bended-knee.jpg",
           "alt": "Tyler with a shocked expression, as Justin goes on bended knee",
           "caption": "The first proposal in Chicago at the arboretum",
           "offset": "300",
@@ -152,7 +152,7 @@
       "id": "day-after",
       "header": "Day After",
       "image": {
-        "src": "./mcmenamins.jpg",
+        "src": "https://www.justinandtyler.com/public/mcmenamins.jpg",
         "alt": "McMenamins restaurant outside",
         "width": "549",
         "height": "412"
@@ -167,7 +167,7 @@
         {
           "type": "polaroid",
           "classes": "is-counterclockwise",
-          "src": "./polaroids/beach.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/beach.jpg",
           "alt": "Tyler with his back to the Oregon Coast",
           "caption": "Cannon Beach sunset",
           "offset": "-300",
@@ -177,7 +177,7 @@
         {
           "type": "polaroid",
           "classes": "is-clockwise",
-          "src": "./polaroids/move-out.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/move-out.jpg",
           "alt": "Tyler in sunglasses with three people around the perimiter",
           "caption": "Saying bye to friends",
           "offset": "300",
@@ -187,7 +187,7 @@
         {
           "type": "polaroid",
           "classes": "is-counterclockwise",
-          "src": "./polaroids/london.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/london.jpg",
           "alt": "Justin making a derpy face, while slurping from a tiki drink",
           "caption": "It was love at first tiki",
           "offset": "-300",
@@ -201,7 +201,7 @@
       "id": "in-the-area",
       "header": "In the Area",
       "image": {
-        "src": "./crater-lake.jpg",
+        "src": "https://www.justinandtyler.com/public/crater-lake.jpg",
         "alt": "Tyler standing above Wizard Island at Crater Lake",
         "width": "549",
         "height": "412"
@@ -221,7 +221,7 @@
         {
           "type": "polaroid",
           "classes": "is-clockwise",
-          "src": "./polaroids/batman.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/batman.jpg",
           "alt": "Tyler making an expression during dinner",
           "caption": "The mystery was flowing at a Batman-themed dinner",
           "offset": "300",
@@ -231,7 +231,7 @@
         {
           "type": "polaroid",
           "classes": "is-counterclockwise",
-          "src": "./polaroids/alouette-2.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/alouette-2.jpg",
           "alt": "Justin drinking from a wine glass",
           "caption": "The wine pairing at Alouette was a little much",
           "offset": "-300",
@@ -241,7 +241,7 @@
         {
           "type": "polaroid",
           "classes": "is-clockwise",
-          "src": "./polaroids/alouette.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/alouette.jpg",
           "alt": "Tyler looking wistfully into the camera",
           "caption": "One of the best dinners of our life at Alouette, Copenhagen",
           "offset": "300",
@@ -255,7 +255,7 @@
       "id": "registry",
       "header": "Registry",
       "image": {
-        "src": "./registry.jpg",
+        "src": "https://www.justinandtyler.com/public/registry.jpg",
         "alt": "Justin and Tyler at their first event together",
         "width": "549",
         "height": "355"
@@ -270,7 +270,7 @@
         {
           "type": "polaroid",
           "classes": "is-counterclockwise",
-          "src": "./polaroids/irish-kiss.jpg",
+          "src": "https://www.justinandtyler.com/public/polaroids/irish-kiss.jpg",
           "alt": "Tyler and Justin leaning in for a kiss at an Irish castle",
           "caption": "Can’t wait to see you Saturday, Oct. 28, 2023!",
           "offset": "-300",
