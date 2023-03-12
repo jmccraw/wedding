@@ -12,7 +12,7 @@ Folder are broken into `/components`, `/styles`, and `/utilities`. Components co
 Install the dependencies …
 
 ```bash
-git TK
+git clone git@github.com:jmccraw/wedding.git
 cd wedding
 npm install
 ```
@@ -33,4 +33,4 @@ To create an optimised version of the app:
 npm run build:prod
 ```
 
-Copy-paste the static HTML generated in the `/dist` folder into the CMS you’re using, and then add the JS accordingly. This code makes use of [Polyfill.io](https://polyfill.io/v3/) for IE compatibility.
+This code makes use of [Polyfill.io](https://polyfill.io/v3/) for IE compatibility.
