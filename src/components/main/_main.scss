@@ -143,6 +143,15 @@
     padding: 0 toRems(16px);
   }
 
+  sup {
+    color: $fire;
+  }
+
+  .articles__text:last-child {
+    font-size: toRems(13px);
+    font-style: italic;
+  }
+
   @include screen-from(tablet) {
     padding: 40px 0;
 
