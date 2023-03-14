@@ -140,7 +140,7 @@ class PhotoBox {
 
     // @ts-ignore
     window.addEventListener('resize', () => {
-      if (Math.abs(oldHeight - window.innerHeight) > 172) {
+      if (Math.abs(oldHeight - window.innerHeight) > 220) {
         throttledRecalc();
       }
     }, { passive: true });
