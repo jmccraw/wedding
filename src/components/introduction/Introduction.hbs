@@ -7,4 +7,17 @@
     <p class="articles__text">{{{this}}}</p>
     {{/each}}
   </div>
+  {{#if introduction.itinerary}}
+  <div class="articles__itinerary-container">
+    <h3 class="articles__subheadline">{{{introduction.itinerary.header}}}</h3>
+    {{#each introduction.itinerary.schedule}}
+    <h4 class="articles__date">{{{this.header}}}</h4>
+    <ol class="articles__olist">
+      {{#each this.text}}
+      <li class="articles__item"><strong>{{{this.time}}}</strong> &mdash; {{{this.activity}}}</li>
+      {{/each}}
+    </ol>
+    {{/each}}
+  </div>
+  {{/if}}
 </article>
